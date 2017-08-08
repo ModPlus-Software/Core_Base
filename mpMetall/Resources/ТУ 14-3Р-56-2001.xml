@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+	Id="60"
+	DocType="ТУ"
+	DocNum="14-3Р-56-2001"
+	DocName="Трубы стальные сварные диаметром 1420, 1620, 1720, 2020 и 2220 мм общего назначения"
+	DocNameShort="Трубы стальные"
+  DocStatus="True"
+	ShortName="Труба"
+	MainGroup="Металл"
+	Group="Трубы"
+	ItemType1="Марка стали$Ст2кп$Ст2пс$Ст2сп$Ст3кп$Ст3пс$Ст3сп$Ст3пс3$Ст3сп3$Ст3пс4$Ст3сп4"
+	Size="L"
+	Image="Tube"
+	HasSteel="false"
+	DimType="Длина,п.м"
+	Rule="[ShortName] [Prop1]x[Prop2]-[ItemType1]-[DocType] [DocNum]"
+	WMass="Prop3"
+	MeType="5,Prop1,Prop2,L"
+	SymbolSum="3"
+	Symbol1="Наружный диаметр, мм" Symbol2="Толщина стенки, мм"
+	Symbol3="Масса 1 м трубы, кг"
+>
+	<Item Prop1="1420" Prop2="14" Prop3="490,26" />
+	<Item Prop1="1420" Prop2="15" Prop3="524,91" />
+	<Item Prop1="1420" Prop2="16" Prop3="559,50" />
+	<Item Prop1="1420" Prop2="17" Prop3="594,05" />
+	<Item Prop1="1420" Prop2="18" Prop3="628,54" />
+	<Item Prop1="1420" Prop2="19" Prop3="662,99" />
+	<Item Prop1="1420" Prop2="20" Prop3="697,38" />
+	<Item Prop1="1420" Prop2="21" Prop3="731,73" />
+	<Item Prop1="1420" Prop2="22" Prop3="766,03" />
+	<Item Prop1="1420" Prop2="23" Prop3="800,27" />
+	<Item Prop1="1420" Prop2="24" Prop3="834,47" />
+	<Item Prop1="1420" Prop2="25" Prop3="868,62" />
+	<Item Prop1="1420" Prop2="26" Prop3="902,71" />
+	<Item Prop1="1420" Prop2="27" Prop3="936,76" />
+	<Item Prop1="1620" Prop2="14" Prop3="560,00" />
+	<Item Prop1="1620" Prop2="15" Prop3="599,63" />
+	<Item Prop1="1620" Prop2="16" Prop3="639,20" />
+	<Item Prop1="1620" Prop2="17" Prop3="678,73" />
+	<Item Prop1="1620" Prop2="18" Prop3="718,21" />
+	<Item Prop1="1620" Prop2="19" Prop3="757,63" />
+	<Item Prop1="1620" Prop2="20" Prop3="797,01" />
+	<Item Prop1="1620" Prop2="21" Prop3="836,34" />
+	<Item Prop1="1620" Prop2="22" Prop3="875,62" />
+	<Item Prop1="1620" Prop2="23" Prop3="914,84" />
+	<Item Prop1="1620" Prop2="24" Prop3="954,02" />
+	<Item Prop1="1620" Prop2="25" Prop3="993,15" />
+	<Item Prop1="1620" Prop2="26" Prop3="1032,23" />
+	<Item Prop1="1620" Prop2="27" Prop3="1071,26" />
+	<Item Prop1="1720" Prop2="14" Prop3="594,87" />
+	<Item Prop1="1720" Prop2="15" Prop3="636,99" />
+	<Item Prop1="1720" Prop2="16" Prop3="679,05" />
+	<Item Prop1="1720" Prop2="17" Prop3="721,07" />
+	<Item Prop1="1720" Prop2="18" Prop3="763,04" />
+	<Item Prop1="1720" Prop2="19" Prop3="804,96" />
+	<Item Prop1="1720" Prop2="20" Prop3="846,82" />
+	<Item Prop1="1720" Prop2="21" Prop3="888,64" />
+	<Item Prop1="1720" Prop2="22" Prop3="930,41" />
+	<Item Prop1="1720" Prop2="23" Prop3="972,13" />
+	<Item Prop1="1720" Prop2="24" Prop3="1013,80" />
+	<Item Prop1="1720" Prop2="25" Prop3="1055,42" />
+	<Item Prop1="1720" Prop2="26" Prop3="1096,99" />
+	<Item Prop1="1720" Prop2="27" Prop3="1138,51" />
+	<Item Prop1="2020" Prop2="26" Prop3="1291,26" />
+	<Item Prop1="2020" Prop2="27" Prop3="1340,25" />
+	<Item Prop1="2020" Prop2="28" Prop3="1389,19" />
+	<Item Prop1="2020" Prop2="29" Prop3="1438,08" />
+	<Item Prop1="2020" Prop2="30" Prop3="1486,92" />
+	<Item Prop1="2020" Prop2="31" Prop3="1535,72" />
+	<Item Prop1="2020" Prop2="32" Prop3="1584,46" />
+	<Item Prop1="2020" Prop2="33" Prop3="1633,15" />
+	<Item Prop1="2020" Prop2="34" Prop3="1681,79" />
+	<Item Prop1="2220" Prop2="26" Prop3="1420,77" />
+	<Item Prop1="2220" Prop2="27" Prop3="1474,74" />
+	<Item Prop1="2220" Prop2="28" Prop3="1528,67" />
+	<Item Prop1="2220" Prop2="29" Prop3="1582,54" />
+	<Item Prop1="2220" Prop2="30" Prop3="1636,36" />
+	<Item Prop1="2220" Prop2="31" Prop3="1690,14" />
+	<Item Prop1="2220" Prop2="32" Prop3="1743,86" />
+	<Item Prop1="2220" Prop2="33" Prop3="1797,53" />
+	<Item Prop1="2220" Prop2="34" Prop3="1851,16" />
+</Document>

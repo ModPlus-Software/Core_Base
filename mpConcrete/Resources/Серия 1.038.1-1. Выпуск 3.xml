@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="6"
+	DocType="Серия"
+	DocNum="1.038.1-1. Выпуск 3"
+	DocName="Перемычки железобетонные для зданий с кирпичными стенами. Перемычки балочные для жилых и общественных зданий"
+	DocNameShort="Перемычки ж/б"
+	ShortName="Перемычка"
+	MainGroup="Железобетон"
+	Group="Перемычки"
+	Image="Серия 1.038.1-1. Выпуск 3"
+	Rule="[ShortName] [Prop1]"
+	Mass="Prop8"
+	SymbolSum="8"
+	CoType="2,Prop4,Prop5,Prop6,130,Prop7"
+	Symbol1="Марка" Symbol2="Мин.глубина опирания, мм" Symbol3="Максимальный пролет, мм"
+	Symbol4="L, мм" Symbol5="b, мм" Symbol6="h, мм" Symbol7="h1, мм" Symbol8="Масса, кг"
+>
+  <Item Prop1="5 ПГ 16-40" Prop2="170" Prop3="1210" Prop4="1550" Prop5="380" Prop6="290" Prop7="140" Prop8="357" />
+  <Item Prop1="5 ПГ 26-40" Prop2="230" Prop3="2130" Prop4="2590" Prop5="380" Prop6="290" Prop7="140" Prop8="596" />
+  <Item Prop1="4 ПГ 30-40" Prop2="230" Prop3="2520" Prop4="2980" Prop5="380" Prop6="290" Prop7="70" Prop8="753" />
+  <Item Prop1="2 ПГ 39-31" Prop2="230" Prop3="3430" Prop4="3890" Prop5="250" Prop6="440" Prop7="220" Prop8="792" />
+  <Item Prop1="2 ПГ 42-31" Prop2="250" Prop3="3650" Prop4="4150" Prop5="250" Prop6="440" Prop7="220" Prop8="845" />
+  <Item Prop1="1 ПГ 44-8" Prop2="230" Prop3="3950" Prop4="4410" Prop5="250" Prop6="290" Prop7="220" Prop8="484" />
+  <Item Prop1="2 ПГ 44-31" Prop2="250" Prop3="3910" Prop4="4410" Prop5="250" Prop6="440" Prop7="220" Prop8="897" />
+  <Item Prop1="6 ПГ 44-40" Prop2="250" Prop3="3910" Prop4="4410" Prop5="380" Prop6="440" Prop7="220" Prop8="1528" />
+  <Item Prop1="1 ПГ 48-8" Prop2="250" Prop3="4300" Prop4="4800" Prop5="250" Prop6="290" Prop7="220" Prop8="527" />
+  <Item Prop1="2 ПГ 48-31" Prop2="300" Prop3="4200" Prop4="4800" Prop5="250" Prop6="440" Prop7="220" Prop8="977" />
+  <Item Prop1="6 ПГ 60-31" Prop2="300" Prop3="5360" Prop4="5960" Prop5="380" Prop6="440" Prop7="220" Prop8="2065" />
+  <Item Prop1="8 ПГ 60-40" Prop2="300" Prop3="5360" Prop4="5960" Prop5="510" Prop6="440" Prop7="220" Prop8="2917" />
+</Document>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="67"
+  DocType="ГОСТ"
+  DocNum="379-95"
+  DocName="Кирпич и камни силикатные. Технические условия"
+  DocNameShort="Кирпич и камни силикатные"
+  DocStatus="True"
+  ShortName="Кирпич"
+  Size="нет"
+  MainGroup="Прочее"
+  Group="Кирпич/камень"
+  Image="Blocks"
+  OtType="1,Prop2,Prop3,Prop4"
+  Rule="[Prop7] С[Prop6][ItemType3][ItemType4]-[ItemType1]/[ItemType2] [DocType] [DocNum]"
+  ItemType1="Марка по прочности$75$100$125$150$175$200$250$300"
+  ItemType2="Марка по морозостойкости$F15$F25$F35$F50"
+  ItemType2ToolTip="Марка по морозостойкости лицевых изделий должна быть не менее F25"
+  ItemType3="Назначение изделия$Р$Л"
+  ItemType3ToolTip="Назначение изделия: Р - Рядовой, Л - Лицевой"
+  ItemType4="По фактуре поверхности$$Д"
+  ItemType4ToolTip="Можно указать вариант поверхности кирпича Д - Декоративный (для лицевых изделий)"
+  SymbolSum="7"
+  Symbol1="Вид изделия" Symbol2="Длина, мм" Symbol3="Ширина, мм" Symbol4="Толщина, мм" 
+  Symbol5="По согласованию с потребителем" Symbol6="Сокращение" Symbol7="Вид изделия"
+  >
+  <Item Prop1="Кирпич одинарный" Prop2="250" Prop3="120" Prop4="65" Prop5="" Prop6="О" Prop7="Кирпич" />
+  <Item Prop1="Камень" Prop2="250" Prop3="120" Prop4="138" Prop5="" Prop6="" Prop7="Камень" />
+  <Item Prop1="Кирпич утолщенный" Prop2="250" Prop3="120" Prop4="88" Prop5="+" Prop6="У" Prop7="Кирпич" />
+</Document>

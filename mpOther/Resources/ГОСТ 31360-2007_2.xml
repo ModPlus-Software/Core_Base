@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="66"
+  DocType="ГОСТ"
+  DocNum="31360-2007"
+  DocName="Изделия стеновые неармированные из ячеистого бетона автоклавного твердения"
+  DocNameShort="Плиты из ячеистых бетонов"
+  DocStatus="True"
+  ShortName="Плита"
+  Size="LxBxH"
+  MainGroup="Прочее"
+  Group="Плиты"
+  Image="Blocks"
+  OtType="1,L,B,H"
+  Rule="[ShortName] [ItemType1]/[L]x[B]x[H]/[ItemType2]/[ItemType3]/[ItemType4] [DocType] [DocNum]"
+  ItemType1="Категория$I$II"
+  ItemType2="Марка по плотности$D300$D350$D400$D500$D600$D700"
+  ItemType3="Марка по прочности на сжатие$B1,5$B2$B2,5$B3,5$B5$B7,5$B10$B12,5$B15"
+  ItemType4="Марка по морозостойкости$F15$F25$F35$F50$F75$F100"
+  ItemType5="Максимальная длина, мм$1500"
+  ItemType6="Максимальная ширина, мм$1000"
+  ItemType7="Максимальная толщина, мм$600"
+  >
+</Document>

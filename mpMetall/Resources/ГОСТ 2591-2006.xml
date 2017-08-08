@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="48"
+	DocType="ГОСТ"
+	DocNum="2591-2006"
+	DocName="Прокат стальной горячекатаный квадратный. Сортамент"
+	DocNameShort="Прокат квадратный"
+  DocStatus="True"
+	ShortName="Прокат"
+	ItemType1="Класс по точности$Б$В"
+	Size="L"
+	MainGroup="Металл"
+	Group="Прокат"
+	Image="ГОСТ 2591-88"
+	HasSteel="true"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	Rule="[Prop1] [ItemType1]  [DocType] [DocNum]"
+	WMass="Prop4"
+	SymbolSum="4"
+	MeType="4,Prop2,L"
+	Symbol1="Марка" Symbol2="b, мм" Symbol3="A, см^2"
+	Symbol4="Масса 1 п.м, кг"
+>
+  <Item Prop1="6x6" Prop2="6" Prop3="0,36" Prop4="0,283" />
+  <Item Prop1="7x7" Prop2="7" Prop3="0,49" Prop4="0,385" />
+  <Item Prop1="8x8" Prop2="8" Prop3="0,64" Prop4="0,502" />
+  <Item Prop1="9x9" Prop2="9" Prop3="0,81" Prop4="0,636" />
+  <Item Prop1="10x10" Prop2="10" Prop3="1" Prop4="0,785" />
+  <Item Prop1="11x11" Prop2="11" Prop3="1,21" Prop4="0,95" />
+  <Item Prop1="12x12" Prop2="12" Prop3="1,44" Prop4="1,13" />
+  <Item Prop1="13x13" Prop2="13" Prop3="1,69" Prop4="1,33" />
+  <Item Prop1="14x14" Prop2="14" Prop3="1,96" Prop4="1,54" />
+  <Item Prop1="15x15" Prop2="15" Prop3="2,25" Prop4="1,77" />
+  <Item Prop1="16x16" Prop2="16" Prop3="2,56" Prop4="2,01" />
+  <Item Prop1="17x17" Prop2="17" Prop3="2,89" Prop4="2,27" />
+  <Item Prop1="18x18" Prop2="18" Prop3="3,24" Prop4="2,54" />
+  <Item Prop1="19x19" Prop2="19" Prop3="3,61" Prop4="2,82" />
+  <Item Prop1="20x20" Prop2="20" Prop3="4" Prop4="3,14" />
+  <Item Prop1="21x21" Prop2="21" Prop3="4,41" Prop4="3,46" />
+  <Item Prop1="22x22" Prop2="22" Prop3="4,84" Prop4="3,8" />
+  <Item Prop1="23x23" Prop2="23" Prop3="5,29" Prop4="4,15" />
+  <Item Prop1="24x24" Prop2="24" Prop3="5,76" Prop4="4,52" />
+  <Item Prop1="25x25" Prop2="25" Prop3="6,25" Prop4="4,91" />
+  <Item Prop1="26x26" Prop2="26" Prop3="6,76" Prop4="5,3" />
+  <Item Prop1="27x27" Prop2="27" Prop3="7,29" Prop4="5,72" />
+  <Item Prop1="28x28" Prop2="28" Prop3="7,84" Prop4="6,15" />
+  <Item Prop1="29x29" Prop2="29" Prop3="8,41" Prop4="6,6" />
+  <Item Prop1="30x30" Prop2="30" Prop3="9" Prop4="7,06" />
+  <Item Prop1="32x32" Prop2="32" Prop3="10,24" Prop4="8,04" />
+  <Item Prop1="34x34" Prop2="34" Prop3="11,56" Prop4="9,07" />
+  <Item Prop1="35x35" Prop2="35" Prop3="12,25" Prop4="9,62" />
+  <Item Prop1="36x36" Prop2="36" Prop3="12,96" Prop4="10,17" />
+  <Item Prop1="38x38" Prop2="38" Prop3="14,44" Prop4="11,24" />
+  <Item Prop1="40x40" Prop2="40" Prop3="16" Prop4="12,56" />
+  <Item Prop1="42x42" Prop2="42" Prop3="17,64" Prop4="13,85" />
+  <Item Prop1="45x45" Prop2="45" Prop3="20,25" Prop4="15,9" />
+  <Item Prop1="46x46" Prop2="46" Prop3="21,16" Prop4="16,61" />
+  <Item Prop1="48x48" Prop2="48" Prop3="23,04" Prop4="18,09" />
+  <Item Prop1="50x50" Prop2="50" Prop3="25" Prop4="19,63" />
+  <Item Prop1="52x52" Prop2="52" Prop3="27,04" Prop4="21,23" />
+  <Item Prop1="55x55" Prop2="55" Prop3="30,25" Prop4="23,75" />
+  <Item Prop1="58x58" Prop2="58" Prop3="33,64" Prop4="26,4" />
+  <Item Prop1="60x60" Prop2="60" Prop3="36" Prop4="28,26" />
+  <Item Prop1="63x63" Prop2="63" Prop3="39,69" Prop4="31,16" />
+  <Item Prop1="65x65" Prop2="65" Prop3="42,25" Prop4="33,17" />
+  <Item Prop1="70x70" Prop2="70" Prop3="49" Prop4="38,46" />
+  <Item Prop1="75x75" Prop2="75" Prop3="56,25" Prop4="44,16" />
+  <Item Prop1="80x80" Prop2="80" Prop3="64" Prop4="50,24" />
+  <Item Prop1="85x85" Prop2="85" Prop3="72,25" Prop4="56,72" />
+  <Item Prop1="90x90" Prop2="90" Prop3="81" Prop4="63,58" />
+  <Item Prop1="93x93" Prop2="93" Prop3="86,49" Prop4="67,9" />
+  <Item Prop1="95x95" Prop2="95" Prop3="90,25" Prop4="70,85" />
+  <Item Prop1="100x100" Prop2="100" Prop3="100" Prop4="78,5" />
+  <Item Prop1="105x105" Prop2="105" Prop3="110,25" Prop4="86,57" />
+  <Item Prop1="110x110" Prop2="110" Prop3="121" Prop4="94,98" />
+  <Item Prop1="115x115" Prop2="115" Prop3="132,25" Prop4="103,82" />
+  <Item Prop1="120x120" Prop2="120" Prop3="144" Prop4="113,04" />
+  <Item Prop1="125x125" Prop2="125" Prop3="156,25" Prop4="122,66" />
+  <Item Prop1="130x130" Prop2="130" Prop3="169" Prop4="132,67" />
+  <Item Prop1="135x135" Prop2="135" Prop3="182,25" Prop4="143,07" />
+  <Item Prop1="140x140" Prop2="140" Prop3="196" Prop4="153,86" />
+  <Item Prop1="145x145" Prop2="145" Prop3="210,25" Prop4="165,05" />
+  <Item Prop1="150x150" Prop2="150" Prop3="225" Prop4="176,63" />
+  <Item Prop1="160x160" Prop2="160" Prop3="256" Prop4="200,96" />
+  <Item Prop1="170x170" Prop2="170" Prop3="289" Prop4="227" />
+  <Item Prop1="180x180" Prop2="180" Prop3="324" Prop4="254" />
+  <Item Prop1="190x190" Prop2="190" Prop3="361" Prop4="283" />
+  <Item Prop1="200x200" Prop2="200" Prop3="400" Prop4="314" />
+</Document>

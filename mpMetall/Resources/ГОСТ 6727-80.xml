@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="39"
+	DocType="ГОСТ"
+	DocNum="6727-80"
+	DocName="Проволока из низкоуглеродистой стали холоднотянутая для армирования железобетонных конструкций. Технические условия"
+	DocNameShort="Проволока"
+  DocStatus="True"
+	ShortName="Проволока"
+	ItemType1="Класс арматурной стали$BpI"
+	Size="L"
+	MainGroup="Металл"
+	Group="Арматура/проволока"
+	Image="ГОСТ 6727-80"
+	HasSteel="false"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	Rule="[ShortName] [Prop1] [ItemType1] [DocType] [DocNum]"
+	WMass="Prop3"
+	SymbolSum="3"
+	MeType="3,Prop1,L"
+	Symbol1="Номинальный диаметр проволоки, мм" Symbol2="Расчетная площадь поперечного сечения, мм2" Symbol3="Линейная плотность, кг, не более"
+>
+  <Item Prop1="3" Prop2="7,07" Prop3="0,052" />
+  <Item Prop1="4" Prop2="12,57" Prop3="0,092" />
+  <Item Prop1="5" Prop2="19,63" Prop3="0,144" />
+</Document>

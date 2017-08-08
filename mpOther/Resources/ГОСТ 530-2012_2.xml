@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="69"
+  DocType="ГОСТ"
+  DocNum="530-2012"
+  DocName="Кирпич и камнь керамические. Общие технические условия"
+  DocNameShort="Камень керамический"
+  DocStatus="True"
+  ShortName="Камень"
+  Size="нет"
+  MainGroup="Прочее"
+  Group="Кирпич/камень"
+  Image="Blocks"
+  OtType="1,Prop2,Prop3,Prop4"
+  Rule="[Prop6]-[ItemType2]-[ItemType1] [Prop2]x[Prop3]x[Prop4]/[Prop7]/[ItemType3]/[ItemType5]/[ItemType4]/[DocType] [DocNum]"
+  ItemType1="Вариант изготовления$пу"
+  ItemType1ToolTip="Вариант изготовления камня: пу - пустотелый"
+  ItemType2="Назначение изделия$р$л$кл$пг$ш"
+  ItemType2ToolTip="Назначение изделия: р - Рядовой, л - Лицевой, кл - Клинкерный,$пг - Камень с пазогребной системой, ш - Шлифованный камень"
+  ItemType3="Марка по прочности, М$25$35$50$75$100$125$150$175$200$250$300"
+  ItemType3ToolTip="По прочности камень подразделяют на марки М25, М35, М50, М75, М100, М125, М150, М175, М200, М250, М300;$камень с горизонтальными пустотами - М25, М35, М50, М75, М100"
+  ItemType4="Марка по морозостойкости, F$25$35$50$75$100$200$300"  
+  ItemType5="Класс по показателю средней плотности$0,7$0,8$1,0$1,2$1,4$2,0$2,4"  
+  SymbolSum="8"
+  Symbol1="Вид изделия" Symbol2="Длина или нерабочий размер, мм" Symbol3="Ширина или рабочий размер, мм" Symbol4="Толщина нешлифованных камней, мм" 
+  Symbol5="Толщина шлифованных камней, мм" 
+  Symbol6="Обозначение вида" Symbol7="Обозначение размера изделия" Symbol8="Для шлифованных камней"
+  >
+  <Item Prop1="Камень" Prop2="250" Prop3="120" Prop4="140" Prop5="" Prop6="КМ" Prop7="2,1 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="250" Prop3="120" Prop4="140" Prop5="" Prop6="КМ" Prop7="4,5 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="380" Prop3="120" Prop4="140" Prop5="" Prop6="КМ" Prop7="6,8 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="250" Prop3="380" Prop4="140" Prop5="" Prop6="КМ" Prop7="6,8 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="250" Prop3="250" Prop4="188" Prop5="" Prop6="КМ" Prop7="6,0 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="510" Prop3="120" Prop4="219" Prop5="229" Prop6="КМ" Prop7="6,9 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="510" Prop3="120" Prop4="219" Prop5="229" Prop6="КМ" Prop7="7,2 НФ" Prop8="+"/>
+  <Item Prop1="Камень" Prop2="250" Prop3="250" Prop4="219" Prop5="229" Prop6="КМ" Prop7="7,0 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="250" Prop3="250" Prop4="219" Prop5="229" Prop6="КМ" Prop7="7,3 НФ" Prop8="+"/>
+  <Item Prop1="Камень" Prop2="260" Prop3="250" Prop4="219" Prop5="229" Prop6="КМ" Prop7="7,3 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="260" Prop3="250" Prop4="219" Prop5="229" Prop6="КМ" Prop7="7,6 НФ" Prop8="+"/>
+  <Item Prop1="Камень" Prop2="380" Prop3="250" Prop4="219" Prop5="229" Prop6="КМ" Prop7="10,7 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="380" Prop3="250" Prop4="219" Prop5="229" Prop6="КМ" Prop7="11,2 НФ" Prop8="+"/>
+  <Item Prop1="Камень" Prop2="510" Prop3="250" Prop4="219" Prop5="229" Prop6="КМ" Prop7="14,3 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="510" Prop3="250" Prop4="219" Prop5="229" Prop6="КМ" Prop7="15,0 НФ" Prop8="+"/>
+  <Item Prop1="Камень" Prop2="250" Prop3="380" Prop4="219" Prop5="229" Prop6="КМ" Prop7="10,7 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="250" Prop3="380" Prop4="219" Prop5="229" Prop6="КМ" Prop7="11,2 НФ" Prop8="+"/>
+  <Item Prop1="Камень" Prop2="260" Prop3="380" Prop4="219" Prop5="229" Prop6="КМ" Prop7="11,1 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="260" Prop3="380" Prop4="219" Prop5="229" Prop6="КМ" Prop7="11,6 НФ" Prop8="+"/>
+  <Item Prop1="Камень" Prop2="250" Prop3="510" Prop4="219" Prop5="229" Prop6="КМ" Prop7="14,3 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="250" Prop3="510" Prop4="219" Prop5="229" Prop6="КМ" Prop7="15,0 НФ" Prop8="+"/>
+  <Item Prop1="Камень" Prop2="260" Prop3="510" Prop4="219" Prop5="229" Prop6="КМ" Prop7="14,9 НФ" Prop8=""/>
+  <Item Prop1="Камень" Prop2="260" Prop3="510" Prop4="219" Prop5="229" Prop6="КМ" Prop7="15,6 НФ" Prop8=""/>
+  <Item Prop1="Камень доборный" Prop2="129" Prop3="250" Prop4="219" Prop5="229" Prop6="КМД" Prop7="3,6 НФ" Prop8=""/>
+  <Item Prop1="Камень доборный" Prop2="129" Prop3="250" Prop4="219" Prop5="229" Prop6="КМД" Prop7="3,8 НФ" Prop8="+"/>
+  <Item Prop1="Камень доборный" Prop2="188" Prop3="250" Prop4="219" Prop5="229" Prop6="КМД" Prop7="5,2 НФ" Prop8=""/>
+  <Item Prop1="Камень доборный" Prop2="188" Prop3="250" Prop4="219" Prop5="229" Prop6="КМД" Prop7="5,6 НФ" Prop8="+"/>
+  <Item Prop1="Камень доборный" Prop2="248" Prop3="250" Prop4="219" Prop5="229" Prop6="КМД" Prop7="7,1 НФ" Prop8=""/>
+  <Item Prop1="Камень доборный" Prop2="248" Prop3="250" Prop4="219" Prop5="229" Prop6="КМД" Prop7="7,5 НФ" Prop8="+"/>
+  <Item Prop1="Камень доборный" Prop2="129" Prop3="380" Prop4="219" Prop5="229" Prop6="КМД" Prop7="5,5 НФ" Prop8=""/>
+  <Item Prop1="Камень доборный" Prop2="129" Prop3="380" Prop4="219" Prop5="229" Prop6="КМД" Prop7="5,8 НФ" Prop8="+"/>
+  <Item Prop1="Камень доборный" Prop2="129" Prop3="510" Prop4="219" Prop5="229" Prop6="КМД" Prop7="7,4 НФ" Prop8=""/>
+  <Item Prop1="Камень доборный" Prop2="129" Prop3="510" Prop4="219" Prop5="229" Prop6="КМД" Prop7="7,8 НФ" Prop8="+"/>
+</Document>

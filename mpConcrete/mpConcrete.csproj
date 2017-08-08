@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EC0DEAC-917A-4B60-9A7C-E9E408E4D813}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mpConcrete</RootNamespace>
+    <AssemblyName>mpConcrete</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\ModPlus\Data\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\ModPlus\Data\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Concrete.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ГОСТ 8717.0-84.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ГОСТ 13579-78.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.011.1-10. Выпуск 1. Часть 1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 2.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 3.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 4.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 5.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 6.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 7.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 8.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 9.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 10.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.038.1-1. Выпуск 11.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.141-1. Выпуск 60.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.141-1. Выпуск 63_1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Серия 1.141-1. Выпуск 63_2.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mpBaseInt\mpBaseInt.csproj">
+      <Project>{8aa9a7de-d3a6-470f-9120-583769ebdc9d}</Project>
+      <Name>mpBaseInt</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\Images\Blocks.png" />
+    <Resource Include="Resources\Images\ГОСТ 13579-78.png" />
+    <Resource Include="Resources\Images\ГОСТ 8717.0-84.png" />
+    <Resource Include="Resources\Images\Серия 1.011.1-10. Выпуск 1. Часть 1.png" />
+    <Resource Include="Resources\Images\Серия 1.038.1-1. Выпуск 1.png" />
+    <Resource Include="Resources\Images\Серия 1.038.1-1. Выпуск 10.png" />
+    <Resource Include="Resources\Images\Серия 1.038.1-1. Выпуск 2.png" />
+    <Resource Include="Resources\Images\Серия 1.038.1-1. Выпуск 3.png" />
+    <Resource Include="Resources\Images\Серия 1.038.1-1. Выпуск 6.png" />
+    <Resource Include="Resources\Images\Серия 1.038.1-1. Выпуск 7.png" />
+    <Resource Include="Resources\Images\Серия 1.038.1-1. Выпуск 8.png" />
+    <Resource Include="Resources\Images\Серия 1.141-1. Выпуск 60.png" />
+    <Resource Include="Resources\Images\Серия 1.141-1. Выпуск 63_1.png" />
+    <Resource Include="Resources\Images\Серия 1.141-1. Выпуск 63_2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

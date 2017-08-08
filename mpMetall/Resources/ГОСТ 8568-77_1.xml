@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="29"
+	DocType="ГОСТ"
+	DocNum="8568-77"
+	DocName="Листы стальные с ромбическим и чечевичным рифлением. Технические условия"
+	DocNameShort="Листы стальные с ромбическим рифл."
+  DocStatus="True"
+	ShortName="ромб"
+	ItemType1="Тип изготовления$Лист$Рулон"
+	Size="BxL"
+	MainGroup="Металл"
+	Group="Листы"
+	Image="ГОСТ 8568-77_1"
+	HasSteel="false"
+	DimType="м.кв."
+	Rule="[ItemType1] [ShortName] [Prop1]x[BxL] [DocType] [DocNum]"
+	SMass="Prop4"
+	SymbolSum="4"
+	Symbol1="Толщина основания листа s, мм" Symbol2="Ширина основания рифлей b, мм"
+	Symbol3="Угол при вершине рифлей j, град" Symbol4="Масса 1 м^2  листа, кг"
+>
+  <Item Prop1="2,5" Prop2="5,0" Prop3="28" Prop4="21,0" />
+  <Item Prop1="3,0" Prop2="5,0" Prop3="28" Prop4="25,1" />
+  <Item Prop1="4,0" Prop2="5,0" Prop3="28" Prop4="33,5" />
+  <Item Prop1="5,0" Prop2="5,0" Prop3="28" Prop4="41,8" />
+  <Item Prop1="6,0" Prop2="5,0" Prop3="28" Prop4="50,1" />
+  <Item Prop1="8,0" Prop2="5,0" Prop3="28" Prop4="66,6" />
+  <Item Prop1="10,0" Prop2="5,0" Prop3="28" Prop4="83,0" />
+  <Item Prop1="12,0" Prop2="5,0" Prop3="28" Prop4="99,3" />
+</Document>

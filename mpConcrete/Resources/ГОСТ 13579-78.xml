@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="1"
+	DocType="ГОСТ"
+	DocNum="13579-78"
+	DocName="Блоки бетонные для стен подвалов. Технические условия"
+	DocNameShort="Блоки бетонные"
+  DocStatus="True"
+	ShortName="Блок"
+	MainGroup="Железобетон"
+	Group="Блоки"
+	Image="ГОСТ 13579-78"
+	Rule="[ShortName] [Prop1]"
+	Mass="Prop10"
+	SymbolSum="10"
+	CoType="1,Prop2,Prop3,Prop4"
+	Symbol1="Марка блока" Symbol2="L, мм" Symbol3="B, мм" Symbol4="H, мм" Symbol5="Класс бетона"
+	Symbol6="Марка петли" Symbol7="Кол-во петель" Symbol8="Бетон, м^3" Symbol9="Сталь, кг" Symbol10="Масса блока, кг"
+>
+  <Item Prop1="ФБС24.3.6-Т" Prop2="2380" Prop3="300" Prop4="580" Prop5="B7,5" Prop6="П2а" Prop7="2" Prop8="0,406" Prop9="1,46" Prop10="970" />
+  <Item Prop1="ФБС24.4.6-Т" Prop2="2380" Prop3="400" Prop4="580" Prop5="B7,5" Prop6="П2а" Prop7="2" Prop8="0,543" Prop9="1,46" Prop10="1300" />
+  <Item Prop1="ФБС24.5.6-Т" Prop2="2380" Prop3="500" Prop4="580" Prop5="B7,5" Prop6="П3" Prop7="2" Prop8="0,679" Prop9="2,36" Prop10="1630" />
+  <Item Prop1="ФБС24.6.6-Т" Prop2="2380" Prop3="600" Prop4="580" Prop5="B7,5" Prop6="П3" Prop7="2" Prop8="0,815" Prop9="2,36" Prop10="1960" />
+  <Item Prop1="ФБС12.4.6-Т" Prop2="1180" Prop3="400" Prop4="580" Prop5="B7,5" Prop6="П2" Prop7="2" Prop8="0,265" Prop9="1,46" Prop10="640" />
+  <Item Prop1="ФБС12.5.6-Т" Prop2="1180" Prop3="500" Prop4="580" Prop5="B7,5" Prop6="П2" Prop7="2" Prop8="0,331" Prop9="1,46" Prop10="790" />
+  <Item Prop1="ФБС12.6.6-Т" Prop2="1180" Prop3="600" Prop4="580" Prop5="B7,5" Prop6="П2" Prop7="2" Prop8="0,398" Prop9="1,46" Prop10="960" />
+  <Item Prop1="ФБС12.4.3-Т" Prop2="1180" Prop3="400" Prop4="280" Prop5="B7,5" Prop6="П4" Prop7="2" Prop8="0,127" Prop9="0,74" Prop10="310" />
+  <Item Prop1="ФБС12.5.3-Т" Prop2="1180" Prop3="500" Prop4="280" Prop5="B7,5" Prop6="П4" Prop7="2" Prop8="0,159" Prop9="0,74" Prop10="380" />
+  <Item Prop1="ФБС12.6.3-Т" Prop2="1180" Prop3="600" Prop4="280" Prop5="B7,5" Prop6="П4" Prop7="2" Prop8="0,191" Prop9="0,74" Prop10="460" />
+  <Item Prop1="ФБС9.3.6-Т" Prop2="880" Prop3="300" Prop4="580" Prop5="B7,5" Prop6="П1" Prop7="2" Prop8="0,146" Prop9="0,76" Prop10="350" />
+  <Item Prop1="ФБС9.4.6-Т" Prop2="880" Prop3="400" Prop4="580" Prop5="B7,5" Prop6="П1" Prop7="2" Prop8="0,195" Prop9="0,76" Prop10="470" />
+  <Item Prop1="ФБС9.5.6-Т" Prop2="880" Prop3="500" Prop4="580" Prop5="B7,5" Prop6="П1" Prop7="2" Prop8="0,244" Prop9="0,76" Prop10="590" />
+  <Item Prop1="ФБС9.6.6-Т" Prop2="880" Prop3="600" Prop4="580" Prop5="B7,5" Prop6="П2" Prop7="2" Prop8="0,293" Prop9="1,46" Prop10="700" />
+  <Item Prop1="ФБB9.4.6-Т" Prop2="880" Prop3="400" Prop4="580" Prop5="B7,5" Prop6="П1" Prop7="2" Prop8="0,161" Prop9="0,76" Prop10="390" />
+  <Item Prop1="ФБB9.5.6-Т" Prop2="880" Prop3="500" Prop4="580" Prop5="B7,5" Prop6="П1" Prop7="2" Prop8="0,202" Prop9="0,76" Prop10="490" />
+  <Item Prop1="ФБB9.6.6-Т" Prop2="880" Prop3="600" Prop4="580" Prop5="B7,5" Prop6="П1" Prop7="2" Prop8="0,243" Prop9="0,76" Prop10="580" />
+  <Item Prop1="ФБП24.4.6-Т" Prop2="2380" Prop3="400" Prop4="580" Prop5="В12,5" Prop6="П2" Prop7="2" Prop8="0,439" Prop9="1,46" Prop10="1050" />
+  <Item Prop1="ФБП24.5.6-Т" Prop2="2380" Prop3="500" Prop4="580" Prop5="В12,5" Prop6="П2" Prop7="2" Prop8="0,526" Prop9="1,46" Prop10="1260" />
+  <Item Prop1="ФБП24.6.6-Т" Prop2="2380" Prop3="600" Prop4="580" Prop5="В12,5" Prop6="П2" Prop7="2" Prop8="0,583" Prop9="1,46" Prop10="1400" />
+  <Item Prop1="ФБС24.3.6-Л" Prop2="2380" Prop3="300" Prop4="580" Prop5="В12,5" Prop6="П2а" Prop7="2" Prop8="0,406" Prop9="1,46" Prop10="730" />
+  <Item Prop1="ФБС24.4.6-Л" Prop2="2380" Prop3="400" Prop4="580" Prop5="В12,5" Prop6="П2а" Prop7="2" Prop8="0,543" Prop9="1,46" Prop10="980" />
+  <Item Prop1="ФБС24.5.6-Л" Prop2="2380" Prop3="500" Prop4="580" Prop5="В12,5" Prop6="П2а" Prop7="2" Prop8="0,679" Prop9="1,46" Prop10="1220" />
+  <Item Prop1="ФБС24.6.6-Л" Prop2="2380" Prop3="600" Prop4="580" Prop5="В7,5" Prop6="П3" Prop7="2" Prop8="0,815" Prop9="2,36" Prop10="1470" />
+  <Item Prop1="ФБС12.4.6-Л" Prop2="1180" Prop3="400" Prop4="580" Prop5="В7,5" Prop6="П1" Prop7="2" Prop8="0,265" Prop9="0,76" Prop10="480" />
+  <Item Prop1="ФБС12.5.6-Л" Prop2="1180" Prop3="500" Prop4="580" Prop5="В7,5" Prop6="П2" Prop7="2" Prop8="0,331" Prop9="1,46" Prop10="600" />
+  <Item Prop1="ФБС12.6.6-Л" Prop2="1180" Prop3="600" Prop4="580" Prop5="В7,5" Prop6="П2" Prop7="2" Prop8="0,398" Prop9="1,46" Prop10="720" />
+  <Item Prop1="ФБС12.4.3-Л" Prop2="1180" Prop3="400" Prop4="280" Prop5="В7,5" Prop6="П4" Prop7="2" Prop8="0,127" Prop9="0,74" Prop10="230" />
+  <Item Prop1="ФБС12.5.3-Л" Prop2="1180" Prop3="500" Prop4="280" Prop5="В7,5" Prop6="П4" Prop7="2" Prop8="0,159" Prop9="0,74" Prop10="290" />
+  <Item Prop1="ФБС12.6.3-Л" Prop2="1180" Prop3="600" Prop4="280" Prop5="В7,5" Prop6="П4" Prop7="2" Prop8="0,191" Prop9="0,74" Prop10="350" />
+  <Item Prop1="ФБС9.3.6-Л" Prop2="880" Prop3="300" Prop4="580" Prop5="В7,5" Prop6="П1" Prop7="2" Prop8="0,146" Prop9="0,76" Prop10="260" />
+  <Item Prop1="ФБС9.4.6-Л" Prop2="880" Prop3="400" Prop4="580" Prop5="В7,5" Prop6="П1" Prop7="2" Prop8="0,195" Prop9="0,76" Prop10="350" />
+  <Item Prop1="ФБС9.5.6-Л" Prop2="880" Prop3="500" Prop4="580" Prop5="В7,5" Prop6="П1" Prop7="2" Prop8="0,244" Prop9="0,76" Prop10="440" />
+  <Item Prop1="ФБС9.6.6-Л" Prop2="880" Prop3="600" Prop4="580" Prop5="В7,5" Prop6="П1" Prop7="2" Prop8="0,293" Prop9="0,76" Prop10="530" />
+  <Item Prop1="ФБB9.4.6-Л" Prop2="880" Prop3="400" Prop4="580" Prop5="В7,5" Prop6="П1" Prop7="2" Prop8="0,161" Prop9="0,76" Prop10="290" />
+  <Item Prop1="ФБB9.5.6-Л" Prop2="880" Prop3="500" Prop4="580" Prop5="В7,5" Prop6="П1" Prop7="2" Prop8="0,202" Prop9="0,76" Prop10="370" />
+  <Item Prop1="ФБB9.6.6-Л" Prop2="880" Prop3="600" Prop4="580" Prop5="В7,5" Prop6="П1" Prop7="2" Prop8="0,243" Prop9="0,76" Prop10="440" />
+  <Item Prop1="ФБП24.4.6-Л" Prop2="2380" Prop3="400" Prop4="580" Prop5="В12,5" Prop6="П2" Prop7="2" Prop8="0,439" Prop9="1,46" Prop10="790" />
+  <Item Prop1="ФБП24.5.6-Л" Prop2="2380" Prop3="500" Prop4="580" Prop5="В12,5" Prop6="П2" Prop7="2" Prop8="0,526" Prop9="1,46" Prop10="950" />
+  <Item Prop1="ФБП24.6.6-Л" Prop2="2380" Prop3="600" Prop4="580" Prop5="В12,5" Prop6="П2" Prop7="2" Prop8="0,583" Prop9="1,46" Prop10="1050" />
+  <Item Prop1="ФБС24.3.6-С" Prop2="2380" Prop3="300" Prop4="580" Prop5="В12,5" Prop6="П2а" Prop7="2" Prop8="0,406" Prop9="1,46" Prop10="810" />
+  <Item Prop1="ФБС24.4.6-С" Prop2="2380" Prop3="400" Prop4="580" Prop5="В12,5" Prop6="П2а" Prop7="2" Prop8="0,543" Prop9="1,46" Prop10="1090" />
+  <Item Prop1="ФБС24.5.6-С" Prop2="2380" Prop3="500" Prop4="580" Prop5="В12,5" Prop6="П2а" Prop7="2" Prop8="0,679" Prop9="1,46" Prop10="1360" />
+  <Item Prop1="ФБС24.6.6-С" Prop2="2380" Prop3="600" Prop4="580" Prop5="В12,5" Prop6="П3" Prop7="2" Prop8="0,815" Prop9="2,36" Prop10="1630" />
+  <Item Prop1="ФБС12.4.6-С" Prop2="1180" Prop3="400" Prop4="580" Prop5="В12,5" Prop6="П1" Prop7="2" Prop8="0,265" Prop9="0,76" Prop10="530" />
+  <Item Prop1="ФБС12.5.6-С" Prop2="1180" Prop3="500" Prop4="580" Prop5="В12,5" Prop6="П2" Prop7="2" Prop8="0,331" Prop9="1,46" Prop10="660" />
+  <Item Prop1="ФБС12.6.6-С" Prop2="1180" Prop3="600" Prop4="580" Prop5="В12,5" Prop6="П2" Prop7="2" Prop8="0,398" Prop9="1,46" Prop10="800" />
+  <Item Prop1="ФБС12.4.3-С" Prop2="1180" Prop3="400" Prop4="280" Prop5="В12,5" Prop6="П4" Prop7="2" Prop8="0,127" Prop9="0,74" Prop10="250" />
+  <Item Prop1="ФБС12.5.3-С" Prop2="1180" Prop3="500" Prop4="280" Prop5="В12,5" Prop6="П4" Prop7="2" Prop8="0,159" Prop9="0,74" Prop10="320" />
+  <Item Prop1="ФБС12.6.3-С" Prop2="1180" Prop3="600" Prop4="280" Prop5="В12,5" Prop6="П4" Prop7="2" Prop8="0,191" Prop9="0,74" Prop10="380" />
+  <Item Prop1="ФБС9.3.6-С" Prop2="880" Prop3="300" Prop4="580" Prop5="В15" Prop6="П1" Prop7="2" Prop8="0,146" Prop9="0,76" Prop10="290" />
+  <Item Prop1="ФБС9.4.6-С" Prop2="880" Prop3="400" Prop4="580" Prop5="В15" Prop6="П1" Prop7="2" Prop8="0,195" Prop9="0,76" Prop10="390" />
+  <Item Prop1="ФБС9.5.6-С" Prop2="880" Prop3="500" Prop4="580" Prop5="В15" Prop6="П1" Prop7="2" Prop8="0,244" Prop9="0,76" Prop10="490" />
+  <Item Prop1="ФБС9.6.6-С" Prop2="880" Prop3="600" Prop4="580" Prop5="В15" Prop6="П1" Prop7="2" Prop8="0,293" Prop9="0,76" Prop10="590" />
+  <Item Prop1="ФБB9.4.6-С" Prop2="880" Prop3="400" Prop4="580" Prop5="В15" Prop6="П1" Prop7="2" Prop8="0,161" Prop9="0,76" Prop10="320" />
+  <Item Prop1="ФБB9.5.6-С" Prop2="880" Prop3="500" Prop4="580" Prop5="В15" Prop6="П1" Prop7="2" Prop8="0,202" Prop9="0,76" Prop10="400" />
+  <Item Prop1="ФБB9.6.6-С" Prop2="880" Prop3="600" Prop4="580" Prop5="В15" Prop6="П1" Prop7="2" Prop8="0,243" Prop9="0,76" Prop10="490" />
+  <Item Prop1="ФБП24.4.6-С" Prop2="2380" Prop3="400" Prop4="580" Prop5="В15" Prop6="П2" Prop7="2" Prop8="0,439" Prop9="1,46" Prop10="880" />
+  <Item Prop1="ФБП24.5.6-С" Prop2="2380" Prop3="500" Prop4="580" Prop5="В15" Prop6="П2" Prop7="2" Prop8="0,526" Prop9="1,46" Prop10="1050" />
+  <Item Prop1="ФБП24.6.6-С" Prop2="2380" Prop3="600" Prop4="580" Prop5="В15" Prop6="П2" Prop7="2" Prop8="0,583" Prop9="1,46" Prop10="1170" />
+</Document>

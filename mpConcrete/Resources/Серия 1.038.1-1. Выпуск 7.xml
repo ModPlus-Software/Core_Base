@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="10"
+	DocType="Серия"
+	DocNum="1.038.1-1. Выпуск 7"
+	DocName="Перемычки железобетонные для зданий с кирпичными стенами. Перемычки фасадные для жилых и общественных зданий со стенами из кирпича толщиной 88 мм"
+	DocNameShort="Перемычки ж/б"
+	ShortName="Перемычка"
+	MainGroup="Железобетон"
+	Group="Перемычки"
+	Image="Серия 1.038.1-1. Выпуск 7"
+	Rule="[ShortName] [Prop1]"
+	Mass="Prop8"
+	SymbolSum="8"
+	CoType="3,Prop4,Prop5,250,Prop6,130,90"
+	Symbol1="Марка" Symbol2="Мин.глубина опирания, мм" Symbol3="Максимальный пролет, мм"
+	Symbol4="L, мм" Symbol5="l, мм" Symbol6="h, мм" Symbol7="Объем бетона, м^3" Symbol8="Масса, кг"
+>
+  <Item Prop1="4 ПФ 8-2" Prop2="120" Prop3="530" Prop4="770" Prop5="510" Prop6="90" Prop7="0,014" Prop8="35" />
+  <Item Prop1="4 ПФ 9-2" Prop2="120" Prop3="660" Prop4="900" Prop5="640" Prop6="90" Prop7="0,017" Prop8="43" />
+  <Item Prop1="4 ПФ 10-2" Prop2="120" Prop3="790" Prop4="1030" Prop5="770" Prop6="90" Prop7="0,020" Prop8="50" />
+  <Item Prop1="4 ПФ 13-3" Prop2="120" Prop3="1070" Prop4="1310" Prop5="1050" Prop6="90" Prop7="0,026" Prop8="65" />
+  <Item Prop1="4 ПФ 14-4" Prop2="120" Prop3="1180" Prop4="1420" Prop5="1160" Prop6="90" Prop7="0,029" Prop8="73" />
+  <Item Prop1="5 ПФ 16-5" Prop2="120" Prop3="1310" Prop4="1550" Prop5="1290" Prop6="190" Prop7="0,050" Prop8="125" />
+  <Item Prop1="5 ПФ 17-5" Prop2="120" Prop3="1440" Prop4="1680" Prop5="1420" Prop6="190" Prop7="0,055" Prop8="138" />
+  <Item Prop1="5 ПФ 19-6" Prop2="120" Prop3="1700" Prop4="1940" Prop5="1680" Prop6="190" Prop7="0,064" Prop8="160" />
+  <Item Prop1="6 ПФ 22-8" Prop2="180" Prop3="1840" Prop4="2200" Prop5="1810" Prop6="190" Prop7="0,071" Prop8="178" />
+  <Item Prop1="6 ПФ 23-8" Prop2="180" Prop3="1970" Prop4="2330" Prop5="1940" Prop6="190" Prop7="0,076" Prop8="190" />
+  <Item Prop1="6 ПФ 25-8" Prop2="180" Prop3="2100" Prop4="2460" Prop5="2070" Prop6="190" Prop7="0,080" Prop8="200" />
+  <Item Prop1="6 ПФ 30-8" Prop2="180" Prop3="2620" Prop4="2980" Prop5="2590" Prop6="190" Prop7="0,098" Prop8="245" />
+  <Item Prop1="6 ПФ 22-12" Prop2="180" Prop3="1840" Prop4="2200" Prop5="1810" Prop6="190" Prop7="0,071" Prop8="178" />
+  <Item Prop1="6 ПФ 23-12" Prop2="180" Prop3="1970" Prop4="2330" Prop5="1940" Prop6="190" Prop7="0,076" Prop8="190" />
+  <Item Prop1="6 ПФ 25-12" Prop2="180" Prop3="2100" Prop4="2460" Prop5="2070" Prop6="190" Prop7="0,080" Prop8="200" />
+  <Item Prop1="6 ПФ 30-12" Prop2="180" Prop3="2620" Prop4="2980" Prop5="2590" Prop6="190" Prop7="0,098" Prop8="245" />
+  <Item Prop1="7 ПФ 40-10" Prop2="250" Prop3="3520" Prop4="4020" Prop5="3500" Prop6="290" Prop7="0,181" Prop8="453" />
+  <Item Prop1="7 ПФ 43-10" Prop2="250" Prop3="3780" Prop4="4280" Prop5="3760" Prop6="290" Prop7="0,193" Prop8="483" />
+</Document>

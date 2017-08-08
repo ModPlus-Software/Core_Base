@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="68"
+  DocType="ГОСТ"
+  DocNum="530-2012"
+  DocName="Кирпич и камнь керамические. Общие технические условия"
+  DocNameShort="Кирпич керамический"
+  DocStatus="True"
+  ShortName="Кирпич"
+  Size="нет"
+  MainGroup="Прочее"
+  Group="Кирпич/камень"
+  Image="Blocks"
+  OtType="1,Prop2,Prop3,Prop4"
+  Rule="[Prop5]-[ItemType2]-[ItemType1] [Prop2]x[Prop3]x[Prop4]/[Prop6]/[ItemType3]/[ItemType5]/[ItemType4]/[DocType] [DocNum]"
+  ItemType1="Вариант изготовления$по$пу"
+  ItemType1ToolTip="Вариант изготовления кирпича: по - полонотелый, пу - пустотелый"
+  ItemType2="Назначение изделия$р$л$кл"
+  ItemType2ToolTip="Назначение изделия: р - Рядовой, л - Лицевой, кл - Клинкерный"
+  ItemType3="Марка по прочности, М$100$125$150$175$200$250$300$400$500$600$800$1000"
+  ItemType3ToolTip="По прочности кирпич подразделяют на марки М100, М125, М150, М175, М200, М250, М300;$клинкерный кирпич - М300, М400, М500, М600, М800, М1000$кирпич с горизонтальными пустотами - М25, М35, М50, М75, М100"
+  ItemType4="Марка по морозостойкости, F$25$35$50$75$100$200$300"  
+  ItemType5="Класс по показателю средней плотности$0,7$0,8$1,0$1,2$1,4$2,0$2,4"  
+  SymbolSum="6"
+  Symbol1="Вид изделия" Symbol2="Длина, мм" Symbol3="Ширина, мм" Symbol4="Толщина, мм" 
+  Symbol5="Обозначение вида" Symbol6="Обозначение размера изделия"
+  >
+  <Item Prop1="Кирпич" Prop2="250" Prop3="120" Prop4="65" Prop5="КР" Prop6="1 НФ"/>
+  <Item Prop1="Кирпич" Prop2="250" Prop3="85" Prop4="65" Prop5="КР" Prop6="0,7 НФ"/>
+  <Item Prop1="Кирпич" Prop2="250" Prop3="120" Prop4="88" Prop5="КР" Prop6="1,4 НФ"/>
+  <Item Prop1="Кирпич" Prop2="250" Prop3="60" Prop4="65" Prop5="КР" Prop6="0,5 НФ"/>
+  <Item Prop1="Кирпич" Prop2="288" Prop3="138" Prop4="65" Prop5="КР" Prop6="1,3 НФ"/>
+  <Item Prop1="Кирпич" Prop2="288" Prop3="138" Prop4="88" Prop5="КР" Prop6="1,8 НФ"/>
+  <Item Prop1="Кирпич" Prop2="250" Prop3="120" Prop4="55" Prop5="КР" Prop6="0,8 НФ"/>
+  <Item Prop1="Кирпич с горизонтальными пустотами" Prop2="250" Prop3="120" Prop4="88" Prop5="КРГ" Prop6="1,4 НФ"/>
+  <Item Prop1="Кирпич с горизонтальными пустотами" Prop2="250" Prop3="200" Prop4="70" Prop5="КРГ" Prop6="1,8 НФ"/>
+</Document>

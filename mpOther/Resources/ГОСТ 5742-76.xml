@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="64"
+  DocType="ГОСТ"
+  DocNum="5742-76"
+  DocName="Изделия из ячеистых бетонов теплоизоляционные"
+  DocNameShort="Изделия из ячеистых бетонов теплоизоляционные"
+  DocStatus="True"
+  ShortName="Теплоизоляционное изделие"
+  Size="нет"
+  MainGroup="Прочее"
+  Group="Блоки"
+  Image="Blocks"
+  OtType="1,ItemType2,ItemType3,ItemType4"
+  Rule="[ItemType1]-[ItemType2].[ItemType3].[ItemType4]"
+  ItemType1="Марка по плотности$А$Б"
+  ItemType1ToolTip="Теплоизоляционные изделия в зависимости от$плотности (объемной массы) подразделяют на марки 350 и 400,$условно обозначаемые А и Б"
+  ItemType2="Длина, L$500$600$700$800$900$1000"
+  ItemType3="Ширина, B$400$500$600"
+  ItemType4="Толщина, H$80$100$120$140$160$180$200$220$240"
+  >
+</Document>

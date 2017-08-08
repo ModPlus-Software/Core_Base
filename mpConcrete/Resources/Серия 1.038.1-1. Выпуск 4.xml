@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="7"
+	DocType="Серия"
+	DocNum="1.038.1-1. Выпуск 4"
+	DocName="Перемычки железобетонные для зданий с кирпичными стенами. Перемычки брусковые для жилых и общественных зданий со стенами из кирпича толщиной 88мм"
+	DocNameShort="Перемычки ж/б"
+	ShortName="Перемычка"
+	MainGroup="Железобетон"
+	Group="Перемычки"
+	Image="Серия 1.038.1-1. Выпуск 1"
+	Rule="[ShortName] [Prop1]"
+	Mass="Prop7"
+	SymbolSum="7"
+	CoType="1,Prop4,Prop5,Prop6"
+	Symbol1="Марка" Symbol2="Мин.глубина опирания, мм" Symbol3="Максимальный пролет, мм"
+	Symbol4="L, мм" Symbol5="b, мм" Symbol6="h, мм" Symbol7="Масса, кг"
+>
+  <Item Prop1="8 ПБ 10-1" Prop2="100" Prop3="830" Prop4="1030" Prop5="120" Prop6="90" Prop7="28" />
+  <Item Prop1="8 ПБ 13-1" Prop2="100" Prop3="1090" Prop4="1290" Prop5="120" Prop6="90" Prop7="35" />
+  <Item Prop1="8 ПБ 16-1" Prop2="100" Prop3="1350" Prop4="1550" Prop5="120" Prop6="90" Prop7="42" />
+  <Item Prop1="8 ПБ 17-2" Prop2="100" Prop3="1480" Prop4="1680" Prop5="120" Prop6="90" Prop7="45" />
+  <Item Prop1="8 ПБ 19-3" Prop2="100" Prop3="1740" Prop4="1940" Prop5="120" Prop6="90" Prop7="52" />
+  <Item Prop1="9 ПБ 22-3" Prop2="100" Prop3="2000" Prop4="2200" Prop5="120" Prop6="190" Prop7="125" />
+  <Item Prop1="9 ПБ 22-3-п" Prop2="100" Prop3="2000" Prop4="2200" Prop5="120" Prop6="190" Prop7="125" />
+  <Item Prop1="9 ПБ 25-3" Prop2="100" Prop3="2260" Prop4="2460" Prop5="120" Prop6="190" Prop7="140" />
+  <Item Prop1="9 ПБ 25-3-п" Prop2="100" Prop3="2260" Prop4="2460" Prop5="120" Prop6="190" Prop7="140" />
+  <Item Prop1="9 ПБ 26-4" Prop2="100" Prop3="2390" Prop4="2590" Prop5="120" Prop6="190" Prop7="148" />
+  <Item Prop1="9 ПБ 26-4-п" Prop2="100" Prop3="2390" Prop4="2590" Prop5="120" Prop6="190" Prop7="148" />
+  <Item Prop1="9 ПБ 29-4" Prop2="100" Prop3="2650" Prop4="2850" Prop5="120" Prop6="190" Prop7="162" />
+  <Item Prop1="9 ПБ 29-4-п" Prop2="100" Prop3="2650" Prop4="2850" Prop5="120" Prop6="190" Prop7="162" />
+  <Item Prop1="9 ПБ 30-4" Prop2="150" Prop3="2680" Prop4="2980" Prop5="120" Prop6="190" Prop7="170" />
+  <Item Prop1="9 ПБ 30-4-п" Prop2="150" Prop3="2680" Prop4="2980" Prop5="120" Prop6="190" Prop7="170" />
+  <Item Prop1="9 ПБ 13-37" Prop2="170" Prop3="950" Prop4="1290" Prop5="120" Prop6="190" Prop7="74" />
+  <Item Prop1="9 ПБ 13-37-п" Prop2="170" Prop3="950" Prop4="1290" Prop5="120" Prop6="190" Prop7="74" />
+  <Item Prop1="9 ПБ 16-37" Prop2="170" Prop3="1210" Prop4="1550" Prop5="120" Prop6="190" Prop7="88" />
+  <Item Prop1="9 ПБ 16-37-п" Prop2="170" Prop3="1210" Prop4="1550" Prop5="120" Prop6="190" Prop7="88" />
+  <Item Prop1="9 ПБ 18-37" Prop2="200" Prop3="1410" Prop4="1810" Prop5="120" Prop6="190" Prop7="103" />
+  <Item Prop1="9 ПБ 18-37-п" Prop2="200" Prop3="1410" Prop4="1810" Prop5="120" Prop6="190" Prop7="103" />
+  <Item Prop1="9 ПБ 18-8" Prop2="170" Prop3="1470" Prop4="1810" Prop5="120" Prop6="190" Prop7="103" />
+  <Item Prop1="9 ПБ 18-8-п" Prop2="170" Prop3="1470" Prop4="1810" Prop5="120" Prop6="190" Prop7="103" />
+  <Item Prop1="9 ПБ 21-8" Prop2="170" Prop3="1730" Prop4="2070" Prop5="120" Prop6="190" Prop7="118" />
+  <Item Prop1="9 ПБ 21-8-п" Prop2="170" Prop3="1730" Prop4="2070" Prop5="120" Prop6="190" Prop7="118" />
+  <Item Prop1="9 ПБ 25-8" Prop2="170" Prop3="2120" Prop4="2460" Prop5="120" Prop6="190" Prop7="140" />
+  <Item Prop1="9 ПБ 25-8-п" Prop2="170" Prop3="2120" Prop4="2460" Prop5="120" Prop6="190" Prop7="140" />
+  <Item Prop1="9 ПБ 27-8" Prop2="170" Prop3="2380" Prop4="2720" Prop5="120" Prop6="190" Prop7="155" />
+  <Item Prop1="9 ПБ 27-8-п" Prop2="170" Prop3="2380" Prop4="2720" Prop5="120" Prop6="190" Prop7="155" />
+  <Item Prop1="10 ПБ 18-27" Prop2="170" Prop3="1470" Prop4="1810" Prop5="250" Prop6="190" Prop7="215" />
+  <Item Prop1="10 ПБ 18-27-п" Prop2="170" Prop3="1470" Prop4="1810" Prop5="250" Prop6="190" Prop7="215" />
+  <Item Prop1="10 ПБ 21-27" Prop2="170" Prop3="1730" Prop4="2070" Prop5="250" Prop6="190" Prop7="246" />
+  <Item Prop1="10 ПБ 21-27-п" Prop2="170" Prop3="1730" Prop4="2070" Prop5="250" Prop6="190" Prop7="246" />
+  <Item Prop1="10 ПБ 25-37" Prop2="230" Prop3="2000" Prop4="2460" Prop5="250" Prop6="190" Prop7="292" />
+  <Item Prop1="10 ПБ 25-37-п" Prop2="230" Prop3="2000" Prop4="2460" Prop5="250" Prop6="190" Prop7="292" />
+  <Item Prop1="10 ПБ 25-27" Prop2="230" Prop3="2000" Prop4="2460" Prop5="250" Prop6="190" Prop7="292" />
+  <Item Prop1="10 ПБ 25-27-п" Prop2="230" Prop3="2000" Prop4="2460" Prop5="250" Prop6="190" Prop7="292" />
+  <Item Prop1="10 ПБ 27-37" Prop2="230" Prop3="2260" Prop4="2720" Prop5="250" Prop6="190" Prop7="323" />
+  <Item Prop1="10 ПБ 27-37-п" Prop2="230" Prop3="2260" Prop4="2720" Prop5="250" Prop6="190" Prop7="323" />
+  <Item Prop1="10 ПБ 27-27" Prop2="230" Prop3="2260" Prop4="2720" Prop5="250" Prop6="190" Prop7="323" />
+  <Item Prop1="10 ПБ 27-27-п" Prop2="230" Prop3="2260" Prop4="2720" Prop5="250" Prop6="190" Prop7="323" />
+  <Item Prop1="10 ПБ 21-27-а" Prop2="170" Prop3="1730" Prop4="2070" Prop5="250" Prop6="190" Prop7="246" />
+  <Item Prop1="10 ПБ 21-27-ап" Prop2="170" Prop3="1730" Prop4="2070" Prop5="250" Prop6="190" Prop7="246" />
+  <Item Prop1="10 ПБ 25-27-а" Prop2="230" Prop3="2000" Prop4="2460" Prop5="250" Prop6="190" Prop7="292" />
+  <Item Prop1="10 ПБ 25-27-ап" Prop2="230" Prop3="2000" Prop4="2460" Prop5="250" Prop6="190" Prop7="292" />
+  <Item Prop1="10 ПБ 27-27-а" Prop2="230" Prop3="2260" Prop4="2720" Prop5="250" Prop6="190" Prop7="323" />
+  <Item Prop1="10 ПБ 27-27-ап" Prop2="230" Prop3="2260" Prop4="2720" Prop5="250" Prop6="190" Prop7="323" />
+</Document>

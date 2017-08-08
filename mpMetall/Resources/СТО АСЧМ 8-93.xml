@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="19"
+	DocType="СТО АСЧМ"
+	DocNum="8-93"
+	DocName="Прокат круглого гладкого профиля из арматурной стали"
+	DocNameShort="Арматура"
+  DocStatus="True"
+	ShortName="Арматура"
+	ItemType1="Класс арматуры$А240С$А300С"
+	Size="L"
+	MainGroup="Металл"
+	Group="Арматура/проволока"
+	Image="нет"
+	HasSteel="false"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	Rule="[Prop1]-[ItemType1] [DocType] [DocNum]"
+	WMass="Prop3"
+	SymbolSum="3"
+	MeType="3,Prop1,L"
+	xMark="[0] [ItemType1]"
+	Symbol1="Номинальный диаметр dнсм, мм" Symbol2="Номинальная площадь поперечного сечения, мм2"
+	Symbol3="Номинальная масса 1 пог.м, кг"
+>
+  <Item Prop1="6" Prop2="28,3" Prop3="0,222" />
+  <Item Prop1="8" Prop2="50,3" Prop3="0,395" />
+  <Item Prop1="10" Prop2="78,3" Prop3="0,617" />
+  <Item Prop1="12" Prop2="113,0" Prop3="0,888" />
+  <Item Prop1="14" Prop2="154,0" Prop3="1,21" />
+  <Item Prop1="16" Prop2="201,0" Prop3="1,58" />
+  <Item Prop1="18" Prop2="254,0" Prop3="2,00" />
+  <Item Prop1="20" Prop2="314,0" Prop3="2,47" />
+  <Item Prop1="22" Prop2="380,0" Prop3="2,98" />
+  <Item Prop1="25" Prop2="491,0" Prop3="3,85" />
+  <Item Prop1="28" Prop2="616,0" Prop3="4,83" />
+  <Item Prop1="32" Prop2="804,0" Prop3="6,31" />
+  <Item Prop1="36" Prop2="1018,0" Prop3="7,99" />
+  <Item Prop1="40" Prop2="1256,0" Prop3="9,86" />
+</Document>

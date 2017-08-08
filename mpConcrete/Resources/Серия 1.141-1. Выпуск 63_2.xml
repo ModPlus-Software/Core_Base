@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="17"
+	DocType="Серия"
+	DocNum="1.141-1. Выпуск 63"
+	DocName="Панели перекрытий железобетонные многопустотные. Панели с круглыми пустотами длиной 6280, 5980, 5680, 5380, 5080 и 4780 мм, шириной 1790, 1490, 1190 и 990 мм, армированные стержнями из стали класса А-V"
+	DocNameShort="Многопустотные плиты с усил. торцами"
+  DocStatus="True"
+	ShortName="Плита"
+	MainGroup="Железобетон"
+	Group="Плиты"
+	Image="Серия 1.141-1. Выпуск 63_2"
+	Rule="[ShortName] [Prop1]"
+	Mass="Prop5"
+	SymbolSum="10"
+	CoType="1,Prop2,Prop3,220"
+	Symbol1="Марка" Symbol2="L, мм" Symbol3="b, мм"
+	Symbol4="Объем бетона, м^3" Symbol5="Масса, кг" Symbol6="Приведенная толщина бетона, см"
+	Symbol7="Расход стали на изделие, кг. Натуральный" 
+	Symbol8="Расход стали на изделие, кг. Приведенный к классу A-I" 
+	Symbol9="Расход стали на 1 м^2, кг. Натуральный" Symbol10="Расход стали на 1 м^2, кг. Приведенный к классу A-I"
+>
+  <Item Prop1="ПК 63.18-8АтVт-a" Prop2="6280" Prop3="1790" Prop4="1,36" Prop5="3400" Prop6="12,10" Prop7="61,88" Prop8="118,06" Prop9="5,50" Prop10="10,53" />
+  <Item Prop1="ПК 60.18-8АтVт-a" Prop2="5980" Prop3="1790" Prop4="1,30" Prop5="3250" Prop6="12,10" Prop7="53,45" Prop8="102,61" Prop9="4,98" Prop10="9,60" />
+  <Item Prop1="ПК 57.18-8АтVт-a" Prop2="5680" Prop3="1790" Prop4="1,23" Prop5="3075" Prop6="12,12" Prop7="44,68" Prop8="83,52" Prop9="4,40" Prop10="8,20" />
+  <Item Prop1="ПК 54.18-8АтVт-a" Prop2="5380" Prop3="1790" Prop4="1,17" Prop5="2925" Prop6="12,14" Prop7="37,61" Prop8="69,95" Prop9="3,90" Prop10="7,27" />
+  <Item Prop1="ПК 51.18-8АтVт-a" Prop2="5080" Prop3="1790" Prop4="1,11" Prop5="2775" Prop6="12,15" Prop7="33,26" Prop8="60,59" Prop9="3,65" Prop10="6,66" />
+  <Item Prop1="ПК 48.18-8АтVт-a" Prop2="4780" Prop3="1790" Prop4="1,04" Prop5="2600" Prop6="12,20" Prop7="29,85" Prop8="53,58" Prop9="3,49" Prop10="6,26" />
+  <Item Prop1="ПК 63.18-6АтVт-a" Prop2="6280" Prop3="1790" Prop4="1,36" Prop5="3400" Prop6="12,10" Prop7="47,90" Prop8="89,22" Prop9="4,25" Prop10="7,92" />
+  <Item Prop1="ПК 60.18-6АтVт-a" Prop2="5980" Prop3="1790" Prop4="1,30" Prop5="3250" Prop6="12,10" Prop7="40,63" Prop8="76,25" Prop9="3,80" Prop10="7,13" />
+  <Item Prop1="ПК 57.18-6АтVт-a" Prop2="5680" Prop3="1790" Prop4="1,23" Prop5="3075" Prop6="12,12" Prop7="34,76" Prop8="64,42" Prop9="3,42" Prop10="6,34" />
+  <Item Prop1="ПК 54.18-6АтVт-a" Prop2="5380" Prop3="1790" Prop4="1,17" Prop5="2925" Prop6="12,14" Prop7="31,15" Prop8="56,96" Prop9="3,23" Prop10="5,90" />
+  <Item Prop1="ПК 51.18-6АтVт-a" Prop2="5080" Prop3="1790" Prop4="1,11" Prop5="2775" Prop6="12,15" Prop7="28,45" Prop8="51,23" Prop9="3,14" Prop10="5,63" />
+  <Item Prop1="ПК 48.18-6АтVт-a" Prop2="4780" Prop3="1790" Prop4="1,04" Prop5="2600" Prop6="12,20" Prop7="25,48" Prop8="45,00" Prop9="2,97" Prop10="5,26" />
+  <Item Prop1="ПК 63.18-4АтVт-a" Prop2="6280" Prop3="1790" Prop4="1,36" Prop5="3400" Prop6="12,10" Prop7="39,86" Prop8="72,40" Prop9="3,54" Prop10="6,45" />
+  <Item Prop1="ПК 60.18-4АтVт-a" Prop2="5980" Prop3="1790" Prop4="1,30" Prop5="3250" Prop6="12,10" Prop7="34,12" Prop8="62,79" Prop9="3,18" Prop10="5,86" />
+  <Item Prop1="ПК 57.18-4АтVт-a" Prop2="5680" Prop3="1790" Prop4="1,23" Prop5="3075" Prop6="12,12" Prop7="30,78" Prop8="56,01" Prop9="3,02" Prop10="5,52" />
+  <Item Prop1="ПК 54.18-4АтVт-a" Prop2="5380" Prop3="1790" Prop4="1,17" Prop5="2925" Prop6="12,14" Prop7="27,61" Prop8="49,34" Prop9="2,87" Prop10="5,13" />
+  <Item Prop1="ПК 51.18-4АтVт-a" Prop2="5080" Prop3="1790" Prop4="1,11" Prop5="2775" Prop6="12,15" Prop7="24,88" Prop8="43,60" Prop9="2,73" Prop10="4,80" />
+  <Item Prop1="ПК 48.18-4АтVт-a" Prop2="4780" Prop3="1790" Prop4="1,04" Prop5="2600" Prop6="12,20" Prop7="23,97" Prop8="41,84" Prop9="2,80" Prop10="4,88" />
+  <Item Prop1="ПК 63.18-3АтVт-a" Prop2="6280" Prop3="1790" Prop4="1,36" Prop5="3400" Prop6="12,10" Prop7="35,51" Prop8="63,19" Prop9="3,16" Prop10="5,62" />
+  <Item Prop1="ПК 60.18-3АтVт-a" Prop2="5980" Prop3="1790" Prop4="1,30" Prop5="3250" Prop6="12,10" Prop7="29,73" Prop8="53,65" Prop9="2,78" Prop10="5,00" />
+  <Item Prop1="ПК 57.18-3АтVт-a" Prop2="5680" Prop3="1790" Prop4="1,23" Prop5="3025" Prop6="12,12" Prop7="26,84" Prop8="47,66" Prop9="2,64" Prop10="4,68" />
+  <Item Prop1="ПК 54.18-3АтVт-a" Prop2="5380" Prop3="1790" Prop4="1,17" Prop5="2925" Prop6="12,14" Prop7="25,93" Prop8="45,80" Prop9="2,70" Prop10="4,76" />
+  <Item Prop1="ПК 63.15-8АтVт-a" Prop2="6280" Prop3="1490" Prop4="1,19" Prop5="2975" Prop6="12,75" Prop7="48,34" Prop8="93,49" Prop9="5,17" Prop10="10,01" />
+  <Item Prop1="ПК 60.15-8АтVт-a" Prop2="5980" Prop3="1490" Prop4="1,14" Prop5="2850" Prop6="12,77" Prop7="45,08" Prop8="86,42" Prop9="5,07" Prop10="9,71" />
+  <Item Prop1="ПК 57.15-8АтVт-a" Prop2="5680" Prop3="1490" Prop4="1,08" Prop5="2700" Prop6="12,80" Prop7="36,63" Prop8="68,00" Prop9="4,33" Prop10="8,06" />
+  <Item Prop1="ПК 54.15-8АтVт-a" Prop2="5380" Prop3="1490" Prop4="1,03" Prop5="2575" Prop6="12,82" Prop7="31,75" Prop8="58,91" Prop9="3,96" Prop10="7,36" />
+  <Item Prop1="ПК 51.15-8АтVт-a" Prop2="5080" Prop3="1490" Prop4="0,97" Prop5="2425" Prop6="12,83" Prop7="27,65" Prop8="50,06" Prop9="3,65" Prop10="6,58" />
+  <Item Prop1="ПК 48.15-8АтVт-a" Prop2="4780" Prop3="1490" Prop4="0,92" Prop5="2300" Prop6="12,90" Prop7="24,54" Prop8="43,65" Prop9="3,44" Prop10="6,13" />
+  <Item Prop1="ПК 63.15-6АтVт-a" Prop2="6280" Prop3="1490" Prop4="1,19" Prop5="2975" Prop6="12,75" Prop7="38,95" Prop8="74,39" Prop9="4,16" Prop10="7,95" />
+  <Item Prop1="ПК 60.15-6АтVт-a" Prop2="5980" Prop3="1490" Prop4="1,14" Prop5="2850" Prop6="12,77" Prop7="34,30" Prop8="64,25" Prop9="3,85" Prop10="7,22" />
+  <Item Prop1="ПК 57.15-6АтVт-a" Prop2="5680" Prop3="1490" Prop4="1,08" Prop5="2700" Prop6="12,80" Prop7="28,88" Prop8="53,22" Prop9="3,42" Prop10="6,28" />
+  <Item Prop1="ПК 54.15-6АтVт-a" Prop2="5380" Prop3="1490" Prop4="1,03" Prop5="2575" Prop6="12,82" Prop7="25,57" Prop8="46,31" Prop9="3,18" Prop10="5,78" />
+  <Item Prop1="ПК 51.15-6АтVт-a" Prop2="5080" Prop3="1490" Prop4="0,97" Prop5="2425" Prop6="12,83" Prop7="23,12" Prop8="41,11" Prop9="3,05" Prop10="5,43" />
+  <Item Prop1="ПК 48.15-6АтVт-a" Prop2="4780" Prop3="1490" Prop4="0,92" Prop5="2300" Prop6="12,90" Prop7="22,25" Prop8="39,31" Prop9="3,12" Prop10="5,50" />
+  <Item Prop1="ПК 63.15-4АтVт-a" Prop2="6280" Prop3="1490" Prop4="1,19" Prop5="2975" Prop6="12,75" Prop7="31,11" Prop8="57,85" Prop9="3,32" Prop10="6,17" />
+  <Item Prop1="ПК 60.15-4АтVт-a" Prop2="5980" Prop3="1490" Prop4="1,14" Prop5="2890" Prop6="12,77" Prop7="27,99" Prop8="51,10" Prop9="3,14" Prop10="5,73" />
+  <Item Prop1="ПК 57.15-4АтVт-a" Prop2="5680" Prop3="1490" Prop4="1,08" Prop5="2700" Prop6="12,80" Prop7="24,98" Prop8="44,93" Prop9="2,95" Prop10="5,31" />
+  <Item Prop1="ПК 54.15-4АтVт-a" Prop2="5380" Prop3="1490" Prop4="1,03" Prop5="2575" Prop6="12,82" Prop7="24,11" Prop8="43,10" Prop9="3,01" Prop10="5,38" />
+  <Item Prop1="ПК 63.15-3АтVт-a" Prop2="6280" Prop3="1490" Prop4="1,19" Prop5="2975" Prop6="12,75" Prop7="26,84" Prop8="48,75" Prop9="2,88" Prop10="5,21" />
+  <Item Prop1="ПК 60.15-3АтVт-a" Prop2="5980" Prop3="1490" Prop4="1,14" Prop5="2850" Prop6="12,77" Prop7="25,97" Prop8="46,94" Prop9="2,91" Prop10="5,25" />
+  <Item Prop1="ПК 63.12-8АтVт-a" Prop2="6280" Prop3="1190" Prop4="0,90" Prop5="2250" Prop6="12,00" Prop7="41,51" Prop8="79,70" Prop9="5,54" Prop10="10,65" />
+  <Item Prop1="ПК 60.12-8АтVт-a" Prop2="5980" Prop3="1190" Prop4="0,86" Prop5="2150" Prop6="12,05" Prop7="36,18" Prop8="68,07" Prop9="5,08" Prop10="9,58" />
+  <Item Prop1="ПК 57.12-8АтVт-a" Prop2="5680" Prop3="1190" Prop4="0,82" Prop5="2050" Prop6="12,07" Prop7="28,77" Prop8="55,35" Prop9="4,26" Prop10="8,18" />
+  <Item Prop1="ПК 54.12-8АтVт-a" Prop2="5380" Prop3="1190" Prop4="0,78" Prop5="1950" Prop6="12,08" Prop7="24,20" Prop8="46,62" Prop9="3,78" Prop10="7,28" />
+  <Item Prop1="ПК 51.12-8АтVт-a" Prop2="5080" Prop3="1190" Prop4="0,73" Prop5="1825" Prop6="12,12" Prop7="21,78" Prop8="41,44" Prop9="3,60" Prop10="6,84" />
+  <Item Prop1="ПК 48.12-8АтVт-a" Prop2="4780" Prop3="1190" Prop4="0,69" Prop5="1725" Prop6="12,15" Prop7="18,95" Prop8="35,54" Prop9="3,30" Prop10="6,24" />
+  <Item Prop1="ПК 63.12-6АтVт-a" Prop2="6280" Prop3="1190" Prop4="0,90" Prop5="2250" Prop6="12,00" Prop7="32,09" Prop8="60,20" Prop9="4,29" Prop10="8,03" />
+  <Item Prop1="ПК 60.12-6АтVт-a" Prop2="5980" Prop3="1190" Prop4="0,86" Prop5="2150" Prop6="12,05" Prop7="29,35" Prop8="54,27" Prop9="4,12" Prop10="7,63" />
+  <Item Prop1="ПК 57.12-6АтVт-a" Prop2="5680" Prop3="1190" Prop4="0,82" Prop5="2050" Prop6="12,07" Prop7="22,79" Prop8="42,44" Prop9="3,38" Prop10="6,27" />
+  <Item Prop1="ПК 54.12-6АтVт-a" Prop2="5380" Prop3="1190" Prop4="0,78" Prop5="1950" Prop6="12,08" Prop7="21,62" Prop8="40,19" Prop9="3,37" Prop10="6,28" />
+  <Item Prop1="ПК 51.12-6АтVт-a" Prop2="5080" Prop3="1190" Prop4="0,73" Prop5="1825" Prop6="12,12" Prop7="18,91" Prop8="34,34" Prop9="3,14" Prop10="5,69" />
+  <Item Prop1="ПК 48.12-6АтVт-a" Prop2="4780" Prop3="1190" Prop4="0,69" Prop5="1725" Prop6="12,15" Prop7="16,64" Prop8="29,64" Prop9="2,93" Prop10="5,21" />
+  <Item Prop1="ПК 63.12-4АтVт-a" Prop2="6280" Prop3="1190" Prop4="0,90" Prop5="2250" Prop6="12,00" Prop7="26,16" Prop8="47,75" Prop9="3,49" Prop10="6,38" />
+  <Item Prop1="ПК 60.12-4АтVт-a" Prop2="5980" Prop3="1190" Prop4="0,86" Prop5="2150" Prop6="12,05" Prop7="25,31" Prop8="45,97" Prop9="3,54" Prop10="6,44" />
+  <Item Prop1="ПК 57.12-4АтVт-a" Prop2="5680" Prop3="1190" Prop4="0,82" Prop5="2050" Prop6="12,07" Prop7="20,52" Prop8="37,68" Prop9="3,04" Prop10="5,57" />
+  <Item Prop1="ПК 54.12-4АтVт-a" Prop2="5380" Prop3="1190" Prop4="0,78" Prop5="1950" Prop6="12,08" Prop7="18,08" Prop8="32,57" Prop9="2,82" Prop10="5,08" />
+  <Item Prop1="ПК 51.12-4АтVт-a" Prop2="5080" Prop3="1190" Prop4="0,73" Prop5="1825" Prop6="12,12" Prop7="17,31" Prop8="31,02" Prop9="2,86" Prop10="5,15" />
+  <Item Prop1="ПК 63.12-3АтVт-a" Prop2="6280" Prop3="1190" Prop4="0,90" Prop5="2250" Prop6="12,00" Prop7="23,68" Prop8="42,52" Prop9="3,17" Prop10="5,69" />
+  <Item Prop1="ПК 60.12-3АтVт-a" Prop2="5980" Prop3="1190" Prop4="0,86" Prop5="2150" Prop6="12,05" Prop7="21,08" Prop8="37,07" Prop9="2,96" Prop10="5,21" />
+  <Item Prop1="ПК 57.12-3АтVт-a" Prop2="5680" Prop3="1190" Prop4="0,82" Prop5="2050" Prop6="12,07" Prop7="18,75" Prop8="33,95" Prop9="2,77" Prop10="5,02" />
+  <Item Prop1="ПК 63.10-8АтVт-a" Prop2="6280" Prop3="990" Prop4="0,74" Prop5="1850" Prop6="11,93" Prop7="35,19" Prop8="68,21" Prop9="5,65" Prop10="10,97" />
+  <Item Prop1="ПК 60.10-8АтVт-a" Prop2="5980" Prop3="990" Prop4="0,71" Prop5="1775" Prop6="11,96" Prop7="28,75" Prop8="54,12" Prop9="4,85" Prop10="9,15" />
+  <Item Prop1="ПК 57.10-8АтVт-a" Prop2="5680" Prop3="990" Prop4="0,67" Prop5="1675" Prop6="11,98" Prop7="26,13" Prop8="48,48" Prop9="4,64" Prop10="8,61" />
+  <Item Prop1="ПК 54.10-8АтVт-a" Prop2="5380" Prop3="990" Prop4="0,64" Prop5="1600" Prop6="12,00" Prop7="22,07" Prop8="40,96" Prop9="4,16" Prop10="7,70" />
+  <Item Prop1="ПК 51.10-8АтVт-a" Prop2="5080" Prop3="990" Prop4="0,61" Prop5="1525" Prop6="12,04" Prop7="19,39" Prop8="35,08" Prop9="3,86" Prop10="6,96" />
+  <Item Prop1="ПК 48.10-8АтVт-a" Prop2="4780" Prop3="990" Prop4="0,57" Prop5="1425" Prop6="12,05" Prop7="17,04" Prop8="30,23" Prop9="3,61" Prop10="6,40" />
+  <Item Prop1="ПК 63.10-6АтVт-a" Prop2="6280" Prop3="990" Prop4="0,74" Prop5="1850" Prop6="11,93" Prop7="26,37" Prop8="49,98" Prop9="4,23" Prop10="8,02" />
+  <Item Prop1="ПК 60.10-6АтVт-a" Prop2="5980" Prop3="990" Prop4="0,71" Prop5="1775" Prop6="11,96" Prop7="23,83" Prop8="44,47" Prop9="4,02" Prop10="7,51" />
+  <Item Prop1="ПК 57.10-6АтVт-a" Prop2="5680" Prop3="990" Prop4="0,67" Prop5="1675" Prop6="11,98" Prop7="20,15" Prop8="37,13" Prop9="3,58" Prop10="6,61" />
+  <Item Prop1="ПК 54.10-6АтVт-a" Prop2="5380" Prop3="990" Prop4="0,64" Prop5="1600" Prop6="12,00" Prop7="17,41" Prop8="31,58" Prop9="3,27" Prop10="5,93" />
+  <Item Prop1="ПК 51.10-6АтVт-a" Prop2="5080" Prop3="990" Prop4="0,61" Prop5="1525" Prop6="12,04" Prop7="16,67" Prop8="30,02" Prop9="3,32" Prop10="5,98" />
+  <Item Prop1="ПК 63.10-4АтVт-a" Prop2="6280" Prop3="990" Prop4="0,74" Prop5="1850" Prop6="11,93" Prop7="21,70" Prop8="40,32" Prop9="3,49" Prop10="6,49" />
+  <Item Prop1="ПК 60.10-4АтVт-a" Prop2="5980" Prop3="990" Prop4="0,71" Prop5="1775" Prop6="11,96" Prop7="19,04" Prop8="34,79" Prop9="3,22" Prop10="5,88" />
+  <Item Prop1="ПК 57.10-4АтVт-a" Prop2="5680" Prop3="990" Prop4="0,67" Prop5="1675" Prop6="11,98" Prop7="18,06" Prop8="32,99" Prop9="3,21" Prop10="5,86" />
+  <Item Prop1="ПК 63.10-3АтVт-a" Prop2="6280" Prop3="990" Prop4="0,74" Prop5="1850" Prop6="11,93" Prop7="19,45" Prop8="35,79" Prop9="3,12" Prop10="5,75" />
+</Document>

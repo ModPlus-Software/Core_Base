@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="63"
+  DocType="ГОСТ"
+  DocNum="8267-93"
+  DocName="Щебень и гравий из плотных горных пород для строительных работ. Технические условия"
+  DocNameShort="Щебень и гравий для строительных работ"
+  DocStatus="True"
+  ShortName="Щебень и гравий"
+  Size="нет"
+  MainGroup="Материал"
+  Group="Сыпучие материалы"
+  Image=""
+  CMass=""
+  Rule="[ItemType1] [Prop1][,][ItemType2]"
+  ItemType1="Сыпучий материал$Щебень$Гравий"  
+  ItemType2="Марка по морозостойкости$F15$F25$F50$F100$F150$F200$F300$F400"
+  SymbolSum="2"
+  Symbol1="Фракция материала, мм" Symbol2="По согласованию с изготовителем"
+  >
+  <Item Prop1="от 5(3) до 10" Prop2="" />
+  <Item Prop1="от 5(3) до 20" Prop2="" />
+  <Item Prop1="св. 10 до 15" Prop2="" />
+  <Item Prop1="св. 10 до 20" Prop2="" />
+  <Item Prop1="св. 15 до 20" Prop2="" />
+  <Item Prop1="св. 20 до 40" Prop2="" />
+  <Item Prop1="св. 40 до 80(70)" Prop2="" />
+  <Item Prop1="от 80(70) до 120" Prop2="+" />
+  <Item Prop1="св. 120 до 150" Prop2="+" />
+</Document>

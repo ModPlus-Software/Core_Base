@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="57"
+	DocType="ГОСТ"
+	DocNum="8486-86"
+	DocName="Пиломатериалы хвойных пород"
+	DocNameShort="Брус круглого сечения"
+  DocStatus="True"
+	ShortName="Брус"
+	ItemType1="Материал$хв.$сосна$ель$лиственница$кедр$пихта"
+	ItemType2="Сорт$1$2$3$4"	
+	Size="DxL"
+	MainGroup="Дерево/Пластмасс"
+	Group="Пиломатериалы"
+	Image="Wood_1"
+	HasSteel="false"
+	DimType="Длина,п.м"
+	Rule="[ShortName]-[ItemType2]-[ItemType1]-[D]"
+  WdType="2,D,L"
+	CMass="400,400,360,520,350,300$ItemType1"
+>
+</Document>

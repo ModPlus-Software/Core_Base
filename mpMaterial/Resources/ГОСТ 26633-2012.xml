@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="54"
+  DocType="ГОСТ"
+  DocNum="26633-2012"
+  DocName="Бетоны тяжелые и мелкозернистые. Технические условия"
+  DocNameShort="Бетоны тяжелые и мелкозернистые"
+  DocStatus="True"
+  ShortName="Бетон"
+  Size="нет"
+  MainGroup="Материал"
+  Group="Бетоны"
+  Image=""
+  CMass=""
+  Rule="[Бетон кл.][ItemType1][, ][ItemType4][, ][ItemType5]"
+  ItemType1="Класс прочности на сжатие$В3,5$В5$В7,5$В10$В12,5$В15$В20$(B22,5)$В25$(B27,5)$В30$В35$В40$В45$В50$В55$В60$В70$В80$В90$В100"
+  ItemType2="Класс прочности на осевое растяжение$Bt0,8$Bt1,2$Bt1,6$Bt2,0$Bt2,4$Bt2,8$Bt3,2$Bt3,6$Bt4,0"
+  ItemType3="Класс прочности на растяжение при изгибе$Btb0,4$Btb0,8$Btb1,2$Btb1,6$Btb2,0$Btb2,4$Btb2,8$Btb3,2$Btb3,6$Btb4,0$Btb4,4$Btb4,8$Btb5,2$Btb5,6$Btb6,0$Btb6,4$Btb6,8$Btb7,2$Btb8,0"
+  ItemType4="Марка по морозостойкости$F50$F75$F100$F150$F200$F300$F400$F500$F600$F800$F1000"
+  ItemType5="Марка по водонепроницаемости$W2$W4$W6$W8$W10$W12$W14$W16$W18$W20"
+  ItemType6="Марка по истираемости$G1$G2$G3"
+  >
+</Document>

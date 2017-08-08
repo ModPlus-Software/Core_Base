@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+	Id="62"
+	DocType="ГОСТ"
+	DocNum="31938-2012"
+	DocName="Арматура композитная полимерная для армирования бетонных конструкций. Общие технические условия"
+	DocNameShort="Арматура композитная"
+  DocStatus="True"
+	ShortName="Арматура"	
+	Size="L"
+	MainGroup="Дерево/Пластмасс"
+	Group="Арматура"
+	Image=""
+	HasSteel="false"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	WdType="2,Prop1,L"
+	Rule="[ItemType1]-[Prop1]-[ItemType1]/[ItemType2] - [DocType] [DocNum]"
+	ItemType1="По типу наполнителя$АСК$АБК$АУК$ААК$АКК"
+	ItemType2="Предел прочности при растяжении, МПа$800$1000$1400"	
+	ItemType2ToolTip="Предел прочности при растяжении зависит от типа наполнителя:$АСК - 800 МПа$АБК - 800 Мпа$АУК - 1400 МПа$ААК - 1400 МПа$АКК - 1000 МПа"
+	ItemType3="Модуль упругости при растяжении, ГПа$50$70$100$130"
+	ItemType3ToolTip="Модуль упругости при растяжении зависит от типа наполнителя:$АСК - 50 ГПа$АБК - 50 Гпа$АУК - 130 ГПа$ААК - 70 ГПа$АКК - 100 ГПа"
+	SymbolSum="1"
+	Symbol1="Номинальный диаметр d, мм"
+>
+	<Item Prop1="4"  />
+	<Item Prop1="6"  />
+	<Item Prop1="8"  />
+	<Item Prop1="10"  />
+	<Item Prop1="12"  />
+	<Item Prop1="14"  />
+	<Item Prop1="16"  />
+	<Item Prop1="18"  />
+	<Item Prop1="20"  />
+	<Item Prop1="22"  />
+	<Item Prop1="25"  />
+	<Item Prop1="28"  />
+	<Item Prop1="32"  />
+</Document>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="56"
+	DocType="ГОСТ"
+	DocNum="539-80"
+	DocName="Трубы и муфты асбестоцементные напорные. Технические условия"
+	DocNameShort="Муфты асбестоцементные"
+  DocStatus="False"
+	ShortName="Муфта"
+	Size="нет"
+	MainGroup="Прочее"
+	Group="Трубы/муфты"
+	Image="ГОСТ 539-80_2"
+	HasSteel="false"
+	HasDimension="false"
+	DimType="нет"
+	Rule="[Prop1] [Prop2] [DocType] [DocNum]"
+	WMass="Prop8"
+	SymbolSum="8"
+	Symbol1="Класс муфты" Symbol2="Условный проход" Symbol3="Внутр. диаметр, D1" 
+	Symbol4="Наруж.диаметр" Symbol5="Толщ.стенки, s" Symbol6="Диам.канавок, D" 
+	Symbol7="Длина муфты, L" Symbol8="Масса, кг"
+>
+  <Item Prop1="САМ6" Prop2="100" Prop3="127" Prop4="171" Prop5="22" Prop6="150" Prop7="140" Prop8="3,5" />
+  <Item Prop1="САМ9" Prop2="100" Prop3="127" Prop4="175" Prop5="24" Prop6="150" Prop7="140" Prop8="3,8" />
+  <Item Prop1="САМ12" Prop2="100" Prop3="127" Prop4="179" Prop5="26" Prop6="150" Prop7="140" Prop8="4,5" />
+  <Item Prop1="САМ6" Prop2="150" Prop3="173" Prop4="219" Prop5="23" Prop6="196" Prop7="140" Prop8="4,6" />
+  <Item Prop1="САМ9" Prop2="150" Prop3="173" Prop4="225" Prop5="26" Prop6="196" Prop7="140" Prop8="5,2" />
+  <Item Prop1="САМ12" Prop2="150" Prop3="173" Prop4="231" Prop5="29" Prop6="196" Prop7="140" Prop8="5,6" />
+  <Item Prop1="САМ6" Prop2="200" Prop3="229" Prop4="277" Prop5="24" Prop6="252" Prop7="150" Prop8="6,9" />
+  <Item Prop1="САМ9" Prop2="200" Prop3="229" Prop4="287" Prop5="29" Prop6="252" Prop7="150" Prop8="8,2" />
+  <Item Prop1="САМ12" Prop2="200" Prop3="229" Prop4="297" Prop5="34" Prop6="252" Prop7="150" Prop8="9,0" />
+  <Item Prop1="САМ15" Prop2="200" Prop3="229" Prop4="307" Prop5="39" Prop6="252" Prop7="150" Prop8="9,5" />
+  <Item Prop1="САМ6" Prop2="250" Prop3="279" Prop4="329" Prop5="25" Prop6="302" Prop7="150" Prop8="8,7" />
+  <Item Prop1="САМ9" Prop2="250" Prop3="279" Prop4="341" Prop5="31" Prop6="302" Prop7="150" Prop8="10,6" />
+  <Item Prop1="САМ12" Prop2="250" Prop3="279" Prop4="353" Prop5="37" Prop6="302" Prop7="150" Prop8="11,5" />
+  <Item Prop1="САМ15" Prop2="250" Prop3="279" Prop4="365" Prop5="43" Prop6="302" Prop7="150" Prop8="12,5" />
+  <Item Prop1="САМ6" Prop2="300" Prop3="329" Prop4="383" Prop5="27" Prop6="352" Prop7="150" Prop8="11,1" />
+  <Item Prop1="САМ9" Prop2="300" Prop3="329" Prop4="397" Prop5="34" Prop6="352" Prop7="150" Prop8="13,8" />
+  <Item Prop1="САМ12" Prop2="300" Prop3="329" Prop4="411" Prop5="41" Prop6="352" Prop7="150" Prop8="15,5" />
+  <Item Prop1="САМ15" Prop2="300" Prop3="329" Prop4="425" Prop5="48" Prop6="352" Prop7="150" Prop8="17,0" />
+  <Item Prop1="САМ6" Prop2="350" Prop3="379" Prop4="435" Prop5="28" Prop6="402" Prop7="160" Prop8="14,7" />
+  <Item Prop1="САМ9" Prop2="350" Prop3="379" Prop4="449" Prop5="35" Prop6="402" Prop7="160" Prop8="18,0" />
+  <Item Prop1="САМ12" Prop2="350" Prop3="379" Prop4="463" Prop5="42" Prop6="402" Prop7="160" Prop8="20,0" />
+  <Item Prop1="САМ15" Prop2="350" Prop3="379" Prop4="477" Prop5="49" Prop6="402" Prop7="160" Prop8="22,0" />
+  <Item Prop1="САМ6" Prop2="400" Prop3="433" Prop4="501" Prop5="34" Prop6="456" Prop7="160" Prop8="20,1" />
+  <Item Prop1="САМ9" Prop2="400" Prop3="433" Prop4="517" Prop5="42" Prop6="456" Prop7="160" Prop8="21,8" />
+  <Item Prop1="САМ12" Prop2="400" Prop3="433" Prop4="533" Prop5="50" Prop6="456" Prop7="160" Prop8="25,0" />
+  <Item Prop1="САМ15" Prop2="400" Prop3="433" Prop4="549" Prop5="58" Prop6="456" Prop7="160" Prop8="29,0" />
+  <Item Prop1="САМ6" Prop2="500" Prop3="534" Prop4="610" Prop5="38" Prop6="557" Prop7="160" Prop8="27,7" />
+  <Item Prop1="САМ9" Prop2="500" Prop3="534" Prop4="626" Prop5="46" Prop6="557" Prop7="160" Prop8="32,8" />
+  <Item Prop1="САМ12" Prop2="500" Prop3="534" Prop4="642" Prop5="54" Prop6="557" Prop7="160" Prop8="34,0" />
+  <Item Prop1="САМ15" Prop2="500" Prop3="534" Prop4="658" Prop5="62" Prop6="557" Prop7="160" Prop8="36,0" />
+</Document>

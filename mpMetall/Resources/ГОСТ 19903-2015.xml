@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="50"
+	DocType="ГОСТ"
+	DocNum="19903-2015"
+	DocName="Прокат листовой горячекатанный. Сортамент"
+	DocNameShort="Прокат листовой"
+  DocStatus="True"
+	ShortName="Лист"
+	Size="BxHxL"
+	MainGroup="Металл"
+	Group="Листы"
+	Image="List"
+	HasSteel="true"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	Rule="[B]x[H] [DocType] [DocNum]"
+	CMass="7850"
+  MeType="13,B,H,L"
+>
+</Document>

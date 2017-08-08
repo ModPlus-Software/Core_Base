@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="15"
+	DocType="Серия"
+	DocNum="1.141-1. Выпуск 60"
+	DocName="Панели перекрытий железобетонные многопустотные. Панели с круглыми пустотами длиной 4180,3580,2980,2680 и 2380мм, шириной 1790,1490,1190 и 990мм, армированные стержнями из стали класса A-III и Вр-I"
+	DocNameShort="Многопустотные плиты"
+  DocStatus="True"
+	ShortName="Плита"
+	MainGroup="Железобетон"
+	Group="Плиты"
+	Image="Серия 1.141-1. Выпуск 60"
+	Rule="[ShortName] [Prop1]"
+	Mass="Prop5"
+	SymbolSum="10"
+	CoType="1,Prop2,Prop3,220"
+	Symbol1="Марка" Symbol2="L, мм" Symbol3="b, мм"
+	Symbol4="Объем бетона, м^3" Symbol5="Масса, кг" Symbol6="Приведенная толщина бетона, см"
+	Symbol7="Расход стали на изделие, кг. Приведенный" 
+	Symbol8="Расход стали на изделие, кг. Приведенный к классу A-I" 
+	Symbol9="Расход стали на 1 м^2, кг. Приведенный" Symbol10="Расход стали на 1 м^2, кг. Приведенный к классу A-I"
+>
+  <Item Prop1="ПК 42.18-8Т" Prop2="4180" Prop3="1790" Prop4="0,89" Prop5="2240" Prop6="11,95" Prop7="31,83" Prop8="45,69" Prop9="4,26" Prop10="6,11" />
+  <Item Prop1="ПК 36.18-8Т" Prop2="3580" Prop3="1790" Prop4="0,77" Prop5="1920" Prop6="12.0" Prop7="24.35" Prop8="34.62" Prop9="3.80" Prop10="5.41" />
+  <Item Prop1="ПК 30.18-8Т" Prop2="2980" Prop3="1790" Prop4="0.64" Prop5="1600" Prop6="12.0" Prop7="17.16" Prop8="23.99" Prop9="3.21" Prop10="4.50" />
+  <Item Prop1="ПК 27.18-8Т" Prop2="2680" Prop3="1790" Prop4="0.58" Prop5="1440" Prop6="12.02" Prop7="13.23" Prop8="18.19" Prop9="2.68" Prop10="3.79" />
+  <Item Prop1="ПК 24.18-8Т" Prop2="2380" Prop3="1790" Prop4="0.51" Prop5="1285" Prop6="12.05" Prop7="10.89" Prop8="14.73" Prop9="2.55" Prop10="3.46" />
+  <Item Prop1="ПК 42.18-6Т" Prop2="4180" Prop3="1790" Prop4="0.89" Prop5="2240" Prop6="11.95" Prop7="29.62" Prop8="41.90" Prop9="3.91" Prop10="5.61" />
+  <Item Prop1="ПК 36.18-6Т" Prop2="3580" Prop3="1790" Prop4="0.77" Prop5="1920" Prop6="12.0" Prop7="21.53" Prop8="30.44" Prop9="3.36" Prop10="4.75" />
+  <Item Prop1="ПК 30.18-6Т" Prop2="2980" Prop3="1790" Prop4="0.64" Prop5="1600" Prop6="12.0" Prop7="14.14" Prop8="19.53" Prop9="2.65" Prop10="3.66" />
+  <Item Prop1="ПК 27.18-6Т" Prop2="2680" Prop3="1790" Prop4="0.58" Prop5="1440" Prop6="12.02" Prop7="12.64" Prop8="17.33" Prop9="2.63" Prop10="3.62" />
+  <Item Prop1="ПК 24.18-6Т" Prop2="2380" Prop3="1790" Prop4="0.51" Prop5="1285" Prop6="12.05" Prop7="10.24" Prop8="13.74" Prop9="2.40" Prop10="3.23" />
+  <Item Prop1="ПК 42.18-4Т" Prop2="4180" Prop3="1790" Prop4="0.89" Prop5="2240" Prop6="11.95" Prop7="26.12" Prop8="37.25" Prop9="3.51" Prop10="4.98" />
+  <Item Prop1="ПК 36.18-4Т" Prop2="3580" Prop3="1790" Prop4="0.77" Prop5="1920" Prop6="12.0" Prop7="20.12" Prop8="28.36" Prop9="3.16" Prop10="4.41" />
+  <Item Prop1="ПК 30.18-4Т" Prop2="2980" Prop3="1790" Prop4="0.64" Prop5="1600" Prop6="12.0" Prop7="13.48" Prop8="18.55" Prop9="2.52" Prop10="3.48" />
+  <Item Prop1="ПК 27.18-4Т" Prop2="2680" Prop3="1790" Prop4="0.58" Prop5="1440" Prop6="12.02" Prop7="11.43" Prop8="15.49" Prop9="2.39" Prop10="3.23" />
+  <Item Prop1="ПК 24.18-4Т" Prop2="2380" Prop3="1790" Prop4="0.51" Prop5="1285" Prop6="12.05" Prop7="9.56" Prop8="12.74" Prop9="2.24" Prop10="2.99" />
+  <Item Prop1="ПК 42.18-3Т" Prop2="4180" Prop3="1790" Prop4="0.89" Prop5="2240" Prop6="11.95" Prop7="22.82" Prop8="32.46" Prop9="2.99" Prop10="4.33" />
+  <Item Prop1="ПК 36.18-3Т" Prop2="3580" Prop3="1790" Prop4="0.77" Prop5="1920" Prop6="12.0" Prop7="16.45" Prop8="22.93" Prop9="2.57" Prop10="3.58" />
+  <Item Prop1="ПК 30.18-3Т" Prop2="2980" Prop3="1790" Prop4="0.64" Prop5="1600" Prop6="12.0" Prop7="12.85" Prop8="17.58" Prop9="2.41" Prop10="3.29" />
+  <Item Prop1="ПК 27.18-3Т" Prop2="2680" Prop3="1790" Prop4="0.58" Prop5="1440" Prop6="12.02" Prop7="11.04" Prop8="14.91" Prop9="2.30" Prop10="3.11" />
+  <Item Prop1="ПК 42.15-8Т" Prop2="4180" Prop3="1490" Prop4="0.79" Prop5="1970" Prop6="12.7" Prop7="27.87" Prop8="39.84" Prop9="4.47" Prop10="6.39" />
+  <Item Prop1="ПК 36.15-8Т" Prop2="3580" Prop3="1490" Prop4="0.68" Prop5="1700" Prop6="12.75" Prop7="20.30" Prop8="28.63" Prop9="3.81" Prop10="5.36" />
+  <Item Prop1="ПК 30.15-8Т" Prop2="2980" Prop3="1490" Prop4="0.57" Prop5="1425" Prop6="12.85" Prop7="14.97" Prop8="20.76" Prop9="3.37" Prop10="4.67" />
+  <Item Prop1="ПК 27.15-8Т" Prop2="2680" Prop3="1490" Prop4="0.52" Prop5="1290" Prop6="12.92" Prop7="11.78" Prop8="16.05" Prop9="2.94" Prop10="4.02" />
+  <Item Prop1="ПК 24.15-8Т" Prop2="2380" Prop3="1490" Prop4="0.46" Prop5="1145" Prop6="12.9" Prop7="9.62" Prop8="12.86" Prop9="2.72" Prop10="3.63" />
+  <Item Prop1="ПК 42.15-6Т" Prop2="4180" Prop3="1490" Prop4="0.79" Prop5="1970" Prop6="12.7" Prop7="25.30" Prop8="36.02" Prop9="4.06" Prop10="5.78" />
+  <Item Prop1="ПК 36.15-6Т" Prop2="3580" Prop3="1490" Prop4="0.68" Prop5="1700" Prop6="12.75" Prop7="16.89" Prop8="26.55" Prop9="3.17" Prop10="4.97" />
+  <Item Prop1="ПК 30.15-6Т" Prop2="2980" Prop3="1490" Prop4="0.57" Prop5="1425" Prop6="12.85" Prop7="12.57" Prop8="17.21" Prop9="2.82" Prop10="3.87" />
+  <Item Prop1="ПК 27.15-6Т" Prop2="2680" Prop3="1490" Prop4="0.52" Prop5="1290" Prop6="12.92" Prop7="10.60" Prop8="14.30" Prop9="2.66" Prop10="3.58" />
+  <Item Prop1="ПК 24.15-6Т" Prop2="2380" Prop3="1490" Prop4="0.46" Prop5="1145" Prop6="12.9" Prop7="8.82" Prop8="11.65" Prop9="2.49" Prop10="3.28" />
+  <Item Prop1="ПК 42.15-4Т" Prop2="4180" Prop3="1490" Prop4="0.79" Prop5="1970" Prop6="12.7" Prop7="23.08" Prop8="32.75" Prop9="3.71" Prop10="5.25" />
+  <Item Prop1="ПК 36.15-4Т" Prop2="3580" Prop3="1490" Prop4="0.68" Prop5="1700" Prop6="12.75" Prop7="17.48" Prop8="24.46" Prop9="3.27" Prop10="4.58" />
+  <Item Prop1="ПК 30.15-4Т" Prop2="2980" Prop3="1490" Prop4="0.57" Prop5="1425" Prop6="12.85" Prop7="11.91" Prop8="16.24" Prop9="2.69" Prop10="3.66" />
+  <Item Prop1="ПК 27.15-4Т" Prop2="2680" Prop3="1490" Prop4="0.52" Prop5="1290" Prop6="12.92" Prop7="10.18" Prop8="13.65" Prop9="2.54" Prop10="3.42" />
+  <Item Prop1="ПК 24.15-4Т" Prop2="2380" Prop3="1490" Prop4="0.46" Prop5="1145" Prop6="12.9" Prop7="8.48" Prop8="11.15" Prop9="2.39" Prop10="3.14" />
+  <Item Prop1="ПК 42.15-4Т" Prop2="4180" Prop3="1490" Prop4="0.79" Prop5="1970" Prop6="12.7" Prop7="19.78" Prop8="27.86" Prop9="3.18" Prop10="4.47" />
+  <Item Prop1="ПК 36.15-3Т" Prop2="3580" Prop3="1490" Prop4="0.68" Prop5="1700" Prop6="12.75" Prop7="14.56" Prop8="20.16" Prop9="2.73" Prop10="3.77" />
+  <Item Prop1="ПК 30.15-3Т" Prop2="2980" Prop3="1490" Prop4="0.57" Prop5="1425" Prop6="12.85" Prop7="11.35" Prop8="15.41" Prop9="2.56" Prop10="3.47" />
+  <Item Prop1="ПК 27.15-3Т" Prop2="2680" Prop3="1490" Prop4="0.52" Prop5="1290" Prop6="12.92" Prop7="9.40" Prop8="12.50" Prop9="2.35" Prop10="3.15" />
+  <Item Prop1="ПК 42.12-8Т" Prop2="4180" Prop3="1190" Prop4="0.60" Prop5="1490" Prop6="11.95" Prop7="23.84" Prop8="33.88" Prop9="4.78" Prop10="6.82" />
+  <Item Prop1="ПК 36.12-8Т" Prop2="3580" Prop3="1190" Prop4="0.51" Prop5="1280" Prop6="12.0" Prop7="17.61" Prop8="24.67" Prop9="4.15" Prop10="5.79" />
+  <Item Prop1="ПК 30.12-8Т" Prop2="2980" Prop3="1190" Prop4="0.43" Prop5="1080" Prop6="12.15" Prop7="12.74" Prop8="17.47" Prop9="3.60" Prop10="4.92" />
+  <Item Prop1="ПК 27.12-8Т" Prop2="2680" Prop3="1190" Prop4="0.39" Prop5="970" Prop6="12.2" Prop7="9.80" Prop8="13.13" Prop9="3.08" Prop10="4.11" />
+  <Item Prop1="ПК 24.12-8Т" Prop2="2380" Prop3="1190" Prop4="0.35" Prop5="867" Prop6="12.3" Prop7="8.41" Prop8="11.07" Prop9="2.97" Prop10="3.90" />
+  <Item Prop1="ПК 42.12-6Т" Prop2="4180" Prop3="1190" Prop4="0.60" Prop5="1490" Prop6="11.95" Prop7="21.27" Prop8="30.18" Prop9="4.27" Prop10="6.26" />
+  <Item Prop1="ПК 36.12-6Т" Prop2="3580" Prop3="1190" Prop4="0.51" Prop5="1280" Prop6="12.0" Prop7="16.20" Prop8="22.58" Prop9="3.80" Prop10="5.30" />
+  <Item Prop1="ПК 30.12-6Т" Prop2="2980" Prop3="1190" Prop4="0.43" Prop5="1080" Prop6="12.15" Prop7="11.07" Prop8="15.01" Prop9="3.11" Prop10="4.23" />
+  <Item Prop1="ПК 27.12-6Т" Prop2="2680" Prop3="1190" Prop4="0.39" Prop5="970" Prop6="12.2" Prop7="9.21" Prop8="12.26" Prop9="2.89" Prop10="3.84" />
+  <Item Prop1="ПК 24.12-6Т" Prop2="2380" Prop3="1190" Prop4="0.35" Prop5="867" Prop6="12.3" Prop7="7.80" Prop8="10.15" Prop9="2.75" Prop10="3.58" />
+  <Item Prop1="ПК 42.12-4Т" Prop2="4180" Prop3="1190" Prop4="0.60" Prop5="1490" Prop6="11.95" Prop7="18.32" Prop8="25.71" Prop9="3.68" Prop10="5.17" />
+  <Item Prop1="ПК 36.12-4Т" Prop2="3580" Prop3="1190" Prop4="0.51" Prop5="1280" Prop6="12.00" Prop7="14.79" Prop8="20.49" Prop9="3.47" Prop10="4.82" />
+  <Item Prop1="ПК 30.12-4Т" Prop2="2980" Prop3="1190" Prop4="0.43" Prop5="1080" Prop6="12.15" Prop7="10.41" Prop8="14.03" Prop9="2.94" Prop10="3.96" />
+  <Item Prop1="ПК 27.12-4Т" Prop2="2680" Prop3="1190" Prop4="0.39" Prop5="970" Prop6="12.2" Prop7="8.60" Prop8="11.32" Prop9="2.70" Prop10="3.54" />
+  <Item Prop1="ПК 24.12-4Т" Prop2="2380" Prop3="1190" Prop4="0.35" Prop5="867" Prop6="12.3" Prop7="7.46" Prop8="9.65" Prop9="2.63" Prop10="3.40" />
+  <Item Prop1="ПК 42.12-3Т" Prop2="4180" Prop3="1190" Prop4="0.60" Prop5="1490" Prop6="11.95" Prop7="16.67" Prop8="23.27" Prop9="3.35" Prop10="4.69" />
+  <Item Prop1="ПК 36.12-3Т" Prop2="3580" Prop3="1190" Prop4="0.51" Prop5="1280" Prop6="12.0" Prop7="12.75" Prop8="17.47" Prop9="3.00" Prop10="4.10" />
+  <Item Prop1="ПК 30.12-3Т" Prop2="2980" Prop3="1190" Prop4="0.43" Prop5="1080" Prop6="12.15" Prop7="9.75" Prop8="13.05" Prop9="2.75" Prop10="3.68" />
+  <Item Prop1="ПК 27.12-3Т" Prop2="2680" Prop3="1190" Prop4="0.39" Prop5="970" Prop6="12.2" Prop7="8.21" Prop8="10.75" Prop9="2.57" Prop10="3.37" />
+  <Item Prop1="ПК 42.10-8Т" Prop2="4180" Prop3="990" Prop4="0.49" Prop5="1230" Prop6="11.85" Prop7="20.70" Prop8="29.34" Prop9="5.01" Prop10="7.09" />
+  <Item Prop1="ПК 36.10-8Т" Prop2="3580" Prop3="990" Prop4="0.42" Prop5="1055" Prop6="11.92" Prop7="15.76" Prop8="21.94" Prop9="4.45" Prop10="6.20" />
+  <Item Prop1="ПК 30.10-8Т" Prop2="2980" Prop3="990" Prop4="0.35" Prop5="882" Prop6="11.98" Prop7="11.20" Prop8="15.20" Prop9="3.80" Prop10="5.17" />
+  <Item Prop1="ПК 27.10-8Т" Prop2="2680" Prop3="990" Prop4="0.32" Prop5="795" Prop6="12.0" Prop7="8.87" Prop8="11.76" Prop9="3.34" Prop10="4.44" />
+  <Item Prop1="ПК 24.10-8Т" Prop2="2380" Prop3="990" Prop4="0.29" Prop5="712" Prop6="12.1" Prop7="7.58" Prop8="9.85" Prop9="3.21" Prop10="4.18" />
+  <Item Prop1="ПК 42.10-6Т" Prop2="4180" Prop3="990" Prop4="0.49" Prop5="1230" Prop6="11.85" Prop7="18.18" Prop8="25.51" Prop9="4.38" Prop10="6.17" />
+  <Item Prop1="ПК 36.10-6Т" Prop2="3580" Prop3="990" Prop4="0.42" Prop5="1055" Prop6="11.92" Prop7="14.35" Prop8="19.85" Prop9="4.06" Prop10="5.61" />
+  <Item Prop1="ПК 30.10-6Т" Prop2="2980" Prop3="990" Prop4="0.35" Prop5="882" Prop6="11.98" Prop7="10.04" Prop8="13.48" Prop9="3.41" Prop10="4.56" />
+  <Item Prop1="ПК 24.10-6Т" Prop2="2380" Prop3="990" Prop4="0.29" Prop5="712" Prop6="12.1" Prop7="7.16" Prop8="9.21" Prop9="3.04" Prop10="3.91" />
+  <Item Prop1="ПК 42.10-Т" Prop2="4180" Prop3="990" Prop4="0.49" Prop5="1230" Prop6="11.85" Prop7="17.80" Prop8="24.94" Prop9="4.31" Prop10="6.02" />
+  <Item Prop1="ПК 36.10-4Т" Prop2="3580" Prop3="990" Prop4="0.42" Prop5="1055" Prop6="11.92" Prop7="12.94" Prop8="17.77" Prop9="3.65" Prop10="5.01" />
+  <Item Prop1="ПК 30.10-4Т" Prop2="2980" Prop3="990" Prop4="0.35" Prop5="882" Prop6="11.98" Prop7="9.38" Prop8="12.50" Prop9="3.18" Prop10="4.24" />
+  <Item Prop1="ПК 27.10-4Т" Prop2="2680" Prop3="990" Prop4="0.32" Prop5="795" Prop6="12.0" Prop7="7.87" Prop8="10.25" Prop9="2.96" Prop10="3.87" />
+  <Item Prop1="ПК 24.10-4Т" Prop2="2380" Prop3="990" Prop4="0.29" Prop5="712" Prop6="12.1" Prop7="6.82" Prop8="8.71" Prop9="2.90" Prop10="3.70" />
+  <Item Prop1="ПК 42.10-3Т" Prop2="4180" Prop3="990" Prop4="0.49" Prop5="1230" Prop6="11.85" Prop7="14.50" Prop8="20.07" Prop9="3.50" Prop10="4.86" />
+  <Item Prop1="ПК 36.10-3Т" Prop2="3580" Prop3="990" Prop4="0.42" Prop5="1055" Prop6="11.92" Prop7="10.73" Prop8="14.50" Prop9="3.03" Prop10="4.11" />
+  <Item Prop1="ПК 30.10-3Т" Prop2="2980" Prop3="990" Prop4="0.35" Prop5="882" Prop6="11.98" Prop7="8.72" Prop8="11.53" Prop9="2.95" Prop10="3.91" />
+  <Item Prop1="ПК 27.10-3Т" Prop2="2680" Prop3="990" Prop4="0.32" Prop5="795" Prop6="12.0" Prop7="7.48" Prop8="9.68" Prop9="2.81" Prop10="3.64" />
+</Document>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="14"
+	DocType="Серия"
+	DocNum="1.038.1-1. Выпуск 11"
+	DocName="Перемычки железобетонные для зданий с кирпичными стенами. Перемычки брусковые и плитные предварительно напряженные с напрягаемой арматурой класса Ат-IVc для жилых и общественных зданий со стенами из кирпича толщиной 88 мм"
+	DocNameShort="Перемычки ж/б"
+	ShortName="Перемычка"
+	MainGroup="Железобетон"
+	Group="Перемычки"
+	Image="Серия 1.038.1-1. Выпуск 10"
+	Rule="[ShortName] [Prop1]"
+	Mass="Prop6"
+	SymbolSum="6"
+	CoType="1,Prop4,Prop5,190"
+	Symbol1="Марка" Symbol2="Мин.глубина опирания, мм" Symbol3="Максимальный пролет, мм"
+	Symbol4="L, мм" Symbol5="b, мм" Symbol6="Масса, кг"
+>
+  <Item Prop1="9 ПБ 18-37 АтIVс" Prop2="200" Prop3="1410" Prop4="1810" Prop5="120" Prop6="103" />
+  <Item Prop1="10 ПБ 18-27 АтIVс" Prop2="170" Prop3="1470" Prop4="1810" Prop5="250" Prop6="215" />
+  <Item Prop1="10 ПБ 21-27 АтIVс" Prop2="170" Prop3="1730" Prop4="2070" Prop5="250" Prop6="246" />
+  <Item Prop1="10 ПБ 25-37 АтIVс" Prop2="230" Prop3="2000" Prop4="2460" Prop5="250" Prop6="292" />
+  <Item Prop1="10 ПБ 25-27 АтIVс" Prop2="230" Prop3="2000" Prop4="2460" Prop5="250" Prop6="292" />
+  <Item Prop1="10 ПБ 27-37 АтIVс" Prop2="230" Prop3="2260" Prop4="2720" Prop5="250" Prop6="323" />
+  <Item Prop1="10 ПБ 27-27 АтIVс" Prop2="230" Prop3="2260" Prop4="2720" Prop5="250" Prop6="323" />
+  <Item Prop1="10 ПБ 21-27 АтIVс-а" Prop2="170" Prop3="1730" Prop4="2070" Prop5="250" Prop6="246" />
+  <Item Prop1="10 ПБ 25-27 АтIVс-а" Prop2="230" Prop3="2000" Prop4="2460" Prop5="250" Prop6="292" />
+  <Item Prop1="10 ПБ 27-27 АтIVс-а" Prop2="230" Prop3="2260" Prop4="2720" Prop5="250" Prop6="323" />
+  <Item Prop1="8 ПП 14-71 АтIVс" Prop2="170" Prop3="1080" Prop4="1420" Prop5="380" Prop6="256" />
+  <Item Prop1="8 ПП 16-71 АтIVс" Prop2="170" Prop3="1210" Prop4="1550" Prop5="380" Prop6="280" />
+  <Item Prop1="8 ПП 18-71 АтIVс" Prop2="170" Prop3="1470" Prop4="1810" Prop5="380" Prop6="327" />
+  <Item Prop1="8 ПП 21-71 АтIVс" Prop2="170" Prop3="1730" Prop4="2070" Prop5="380" Prop6="374" />
+  <Item Prop1="8 ПП 27-71 АтIVс" Prop2="230" Prop3="2260" Prop4="2720" Prop5="380" Prop6="491" />
+  <Item Prop1="10 ПП 14-72 АтIVс" Prop2="170" Prop3="1080" Prop4="1420" Prop5="510" Prop6="344" />
+  <Item Prop1="10 ПП 16-72 АтIVс" Prop2="170" Prop3="1210" Prop4="1550" Prop5="510" Prop6="375" />
+  <Item Prop1="10 ПП 18-72 АтIVс" Prop2="170" Prop3="1470" Prop4="1810" Prop5="510" Prop6="438" />
+  <Item Prop1="10 ПП 21-72 АтIVс" Prop2="170" Prop3="1730" Prop4="2070" Prop5="510" Prop6="501" />
+  <Item Prop1="10 ПП 27-72 АтIVс" Prop2="230" Prop3="2260" Prop4="2720" Prop5="510" Prop6="659" />
+</Document>

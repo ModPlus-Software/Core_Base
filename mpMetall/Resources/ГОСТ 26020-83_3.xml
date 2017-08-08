@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="45"
+	DocType="ГОСТ"
+	DocNum="26020-83"
+	DocName="Двутавры стальные горячекатанные с параллельными гранями полок"
+	DocNameShort="Двутавры колонные"
+  DocStatus="True"
+	ShortName="Двутавр"
+	Size="L"
+	MainGroup="Металл"
+	Group="Прокат"
+	Image="ГОСТ 26020-83"
+	HasSteel="true"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	Rule="[№][Prop1] [DocType] [DocNum]"
+	WMass="Prop8"
+	MeType="12,Prop2,Prop3,Prop4,Prop5,Prop6,L"
+	SymbolSum="15"
+	Symbol1="Номер профиля" Symbol2="h, мм" Symbol3="b, мм" Symbol4="s, мм" Symbol5="t, мм"
+	Symbol6="r, мм" Symbol7="S, см^2" Symbol8="P, кг/п.м" Symbol9="Ix, см^4"
+	Symbol10="Wx, см^3" Symbol11="Sx, см^3" Symbol12="ix, см" Symbol13="Iy, см^4" Symbol14="Wy, см^3"
+	Symbol15="iy, см"
+>
+  <Item Prop1="20К1" Prop2="195" Prop3="200" Prop4="6,5" Prop5="10" Prop6="13" Prop7="52,82" Prop8="41,5" Prop9="3820" Prop10="392" Prop11="216" Prop12="8,5" Prop13="1334" Prop14="133" Prop15="5,03" />
+  <Item Prop1="20К2" Prop2="198" Prop3="200" Prop4="7" Prop5="11,5" Prop6="13" Prop7="59,7" Prop8="46,9" Prop9="4422" Prop10="447" Prop11="247" Prop12="8,61" Prop13="1534" Prop14="153" Prop15="5,07" />
+  <Item Prop1="23К1" Prop2="227" Prop3="240" Prop4="7" Prop5="10,5" Prop6="14" Prop7="66,51" Prop8="52,2" Prop9="6589" Prop10="580" Prop11="318" Prop12="9,95" Prop13="2421" Prop14="202" Prop15="6,03" />
+  <Item Prop1="23К2" Prop2="230" Prop3="240" Prop4="8" Prop5="12" Prop6="14" Prop7="75,77" Prop8="59,5" Prop9="7601" Prop10="661" Prop11="365" Prop12="10,02" Prop13="2766" Prop14="231" Prop15="6,04" />
+  <Item Prop1="26К1" Prop2="255" Prop3="260" Prop4="8" Prop5="12" Prop6="16" Prop7="83,08" Prop8="65,2" Prop9="10300" Prop10="809" Prop11="445" Prop12="11,14" Prop13="3517" Prop14="271" Prop15="6,51" />
+  <Item Prop1="26К2" Prop2="258" Prop3="260" Prop4="9" Prop5="13,5" Prop6="16" Prop7="93,19" Prop8="73,2" Prop9="11700" Prop10="907" Prop11="501" Prop12="11,21" Prop13="3957" Prop14="304" Prop15="6,52" />
+  <Item Prop1="26К3" Prop2="262" Prop3="260" Prop4="10" Prop5="15,5" Prop6="16" Prop7="105,9" Prop8="83,1" Prop9="13560" Prop10="1035" Prop11="576" Prop12="11,32" Prop13="4544" Prop14="349" Prop15="6,55" />
+  <Item Prop1="30К1" Prop2="296" Prop3="300" Prop4="9" Prop5="13,5" Prop6="18" Prop7="108" Prop8="84,8" Prop9="18110" Prop10="1223" Prop11="672" Prop12="12,95" Prop13="6079" Prop14="405" Prop15="7,5" />
+  <Item Prop1="30К2" Prop2="300" Prop3="300" Prop4="10" Prop5="15,5" Prop6="18" Prop7="122,7" Prop8="96,3" Prop9="20930" Prop10="1395" Prop11="771" Prop12="13,06" Prop13="6980" Prop14="465" Prop15="7,54" />
+  <Item Prop1="30К3" Prop2="304" Prop3="300" Prop4="11,5" Prop5="17,5" Prop6="18" Prop7="138,72" Prop8="108,9" Prop9="23910" Prop10="1573" Prop11="874" Prop12="13,12" Prop13="7881" Prop14="525" Prop15="7,54" />
+  <Item Prop1="35К1" Prop2="343" Prop3="350" Prop4="10" Prop5="15" Prop6="20" Prop7="139,7" Prop8="109,7" Prop9="31610" Prop10="1843" Prop11="1010" Prop12="15,04" Prop13="10720" Prop14="613" Prop15="8,76" />
+  <Item Prop1="35К2" Prop2="348" Prop3="350" Prop4="11" Prop5="17,5" Prop6="20" Prop7="160,4" Prop8="125,9" Prop9="37090" Prop10="2132" Prop11="1173" Prop12="15,21" Prop13="12510" Prop14="715" Prop15="8,83" />
+  <Item Prop1="35К3" Prop2="353" Prop3="350" Prop4="13" Prop5="20" Prop6="20" Prop7="184,1" Prop8="144,5" Prop9="42970" Prop10="2435" Prop11="1351" Prop12="15,28" Prop13="14300" Prop14="817" Prop15="8,81" />
+  <Item Prop1="40К1" Prop2="393" Prop3="400" Prop4="11" Prop5="16,5" Prop6="22" Prop7="175,8" Prop8="138" Prop9="52400" Prop10="2664" Prop11="1457" Prop12="17,26" Prop13="17610" Prop14="880" Prop15="10" />
+  <Item Prop1="40К2" Prop2="400" Prop3="400" Prop4="13" Prop5="20" Prop6="22" Prop7="210,96" Prop8="165,6" Prop9="64140" Prop10="3207" Prop11="1767" Prop12="17,44" Prop13="21350" Prop14="1067" Prop15="10,06" />
+  <Item Prop1="40К3" Prop2="409" Prop3="400" Prop4="16" Prop5="24,5" Prop6="22" Prop7="257,8" Prop8="202,3" Prop9="80040" Prop10="3914" Prop11="2180" Prop12="17,62" Prop13="26150" Prop14="1307" Prop15="10,07" />
+  <Item Prop1="40К4" Prop2="419" Prop3="400" Prop4="19" Prop5="29,5" Prop6="22" Prop7="308,6" Prop8="242,2" Prop9="98340" Prop10="4694" Prop11="2642" Prop12="17,85" Prop13="31500" Prop14="1575" Prop15="10,1" />
+  <Item Prop1="40К5" Prop2="431" Prop3="400" Prop4="23" Prop5="35,5" Prop6="22" Prop7="371" Prop8="291,2" Prop9="121570" Prop10="5642" Prop11="3217" Prop12="18,1" Prop13="37910" Prop14="1896" Prop15="10,11" />
+</Document>

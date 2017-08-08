@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="40"
+	DocType="ГОСТ"
+	DocNum="6009-74 "
+	DocName="Лента стальная горячекатанная. Технические условия"
+	DocNameShort="Лента стальная"
+  DocStatus="True"
+	ShortName="Лента"
+	Size="L"
+	MainGroup="Металл"
+	Group="Прокат"
+	Image="List"
+	HasSteel="true"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	Rule="[Prop1]x[Prop2]  [DocType] [DocNum]"
+	WMass="Prop3"
+  MeType="13,Prop1,Prop2,L"
+	SymbolSum="3"
+	Symbol1="Ширина, мм" Symbol2="Толщина, мм"
+	Symbol3="Масса 1 п.м, кг"
+>
+  <Item Prop1="20" Prop2="1,2" Prop3="0,188" />
+  <Item Prop1="20" Prop2="1,4" Prop3="0,220" />
+  <Item Prop1="20" Prop2="1,5" Prop3="0,236" />
+  <Item Prop1="20" Prop2="1,6" Prop3="0,251" />
+  <Item Prop1="20" Prop2="1,8" Prop3="0,283" />
+  <Item Prop1="20" Prop2="2,0" Prop3="0,314" />
+  <Item Prop1="20" Prop2="2,2" Prop3="0,345" />
+  <Item Prop1="20" Prop2="2,5" Prop3="0,393" />
+  <Item Prop1="20" Prop2="3,0" Prop3="0,471" />
+  <Item Prop1="20" Prop2="3,5" Prop3="0,550" />
+  <Item Prop1="22" Prop2="1,2" Prop3="0,207" />
+  <Item Prop1="22" Prop2="1,4" Prop3="0,242" />
+  <Item Prop1="22" Prop2="1,5" Prop3="0,259" />
+  <Item Prop1="22" Prop2="1,6" Prop3="0,276" />
+  <Item Prop1="22" Prop2="1,8" Prop3="0,311" />
+  <Item Prop1="22" Prop2="2,0" Prop3="0,345" />
+  <Item Prop1="22" Prop2="2,2" Prop3="0,380" />
+  <Item Prop1="22" Prop2="2,5" Prop3="0,432" />
+  <Item Prop1="22" Prop2="3,0" Prop3="0,518" />
+  <Item Prop1="22" Prop2="3,5" Prop3="0,604" />
+  <Item Prop1="25" Prop2="1,2" Prop3="0,236" />
+  <Item Prop1="25" Prop2="1,4" Prop3="0,275" />
+  <Item Prop1="25" Prop2="1,5" Prop3="0,294" />
+  <Item Prop1="25" Prop2="1,6" Prop3="0,314" />
+  <Item Prop1="25" Prop2="1,8" Prop3="0,353" />
+  <Item Prop1="25" Prop2="2,0" Prop3="0,393" />
+  <Item Prop1="25" Prop2="2,2" Prop3="0,432" />
+  <Item Prop1="25" Prop2="2,5" Prop3="0,491" />
+  <Item Prop1="25" Prop2="3,0" Prop3="0,589" />
+  <Item Prop1="25" Prop2="3,5" Prop3="0,687" />
+  <Item Prop1="28" Prop2="1,2" Prop3="0,264" />
+  <Item Prop1="28" Prop2="1,4" Prop3="0,308" />
+  <Item Prop1="28" Prop2="1,5" Prop3="0,327" />
+  <Item Prop1="28" Prop2="1,6" Prop3="0,352" />
+  <Item Prop1="28" Prop2="1,8" Prop3="0,396" />
+  <Item Prop1="28" Prop2="2,0" Prop3="0,440" />
+  <Item Prop1="28" Prop2="2,2" Prop3="0,484" />
+  <Item Prop1="28" Prop2="2,5" Prop3="0,550" />
+  <Item Prop1="28" Prop2="3,0" Prop3="0,659" />
+  <Item Prop1="28" Prop2="3,5" Prop3="0,769" />
+  <Item Prop1="30" Prop2="1,4" Prop3="0,330" />
+  <Item Prop1="30" Prop2="1,5" Prop3="0,353" />
+  <Item Prop1="30" Prop2="1,6" Prop3="0,377" />
+  <Item Prop1="30" Prop2="1,8" Prop3="0,424" />
+  <Item Prop1="30" Prop2="2,0" Prop3="0,471" />
+  <Item Prop1="30" Prop2="2,2" Prop3="0,518" />
+  <Item Prop1="30" Prop2="2,5" Prop3="0,589" />
+  <Item Prop1="30" Prop2="3,0" Prop3="0,707" />
+  <Item Prop1="30" Prop2="3,5" Prop3="0,824" />
+  <Item Prop1="32" Prop2="1,4" Prop3="0,352" />
+  <Item Prop1="32" Prop2="1,5" Prop3="0,377" />
+  <Item Prop1="32" Prop2="1,6" Prop3="0,402" />
+  <Item Prop1="32" Prop2="1,8" Prop3="0,452" />
+  <Item Prop1="32" Prop2="2,0" Prop3="0,502" />
+  <Item Prop1="32" Prop2="2,2" Prop3="0,553" />
+  <Item Prop1="32" Prop2="2,5" Prop3="0,628" />
+  <Item Prop1="32" Prop2="3,0" Prop3="0,754" />
+  <Item Prop1="32" Prop2="3,5" Prop3="0,879" />
+  <Item Prop1="36" Prop2="1,4" Prop3="0,396" />
+  <Item Prop1="36" Prop2="1,5" Prop3="0,424" />
+  <Item Prop1="36" Prop2="1,6" Prop3="0,452" />
+  <Item Prop1="36" Prop2="1,8" Prop3="0,509" />
+  <Item Prop1="36" Prop2="2,0" Prop3="0,565" />
+  <Item Prop1="36" Prop2="2,2" Prop3="0,622" />
+  <Item Prop1="36" Prop2="2,5" Prop3="0,707" />
+  <Item Prop1="36" Prop2="3,0" Prop3="0,848" />
+  <Item Prop1="36" Prop2="3,5" Prop3="0,989" />
+  <Item Prop1="40" Prop2="1,4" Prop3="0,440" />
+  <Item Prop1="40" Prop2="1,5" Prop3="0,471" />
+  <Item Prop1="40" Prop2="1,6" Prop3="0,502" />
+  <Item Prop1="40" Prop2="1,8" Prop3="0,565" />
+  <Item Prop1="40" Prop2="2,0" Prop3="0,628" />
+  <Item Prop1="40" Prop2="2,2" Prop3="0,691" />
+  <Item Prop1="40" Prop2="2,5" Prop3="0,785" />
+  <Item Prop1="40" Prop2="3,0" Prop3="0,942" />
+  <Item Prop1="40" Prop2="3,5" Prop3="1,099" />
+  <Item Prop1="45" Prop2="1,4" Prop3="0,495" />
+  <Item Prop1="45" Prop2="1,5" Prop3="0,530" />
+  <Item Prop1="45" Prop2="1,6" Prop3="0,565" />
+  <Item Prop1="45" Prop2="1,8" Prop3="0,636" />
+  <Item Prop1="45" Prop2="2,0" Prop3="0,707" />
+  <Item Prop1="45" Prop2="2,2" Prop3="0,777" />
+  <Item Prop1="45" Prop2="2,5" Prop3="0,883" />
+  <Item Prop1="45" Prop2="3,0" Prop3="1,060" />
+  <Item Prop1="45" Prop2="3,5" Prop3="1,236" />
+  <Item Prop1="50" Prop2="1,4" Prop3="0,550" />
+  <Item Prop1="50" Prop2="1,5" Prop3="0,589" />
+  <Item Prop1="50" Prop2="1,6" Prop3="0,628" />
+  <Item Prop1="50" Prop2="1,8" Prop3="0,707" />
+  <Item Prop1="50" Prop2="2,0" Prop3="0,785" />
+  <Item Prop1="50" Prop2="2,2" Prop3="0,864" />
+  <Item Prop1="50" Prop2="2,5" Prop3="0,981" />
+  <Item Prop1="50" Prop2="3,0" Prop3="1,178" />
+  <Item Prop1="50" Prop2="3,5" Prop3="1,374" />
+  <Item Prop1="60" Prop2="2,0" Prop3="0,942" />
+  <Item Prop1="60" Prop2="2,2" Prop3="1,036" />
+  <Item Prop1="60" Prop2="2,5" Prop3="1,178" />
+  <Item Prop1="60" Prop2="3,0" Prop3="1,413" />
+  <Item Prop1="60" Prop2="3,5" Prop3="1,649" />
+  <Item Prop1="63" Prop2="2,0" Prop3="0,989" />
+  <Item Prop1="63" Prop2="2,2" Prop3="1,088" />
+  <Item Prop1="63" Prop2="2,5" Prop3="1,236" />
+  <Item Prop1="63" Prop2="3,0" Prop3="1,484" />
+  <Item Prop1="63" Prop2="3,5" Prop3="1,731" />
+  <Item Prop1="65" Prop2="2,0" Prop3="1,021" />
+  <Item Prop1="65" Prop2="2,2" Prop3="1,123" />
+  <Item Prop1="65" Prop2="2,5" Prop3="1,276" />
+  <Item Prop1="65" Prop2="3,0" Prop3="1,531" />
+  <Item Prop1="65" Prop2="3,5" Prop3="1,786" />
+  <Item Prop1="70" Prop2="2,0" Prop3="1,072" />
+  <Item Prop1="70" Prop2="2,2" Prop3="1,209" />
+  <Item Prop1="70" Prop2="2,5" Prop3="1,374" />
+  <Item Prop1="70" Prop2="3,0" Prop3="1,649" />
+  <Item Prop1="70" Prop2="3,5" Prop3="1,923" />
+  <Item Prop1="75" Prop2="2,0" Prop3="1,178" />
+  <Item Prop1="75" Prop2="2,2" Prop3="1,295" />
+  <Item Prop1="75" Prop2="2,5" Prop3="1,472" />
+  <Item Prop1="75" Prop2="3,0" Prop3="1,766" />
+  <Item Prop1="75" Prop2="3,5" Prop3="2,061" />
+  <Item Prop1="80" Prop2="2,0" Prop3="1,256" />
+  <Item Prop1="80" Prop2="2,2" Prop3="1,382" />
+  <Item Prop1="80" Prop2="2,5" Prop3="1,570" />
+  <Item Prop1="80" Prop2="3,0" Prop3="1,884" />
+  <Item Prop1="80" Prop2="3,5" Prop3="2,198" />
+  <Item Prop1="85" Prop2="2,0" Prop3="1,334" />
+  <Item Prop1="85" Prop2="2,2" Prop3="1,468" />
+  <Item Prop1="85" Prop2="2,5" Prop3="1,668" />
+  <Item Prop1="85" Prop2="3,0" Prop3="2,002" />
+  <Item Prop1="85" Prop2="3,5" Prop3="2,336" />
+  <Item Prop1="90" Prop2="2,5" Prop3="1,766" />
+  <Item Prop1="90" Prop2="3,0" Prop3="2,120" />
+  <Item Prop1="90" Prop2="3,5" Prop3="2,473" />
+  <Item Prop1="100" Prop2="2,5" Prop3="1,963" />
+  <Item Prop1="100" Prop2="3,0" Prop3="2,355" />
+  <Item Prop1="100" Prop2="3,5" Prop3="2,748" />
+  <Item Prop1="110" Prop2="2,5" Prop3="2,159" />
+  <Item Prop1="110" Prop2="3,0" Prop3="2,591" />
+  <Item Prop1="110" Prop2="3,5" Prop3="3,022" />
+  <Item Prop1="120" Prop2="2,5" Prop3="2,355" />
+  <Item Prop1="120" Prop2="3,0" Prop3="2,826" />
+  <Item Prop1="120" Prop2="3,5" Prop3="3,297" />
+  <Item Prop1="130" Prop2="2,5" Prop3="2,551" />
+  <Item Prop1="130" Prop2="3,0" Prop3="3,062" />
+  <Item Prop1="130" Prop2="3,5" Prop3="3,572" />
+  <Item Prop1="150" Prop2="2,5" Prop3="2,944" />
+  <Item Prop1="150" Prop2="3,0" Prop3="3,533" />
+  <Item Prop1="150" Prop2="3,5" Prop3="4,121" />
+  <Item Prop1="160" Prop2="2,5" Prop3="3,136" />
+  <Item Prop1="160" Prop2="3,0" Prop3="3,768" />
+  <Item Prop1="160" Prop2="3,5" Prop3="4,396" />
+  <Item Prop1="170" Prop2="2,5" Prop3="3,332" />
+  <Item Prop1="170" Prop2="3,0" Prop3="4,004" />
+  <Item Prop1="170" Prop2="3,5" Prop3="4,671" />
+  <Item Prop1="175" Prop2="2,5" Prop3="3,434" />
+  <Item Prop1="175" Prop2="3,0" Prop3="4,121" />
+  <Item Prop1="175" Prop2="3,5" Prop3="4,808" />
+  <Item Prop1="190" Prop2="2,5" Prop3="3,724" />
+  <Item Prop1="190" Prop2="3,0" Prop3="4,475" />
+  <Item Prop1="190" Prop2="3,5" Prop3="5,220" />
+  <Item Prop1="200" Prop2="2,5" Prop3="3,920" />
+  <Item Prop1="200" Prop2="3,0" Prop3="4,710" />
+  <Item Prop1="200" Prop2="3,5" Prop3="5,495" />
+  <Item Prop1="200" Prop2="4,0" Prop3="6,280" />
+  <Item Prop1="200" Prop2="4,5" Prop3="7,065" />
+  <Item Prop1="200" Prop2="5,0" Prop3="7,850" />
+  <Item Prop1="215" Prop2="3,0" Prop3="5,063" />
+  <Item Prop1="215" Prop2="3,5" Prop3="5,907" />
+  <Item Prop1="215" Prop2="4,0" Prop3="6,751" />
+  <Item Prop1="215" Prop2="4,5" Prop3="7,595" />
+  <Item Prop1="215" Prop2="5,0" Prop3="8,439" />
+  <Item Prop1="220" Prop2="3,0" Prop3="5,181" />
+  <Item Prop1="220" Prop2="3,5" Prop3="6,045" />
+  <Item Prop1="220" Prop2="4,0" Prop3="6,908" />
+  <Item Prop1="220" Prop2="4,5" Prop3="7,772" />
+  <Item Prop1="220" Prop2="5,0" Prop3="8,635" />
+</Document>

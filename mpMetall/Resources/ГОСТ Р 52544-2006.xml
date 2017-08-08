@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="24"
+	DocType="ГОСТ Р"
+	DocNum="52544-2006"
+	DocName="Прокат арматурный свариваемый периодического профиля классов А500С и В500С для армирования железобетонных конструкций. Технические условия"
+	DocNameShort="Арматура"
+  DocStatus="True"
+	ShortName="Арматура"
+	ItemType1="Класс$А500С$В500С"
+  ItemType2="Вид продукции$Пруток$Моток"
+	Size="L"
+	MainGroup="Металл"
+	Group="Арматура/проволока"
+	Image="ГОСТ Р 52544-2006"
+	HasSteel="false"
+	DimType="Длина,п.м"
+	Rule="[ItemType2] [Prop1]-[ItemType1] [DocType] [DocNum]"
+	WMass="Prop3"
+	SymbolSum="3"
+	MeType="3,Prop1,L"
+	Symbol1="Номинальный диаметр dн, мм" Symbol2="Номинальная площадь поперечного сечения Fн, мм2" Symbol3="Номинальная масса 1 м длины проката, кг"
+>
+  <Item Prop1="4" Prop2="12,6" Prop3="0,099" />
+  <Item Prop1="5" Prop2="19,6" Prop3="0,154" />
+  <Item Prop1="6" Prop2="28,3" Prop3="0,222" />
+  <Item Prop1="8" Prop2="50,3" Prop3="0,395" />
+  <Item Prop1="10" Prop2="78,5" Prop3="0,616" />
+  <Item Prop1="12" Prop2="113,1" Prop3="0,888" />
+  <Item Prop1="14" Prop2="153,9" Prop3="1,208" />
+  <Item Prop1="16" Prop2="201,1" Prop3="1,578" />
+  <Item Prop1="18" Prop2="254,5" Prop3="1,998" />
+  <Item Prop1="20" Prop2="314,2" Prop3="2,466" />
+  <Item Prop1="22" Prop2="380,1" Prop3="2,984" />
+  <Item Prop1="25" Prop2="490,9" Prop3="3,853" />
+  <Item Prop1="28" Prop2="615,8" Prop3="4,834" />
+  <Item Prop1="32" Prop2="804,2" Prop3="6,313" />
+  <Item Prop1="36" Prop2="1017,9" Prop3="7,990" />
+  <Item Prop1="40" Prop2="1256,6" Prop3="9,865" />
+</Document>

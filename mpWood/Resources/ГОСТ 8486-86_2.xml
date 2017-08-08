@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="58"
+	DocType="ГОСТ"
+	DocNum="8486-86"
+	DocName="Пиломатериалы хвойных пород"
+	DocNameShort="Брус (Номинальные размеры)"
+  DocStatus="True"
+	ShortName="Брус"
+	ItemType1="Материал$хв.$сосна$ель$лиственница$кедр$пихта"
+	ItemType2="Сорт$1$2$3$4"
+	Size="L"
+	MainGroup="Дерево/Пластмасс"
+	Group="Пиломатериалы"
+	Image="Wood_2"
+	HasSteel="false"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	Rule="[ShortName]-[ItemType2]-[ItemType1]-[Prop1]x[Prop2]"
+  WdType="1,Prop1,Prop2,L"
+	CMass="400,400,360,520,350,300$ItemType1"
+	SymbolSum="2"
+	Symbol1="Толщина" Symbol2="Ширина"
+>
+  <Item Prop1="16" Prop2="75" />
+  <Item Prop1="16" Prop2="100" />
+  <Item Prop1="16" Prop2="125" />
+  <Item Prop1="16" Prop2="150" />
+  <Item Prop1="19" Prop2="75" />
+  <Item Prop1="19" Prop2="100" />
+  <Item Prop1="19" Prop2="125" />
+  <Item Prop1="19" Prop2="150" />
+  <Item Prop1="19" Prop2="175" />
+  <Item Prop1="22" Prop2="75" />
+  <Item Prop1="22" Prop2="100" />
+  <Item Prop1="22" Prop2="125" />
+  <Item Prop1="22" Prop2="150" />
+  <Item Prop1="22" Prop2="175" />
+  <Item Prop1="22" Prop2="200" />
+  <Item Prop1="22" Prop2="225" />
+  <Item Prop1="25" Prop2="75" />
+  <Item Prop1="25" Prop2="100" />
+  <Item Prop1="25" Prop2="125" />
+  <Item Prop1="25" Prop2="150" />
+  <Item Prop1="25" Prop2="175" />
+  <Item Prop1="25" Prop2="200" />
+  <Item Prop1="25" Prop2="225" />
+  <Item Prop1="25" Prop2="250" />
+  <Item Prop1="25" Prop2="275" />
+  <Item Prop1="32" Prop2="75" />
+  <Item Prop1="32" Prop2="100" />
+  <Item Prop1="32" Prop2="125" />
+  <Item Prop1="32" Prop2="150" />
+  <Item Prop1="32" Prop2="175" />
+  <Item Prop1="32" Prop2="200" />
+  <Item Prop1="32" Prop2="225" />
+  <Item Prop1="32" Prop2="250" />
+  <Item Prop1="32" Prop2="275" />
+  <Item Prop1="40" Prop2="75" />
+  <Item Prop1="40" Prop2="100" />
+  <Item Prop1="40" Prop2="125" />
+  <Item Prop1="40" Prop2="150" />
+  <Item Prop1="40" Prop2="175" />
+  <Item Prop1="40" Prop2="200" />
+  <Item Prop1="40" Prop2="225" />
+  <Item Prop1="40" Prop2="250" />
+  <Item Prop1="40" Prop2="275" />
+  <Item Prop1="44" Prop2="75" />
+  <Item Prop1="44" Prop2="100" />
+  <Item Prop1="44" Prop2="125" />
+  <Item Prop1="44" Prop2="150" />
+  <Item Prop1="44" Prop2="175" />
+  <Item Prop1="44" Prop2="200" />
+  <Item Prop1="44" Prop2="225" />
+  <Item Prop1="44" Prop2="250" />
+  <Item Prop1="44" Prop2="275" />
+  <Item Prop1="50" Prop2="75" />
+  <Item Prop1="50" Prop2="100" />
+  <Item Prop1="50" Prop2="125" />
+  <Item Prop1="50" Prop2="150" />
+  <Item Prop1="50" Prop2="175" />
+  <Item Prop1="50" Prop2="200" />
+  <Item Prop1="50" Prop2="225" />
+  <Item Prop1="50" Prop2="250" />
+  <Item Prop1="50" Prop2="275" />
+  <Item Prop1="60" Prop2="75" />
+  <Item Prop1="60" Prop2="100" />
+  <Item Prop1="60" Prop2="125" />
+  <Item Prop1="60" Prop2="150" />
+  <Item Prop1="60" Prop2="175" />
+  <Item Prop1="60" Prop2="200" />
+  <Item Prop1="60" Prop2="225" />
+  <Item Prop1="60" Prop2="250" />
+  <Item Prop1="60" Prop2="275" />
+  <Item Prop1="75" Prop2="75" />
+  <Item Prop1="75" Prop2="100" />
+  <Item Prop1="75" Prop2="125" />
+  <Item Prop1="75" Prop2="150" />
+  <Item Prop1="75" Prop2="175" />
+  <Item Prop1="75" Prop2="200" />
+  <Item Prop1="75" Prop2="225" />
+  <Item Prop1="75" Prop2="250" />
+  <Item Prop1="75" Prop2="275" />
+  <Item Prop1="100" Prop2="100" />
+  <Item Prop1="100" Prop2="125" />
+  <Item Prop1="100" Prop2="150" />
+  <Item Prop1="100" Prop2="175" />
+  <Item Prop1="100" Prop2="200" />
+  <Item Prop1="100" Prop2="225" />
+  <Item Prop1="100" Prop2="250" />
+  <Item Prop1="100" Prop2="275" />
+  <Item Prop1="125" Prop2="125" />
+  <Item Prop1="125" Prop2="150" />
+  <Item Prop1="125" Prop2="175" />
+  <Item Prop1="125" Prop2="200" />
+  <Item Prop1="125" Prop2="225" />
+  <Item Prop1="125" Prop2="250" />
+  <Item Prop1="150" Prop2="150" />
+  <Item Prop1="150" Prop2="175" />
+  <Item Prop1="150" Prop2="200" />
+  <Item Prop1="150" Prop2="225" />
+  <Item Prop1="150" Prop2="250" />
+  <Item Prop1="175" Prop2="175" />
+  <Item Prop1="175" Prop2="200" />
+  <Item Prop1="175" Prop2="225" />
+  <Item Prop1="175" Prop2="250" />
+  <Item Prop1="200" Prop2="200" />
+  <Item Prop1="200" Prop2="225" />
+  <Item Prop1="200" Prop2="250" />
+  <Item Prop1="250" Prop2="250" />
+</Document>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="27"
+	DocType="ГОСТ"
+	DocNum="8639-82"
+	DocName="Трубы стальные квадратные"
+	DocNameShort="Трубы квадратные"
+  DocStatus="True"
+	ShortName="Труба"
+	Size="L"
+	MainGroup="Металл"
+	Group="Профили"
+	Image="ГОСТ 8639-82"
+	HasSteel="true"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	Rule="[Prop1] [DocType] [DocNum]"
+	WMass="Prop5"
+	MeType="7,Prop2,Prop3,L"
+	SymbolSum="7"
+	Symbol1="Марка"
+	Symbol2="А, мм"
+	Symbol3="S, мм"
+	Symbol4="S, см^2"
+	Symbol5="Масса, кг/п.м"
+	Symbol6="Ix,Iy, см^4"
+	Symbol7="Wx,Wy, см^3">
+  <Item Prop1="10x10x0,8" Prop2="10" Prop3="0,8" Prop4="0,283" Prop5="0,222" Prop6="0,039" Prop7="0,079" />
+  <Item Prop1="10x10x0,9" Prop2="10" Prop3="0,9" Prop4="0,314" Prop5="0,246" Prop6="0,042" Prop7="0,085" />
+  <Item Prop1="10x10x1,0" Prop2="10" Prop3="1,0" Prop4="0,343" Prop5="0,269" Prop6="0,0452" Prop7="0,0904" />
+  <Item Prop1="10x10x1,2" Prop2="10" Prop3="1,2" Prop4="0,398" Prop5="0,312" Prop6="0,050" Prop7="0,100" />
+  <Item Prop1="10x10x1,4" Prop2="10" Prop3="1,4" Prop4="0,448" Prop5="0,352" Prop6="0,053" Prop7="0,107" />
+  <Item Prop1="15x15x0,8" Prop2="15" Prop3="0,8" Prop4="0,443" Prop5="0,348" Prop6="0,147" Prop7="0,196" />
+  <Item Prop1="15x15x0,9" Prop2="15" Prop3="0,9" Prop4="0,494" Prop5="0,388" Prop6="0,161" Prop7="0,215" />
+  <Item Prop1="15x15x1,0" Prop2="15" Prop3="1,0" Prop4="0,543" Prop5="0,426" Prop6="0,176" Prop7="0,233" />
+  <Item Prop1="15x15x1,2" Prop2="15" Prop3="1,2" Prop4="0,638" Prop5="0,501" Prop6="0,199" Prop7="0,265" />
+  <Item Prop1="15x15x1,4" Prop2="15" Prop3="1,4" Prop4="0,728" Prop5="0,571" Prop6="0,220" Prop7="0,293" />
+  <Item Prop1="15x15x1,5" Prop2="15" Prop3="1,5" Prop4="0,771" Prop5="0,605" Prop6="0,229" Prop7="0,305" />
+  <Item Prop1="20x20x0,8" Prop2="20" Prop3="0,8" Prop4="0,603" Prop5="0,474" Prop6="0,368" Prop7="0,368" />
+  <Item Prop1="20x20x0,9" Prop2="20" Prop3="0,9" Prop4="0,674" Prop5="0,529" Prop6="0,406" Prop7="0,406" />
+  <Item Prop1="20x20x1,0" Prop2="20" Prop3="1,0" Prop4="0,743" Prop5="0,583" Prop6="0,442" Prop7="0,442" />
+  <Item Prop1="20x20x1,2" Prop2="20" Prop3="1,2" Prop4="0,878" Prop5="0,689" Prop6="0,510" Prop7="0,510" />
+  <Item Prop1="20x20x1,4" Prop2="20" Prop3="1,4" Prop4="1,01" Prop5="0,791" Prop6="0,572" Prop7="0,572" />
+  <Item Prop1="20x20x1,5" Prop2="20" Prop3="1,5" Prop4="1,071" Prop5="0,841" Prop6="0,600" Prop7="0,600" />
+  <Item Prop1="20x20x2,0" Prop2="20" Prop3="2,0" Prop4="1,37" Prop5="1,075" Prop6="0,723" Prop7="0,723" />
+  <Item Prop1="25x25x0,8" Prop2="25" Prop3="0,8" Prop4="0,763" Prop5="0,599" Prop6="0,740" Prop7="0,592" />
+  <Item Prop1="25x25x0,9" Prop2="25" Prop3="0,9" Prop4="0,854" Prop5="0,670" Prop6="0,820" Prop7="0,656" />
+  <Item Prop1="25x25x1,0" Prop2="25" Prop3="1,0" Prop4="0,943" Prop5="0,740" Prop6="0,897" Prop7="0,718" />
+  <Item Prop1="25x25x1,2" Prop2="25" Prop3="1,2" Prop4="1,12" Prop5="0,878" Prop6="1,04" Prop7="0,835" />
+  <Item Prop1="25x25x1,4" Prop2="25" Prop3="1,4" Prop4="1,29" Prop5="1,01" Prop6="1,18" Prop7="0,945" />
+  <Item Prop1="25x25x1,5" Prop2="25" Prop3="1,5" Prop4="1,37" Prop5="1,07" Prop6="1,24" Prop7="0,996" />
+  <Item Prop1="25x25x2,0" Prop2="25" Prop3="2,0" Prop4="1,77" Prop5="1,39" Prop6="1,53" Prop7="1,22" />
+  <Item Prop1="25x25x2,5" Prop2="25" Prop3="2,5" Prop4="2,14" Prop5="1,68" Prop6="1,77" Prop7="1,41" />
+  <Item Prop1="25x25x3,0" Prop2="25" Prop3="3,0" Prop4="2,48" Prop5="1,95" Prop6="1,95" Prop7="1,56" />
+  <Item Prop1="30x30x0,8" Prop2="30" Prop3="0,8" Prop4="0,923" Prop5="0,725" Prop6="1,30" Prop7="0,870" />
+  <Item Prop1="30x30x0,9" Prop2="30" Prop3="0,9" Prop4="1,03" Prop5="0,811" Prop6="1,45" Prop7="0,966" />
+  <Item Prop1="30x30x1,0" Prop2="30" Prop3="1,0" Prop4="1,14" Prop5="0,897" Prop6="1,59" Prop7="1,06" />
+  <Item Prop1="30x30x1,2" Prop2="30" Prop3="1,2" Prop4="1,36" Prop5="1,07" Prop6="1,86" Prop7="1,24" />
+  <Item Prop1="30x30x1,3" Prop2="30" Prop3="1,3" Prop4="1,46" Prop5="1,15" Prop6="1,99" Prop7="1,33" />
+  <Item Prop1="30x30x1,4" Prop2="30" Prop3="1,4" Prop4="1,57" Prop5="1,23" Prop6="2,12" Prop7="1,41" />
+  <Item Prop1="30x30x1,5" Prop2="30" Prop3="1,5" Prop4="1,67" Prop5="1,31" Prop6="2,24" Prop7="1,49" />
+  <Item Prop1="30x30x2,0" Prop2="30" Prop3="2,0" Prop4="2,17" Prop5="1,70" Prop6="2,79" Prop7="1,86" />
+  <Item Prop1="30x30x2,5" Prop2="30" Prop3="2,5" Prop4="2,64" Prop5="2,07" Prop6="3,27" Prop7="2,18" />
+  <Item Prop1="30x30x3,0" Prop2="30" Prop3="3,0" Prop4="3,08" Prop5="2,42" Prop6="3,66" Prop7="2,44" />
+  <Item Prop1="30x30x3,5" Prop2="30" Prop3="3,5" Prop4="3,50" Prop5="2,75" Prop6="3,98" Prop7="2,65" />
+  <Item Prop1="30x30x4,0" Prop2="30" Prop3="4,0" Prop4="3,88" Prop5="3,04" Prop6="4,23" Prop7="2,82" />
+  <Item Prop1="35x35x0,8" Prop2="35" Prop3="0,8" Prop4="1,083" Prop5="0,850" Prop6="2,10" Prop7="1,20" />
+  <Item Prop1="35x35x0,9" Prop2="35" Prop3="0,9" Prop4="1,21" Prop5="0,953" Prop6="2,34" Prop7="1,34" />
+  <Item Prop1="35x35x1,4" Prop2="35" Prop3="1,4" Prop4="1,85" Prop5="1,45" Prop6="3,45" Prop7="1,97" />
+  <Item Prop1="35x35x1,5" Prop2="35" Prop3="1,5" Prop4="1,97" Prop5="1,55" Prop6="3,65" Prop7="2,09" />
+  <Item Prop1="35x35x2,0" Prop2="35" Prop3="2,0" Prop4="2,57" Prop5="2,02" Prop6="4,61" Prop7="2,63" />
+  <Item Prop1="35x35x2,5" Prop2="35" Prop3="2,5" Prop4="3,14" Prop5="2,46" Prop6="5,44" Prop7="3,11" />
+  <Item Prop1="35x35x3,0" Prop2="35" Prop3="3,0" Prop4="3,68" Prop5="2,89" Prop6="6,17" Prop7="3,52" />
+  <Item Prop1="35x35x3,5" Prop2="35" Prop3="3,5" Prop4="4,20" Prop5="3,30" Prop6="6,78" Prop7="3,88" />
+  <Item Prop1="35x35x4,0" Prop2="35" Prop3="4,0" Prop4="4,68" Prop5="3,67" Prop6="7,30" Prop7="4,17" />
+  <Item Prop1="35x35x5,0" Prop2="35" Prop3="5,0" Prop4="5,57" Prop5="4,37" Prop6="8,05" Prop7="4,60" />
+  <Item Prop1="40x40x1,4" Prop2="40" Prop3="1,4" Prop4="2,13" Prop5="1,67" Prop6="5,24" Prop7="2,62" />
+  <Item Prop1="40x40x1,5" Prop2="40" Prop3="1,5" Prop4="2,27" Prop5="1,78" Prop6="5,57" Prop7="2,78" />
+  <Item Prop1="40x40x2,0" Prop2="40" Prop3="2,0" Prop4="2,97" Prop5="2,33" Prop6="7,07" Prop7="3,53" />
+  <Item Prop1="40x40x2,5" Prop2="40" Prop3="2,5" Prop4="3,64" Prop5="2,85" Prop6="8,42" Prop7="4,21" />
+  <Item Prop1="40x40x3,0" Prop2="40" Prop3="3,0" Prop4="4,28" Prop5="3,36" Prop6="9,61" Prop7="4,81" />
+  <Item Prop1="40x40x3,5" Prop2="40" Prop3="3,5" Prop4="4,90" Prop5="3,85" Prop6="10,66" Prop7="5,33" />
+  <Item Prop1="40x40x4,0" Prop2="40" Prop3="4,0" Prop4="5,48" Prop5="4,30" Prop6="11,57" Prop7="5,79" />
+  <Item Prop1="40x40x5,0" Prop2="40" Prop3="5,0" Prop4="6,57" Prop5="5,16" Prop6="13,01" Prop7="6,50" />
+  <Item Prop1="40x40x6,0" Prop2="40" Prop3="6,0" Prop4="7,54" Prop5="5,92" Prop6="13,96" Prop7="6,98" />
+  <Item Prop1="42x42x3,0" Prop2="42" Prop3="3,0" Prop4="4,52" Prop5="3,55" Prop6="11,30" Prop7="5,38" />
+  <Item Prop1="42x42x3,5" Prop2="42" Prop3="3,5" Prop4="5,18" Prop5="4,07" Prop6="12,56" Prop7="5,98" />
+  <Item Prop1="42x42x4,0" Prop2="42" Prop3="4,0" Prop4="5,80" Prop5="4,56" Prop6="13,67" Prop7="6,51" />
+  <Item Prop1="42x42x5,0" Prop2="42" Prop3="5,0" Prop4="6,97" Prop5="5,47" Prop6="15,45" Prop7="7,36" />
+  <Item Prop1="42x42x6,0" Prop2="42" Prop3="6,0" Prop4="8,02" Prop5="6,30" Prop6="16,69" Prop7="7,95" />
+  <Item Prop1="45x45x2,0" Prop2="45" Prop3="2,0" Prop4="3,37" Prop5="2,65" Prop6="10,29" Prop7="4,57" />
+  <Item Prop1="45x45x3,0" Prop2="45" Prop3="3,0" Prop4="4,88" Prop5="3,83" Prop6="14,15" Prop7="6,29" />
+  <Item Prop1="45x45x3,5" Prop2="45" Prop3="3,5" Prop4="5,60" Prop5="4,40" Prop6="15,79" Prop7="7,02" />
+  <Item Prop1="45x45x4,0" Prop2="45" Prop3="4,0" Prop4="6,28" Prop5="4,93" Prop6="17,25" Prop7="7,67" />
+  <Item Prop1="45x45x5,0" Prop2="45" Prop3="5,0" Prop4="7,57" Prop5="5,94" Prop6="19,66" Prop7="8,38" />
+  <Item Prop1="45x45x6,0" Prop2="45" Prop3="6,0" Prop4="8,74" Prop5="6,86" Prop6="21,42" Prop7="9,52" />
+  <Item Prop1="45x45x7,0" Prop2="45" Prop3="7,0" Prop4="9,80" Prop5="7,69" Prop6="22,60" Prop7="10,04" />
+  <Item Prop1="45x45x8,0" Prop2="45" Prop3="8,0" Prop4="10,74" Prop5="8,43" Prop6="23,23" Prop7="10,33" />
+  <Item Prop1="50x50x2,0" Prop2="50" Prop3="2,0" Prop4="3,77" Prop5="2,96" Prop6="14,36" Prop7="5,74" />
+  <Item Prop1="50x50x2,5" Prop2="50" Prop3="2,5" Prop4="4,64" Prop5="3,64" Prop6="17,27" Prop7="6,91" />
+  <Item Prop1="50x50x3,0" Prop2="50" Prop3="3,0" Prop4="5,48" Prop5="4,31" Prop6="19,93" Prop7="7,97" />
+  <Item Prop1="50x50x3,5" Prop2="50" Prop3="3,5" Prop4="6,30" Prop5="4,94" Prop6="22,35" Prop7="8,94" />
+  <Item Prop1="50x50x4,0" Prop2="50" Prop3="4,0" Prop4="7,08" Prop5="5,56" Prop6="24,54" Prop7="9,82" />
+  <Item Prop1="50x50x4,5" Prop2="50" Prop3="4,5" Prop4="7,84" Prop5="6,16" Prop6="26,51" Prop7="10,60" />
+  <Item Prop1="50x50x5,0" Prop2="50" Prop3="5,0" Prop4="8,57" Prop5="6,73" Prop6="28,26" Prop7="11,30" />
+  <Item Prop1="50x50x6,0" Prop2="50" Prop3="6,0" Prop4="9,94" Prop5="7,80" Prop6="31,15" Prop7="12,46" />
+  <Item Prop1="50x50x7,0" Prop2="50" Prop3="7,0" Prop4="11,20" Prop5="8,79" Prop6="33,28" Prop7="13,31" />
+  <Item Prop1="50x50x8,0" Prop2="50" Prop3="8,0" Prop4="12,34" Prop5="9,69" Prop6="34,70" Prop7="13,88" />
+  <Item Prop1="60x60x2,0" Prop2="60" Prop3="2,0" Prop4="4,57" Prop5="3,59" Prop6="25,45" Prop7="8,48" />
+  <Item Prop1="60x60x2,5" Prop2="60" Prop3="2,5" Prop4="5,64" Prop5="4,43" Prop6="30,81" Prop7="10,27" />
+  <Item Prop1="60x60x3,0" Prop2="60" Prop3="3,0" Prop4="6,69" Prop5="5,25" Prop6="35,81" Prop7="11,94" />
+  <Item Prop1="60x60x3,5" Prop2="60" Prop3="3,5" Prop4="7,70" Prop5="6,04" Prop6="40,44" Prop7="13,48" />
+  <Item Prop1="60x60x4,0" Prop2="60" Prop3="4,0" Prop4="8,68" Prop5="6,82" Prop6="44,73" Prop7="14,91" />
+  <Item Prop1="60x60x5,0" Prop2="60" Prop3="5,0" Prop4="10,57" Prop5="8,30" Prop6="52,30" Prop7="17,43" />
+  <Item Prop1="60x60x6,0" Prop2="60" Prop3="6,0" Prop4="12,34" Prop5="9,69" Prop6="58,60" Prop7="19,53" />
+  <Item Prop1="60x60x7,0" Prop2="60" Prop3="7,0" Prop4="14,00" Prop5="11,00" Prop6="63,71" Prop7="21,24" />
+  <Item Prop1="60x60x8,0" Prop2="60" Prop3="8,0" Prop4="15,54" Prop5="12,20" Prop6="67,71" Prop7="22,57" />
+  <Item Prop1="70x70x3,0" Prop2="70" Prop3="3,0" Prop4="7,88" Prop5="6,19" Prop6="58,45" Prop7="16,70" />
+  <Item Prop1="70x70x3,5" Prop2="70" Prop3="3,5" Prop4="9,10" Prop5="7,14" Prop6="66,34" Prop7="18,95" />
+  <Item Prop1="70x70x4,0" Prop2="70" Prop3="4,0" Prop4="10,28" Prop5="8,07" Prop6="73,74" Prop7="21,07" />
+  <Item Prop1="70x70x5,0" Prop2="70" Prop3="5,0" Prop4="12,57" Prop5="9,87" Prop6="87,12" Prop7="24,89" />
+  <Item Prop1="70x70x6,0" Prop2="70" Prop3="6,0" Prop4="14,74" Prop5="11,57" Prop6="98,69" Prop7="28,20" />
+  <Item Prop1="70x70x7,0" Prop2="70" Prop3="7,0" Prop4="16,80" Prop5="13,19" Prop6="108,56" Prop7="31,02" />
+  <Item Prop1="70x70x8,0" Prop2="70" Prop3="8,0" Prop4="18,74" Prop5="14,71" Prop6="116,81" Prop7="33,37" />
+  <Item Prop1="80x80x3,0" Prop2="80" Prop3="3,0" Prop4="9,09" Prop5="7,13" Prop6="89,05" Prop7="22,26" />
+  <Item Prop1="80x80x3,5" Prop2="80" Prop3="3,5" Prop4="10,50" Prop5="8,24" Prop6="101,44" Prop7="25,36" />
+  <Item Prop1="80x80x4,0" Prop2="80" Prop3="4,0" Prop4="11,88" Prop5="9,33" Prop6="113,17" Prop7="28,29" />
+  <Item Prop1="80x80x5,0" Prop2="80" Prop3="5,0" Prop4="14,57" Prop5="11,44" Prop6="134,73" Prop7="33,68" />
+  <Item Prop1="80x80x6,0" Prop2="80" Prop3="6,0" Prop4="17,14" Prop5="13,46" Prop6="153,84" Prop7="38,46" />
+  <Item Prop1="80x80x7,0" Prop2="80" Prop3="7,0" Prop4="19,60" Prop5="15,38" Prop6="170,63" Prop7="42,66" />
+  <Item Prop1="80x80x8,0" Prop2="80" Prop3="8,0" Prop4="21,94" Prop5="17,22" Prop6="185,20" Prop7="46,30" />
+  <Item Prop1="80x80x9,0" Prop2="80" Prop3="9,0" Prop4="24,17" Prop5="18,97" Prop6="197,66" Prop7="49,41" />
+  <Item Prop1="80x80x10,0" Prop2="80" Prop3="10,0" Prop4="26,28" Prop5="20,63" Prop6="208,10" Prop7="52,03" />
+  <Item Prop1="80x80x11,0" Prop2="80" Prop3="11,0" Prop4="28,28" Prop5="22,20" Prop6="216,64" Prop7="54,16" />
+  <Item Prop1="90x90x3,0" Prop2="90" Prop3="3,0" Prop4="10,28" Prop5="8,07" Prop6="128,82" Prop7="28,63" />
+  <Item Prop1="90x90x4,0" Prop2="90" Prop3="4,0" Prop4="13,48" Prop5="10,59" Prop6="164,63" Prop7="36,58" />
+  <Item Prop1="90x90x5,0" Prop2="90" Prop3="5,0" Prop4="16,57" Prop5="13,00" Prop6="197,12" Prop7="43,80" />
+  <Item Prop1="90x90x6,0" Prop2="90" Prop3="6,0" Prop4="19,54" Prop5="15,34" Prop6="226,44" Prop7="50,32" />
+  <Item Prop1="90x90x7,0" Prop2="90" Prop3="7,0" Prop4="22,40" Prop5="17,58" Prop6="252,71" Prop7="56,16" />
+  <Item Prop1="90x90x8,0" Prop2="90" Prop3="8,0" Prop4="25,14" Prop5="19,73" Prop6="276,08" Prop7="61,35" />
+  <Item Prop1="100x100x3,0" Prop2="100" Prop3="3,0" Prop4="11,48" Prop5="9,02" Prop6="178,95" Prop7="35,79" />
+  <Item Prop1="100x100x4,0" Prop2="100" Prop3="4,0" Prop4="15,08" Prop5="11,84" Prop6="229,71" Prop7="45,94" />
+  <Item Prop1="100x100x5,0" Prop2="100" Prop3="5,0" Prop4="18,57" Prop5="14,58" Prop6="276,30" Prop7="55,26" />
+  <Item Prop1="100x100x6,0" Prop2="100" Prop3="6,0" Prop4="21,94" Prop5="17,22" Prop6="318,89" Prop7="63,78" />
+  <Item Prop1="100x100x7,0" Prop2="100" Prop3="7,0" Prop4="25,20" Prop5="19,78" Prop6="357,62" Prop7="71,52" />
+  <Item Prop1="100x100x8,0" Prop2="100" Prop3="8,0" Prop4="28,34" Prop5="22,25" Prop6="392,65" Prop7="78,53" />
+  <Item Prop1="100x100x9,0" Prop2="100" Prop3="9,0" Prop4="31,37" Prop5="24,62" Prop6="424,11" Prop7="84,82" />
+  <Item Prop1="110x110x6,0" Prop2="110" Prop3="6,0" Prop4="24,34" Prop5="19,11" Prop6="433,59" Prop7="78,83" />
+  <Item Prop1="110x110x7,0" Prop2="110" Prop3="7,0" Prop4="28,00" Prop5="21,98" Prop6="488,14" Prop7="88,75" />
+  <Item Prop1="110x110x8,0" Prop2="110" Prop3="8,0" Prop4="31,54" Prop5="24,76" Prop6="538,11" Prop7="97,84" />
+  <Item Prop1="110x110x9,0" Prop2="110" Prop3="9,0" Prop4="34,97" Prop5="27,45" Prop6="583,63" Prop7="106,11" />
+  <Item Prop1="120x120x6,0" Prop2="120" Prop3="6,0" Prop4="26,74" Prop5="20,99" Prop6="572,94" Prop7="95,49" />
+  <Item Prop1="120x120x7,0" Prop2="120" Prop3="7,0" Prop4="30,80" Prop5="24,18" Prop6="647,09" Prop7="107,85" />
+  <Item Prop1="120x120x8,0" Prop2="120" Prop3="8,0" Prop4="34,74" Prop5="27,27" Prop6="715,66" Prop7="119,28" />
+  <Item Prop1="120x120x9,0" Prop2="120" Prop3="9,0" Prop4="38,57" Prop5="30,28" Prop6="778,82" Prop7="129,80" />
+  <Item Prop1="140x140x6,0" Prop2="140" Prop3="6,0" Prop4="31,54" Prop5="24,76" Prop6="935,19" Prop7="133,60" />
+  <Item Prop1="140x140x7,0" Prop2="140" Prop3="7,0" Prop4="36,40" Prop5="28,57" Prop6="1061,44" Prop7="151,63" />
+  <Item Prop1="140x140x8,0" Prop2="140" Prop3="8,0" Prop4="41,14" Prop5="32,29" Prop6="1179,83" Prop7="168,55" />
+  <Item Prop1="140x140x9,0" Prop2="140" Prop3="9,0" Prop4="45,77" Prop5="35,93" Prop6="1290,58" Prop7="184,37" />
+  <Item Prop1="150x150x7,0" Prop2="150" Prop3="7,0" Prop4="39,20" Prop5="30,77" Prop6="1322,44" Prop7="176,32" />
+  <Item Prop1="150x150x8,0" Prop2="150" Prop3="8,0" Prop4="44,34" Prop5="34,81" Prop6="1472,85" Prop7="196,38" />
+  <Item Prop1="150x150x9,0" Prop2="150" Prop3="9,0" Prop4="49,37" Prop5="38,75" Prop6="1614,37" Prop7="215,25" />
+  <Item Prop1="150x150x10,0" Prop2="150" Prop3="10,0" Prop4="54,28" Prop5="42,61" Prop6="1747,21" Prop7="232,96" />
+  <Item Prop1="180x180x8,0" Prop2="180" Prop3="8,0" Prop4="53,94" Prop5="42,34" Prop6="2634,06" Prop7="292,67" />
+  <Item Prop1="180x180x9,0" Prop2="180" Prop3="9,0" Prop4="60,17" Prop5="47,23" Prop6="2900,49" Prop7="322,28" />
+  <Item Prop1="180x180x10,0" Prop2="180" Prop3="10,0" Prop4="66,28" Prop5="52,03" Prop6="3153,95" Prop7="350,44" />
+  <Item Prop1="180x180x12,0" Prop2="180" Prop3="12,0" Prop4="78,17" Prop5="61,36" Prop6="3623,01" Prop7="402,56" />
+  <Item Prop1="180x180x14,0" Prop2="180" Prop3="14,0" Prop4="89,59" Prop5="70,33" Prop6="4043,41" Prop7="449,27" />
+  <Item Prop1="32x32x4,0" Prop2="32" Prop3="4,0" Prop4="4,20" Prop5="3,30" Prop6="5,33" Prop7="3,33" />
+  <Item Prop1="36x36x4,0" Prop2="36" Prop3="4,0" Prop4="4,84" Prop5="3,80" Prop6="8,05" Prop7="4,47" />
+  <Item Prop1="40x40x2,0" Prop2="40" Prop3="2,0" Prop4="2,97" Prop5="2,33" Prop6="7,07" Prop7="3,54" />
+  <Item Prop1="55x55x3,0" Prop2="55" Prop3="3,0" Prop4="6,09" Prop5="4,78" Prop6="27,10" Prop7="9,85" />
+  <Item Prop1="65x65x6,0" Prop2="65" Prop3="6,0" Prop4="13,54" Prop5="10,63" Prop6="76,91" Prop7="23,66" />
+</Document>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="18"
+	DocType="ТУ"
+	DocNum="36-2287-80"
+	DocName="Профили гнутые замкнутые сварные квадратные и прямоугольные"
+	DocNameShort="Трубы стальные"
+  DocStatus="False"
+	ShortName="Труба"
+	Size="L"
+	MainGroup="Металл"
+	Group="Профили"
+	Image="ТУ 36-2287-80"
+	HasSteel="true"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	Rule="[ShortName] [Prop1] [DocType] [DocNum]"
+  MeType="6,Prop2,Prop2,Prop3,L"
+	WMass="Prop8"
+	SymbolSum="8"
+	Symbol1="Марка" Symbol2="b, мм"	Symbol3="s, мм" Symbol4="A, см^2" Symbol5="Iy=Iz, см^4"	Symbol6="Wy=Wz, см^3"
+	Symbol7="iy=iz, мм" Symbol8="P, кг/м"
+>
+  <Item Prop1="80x3" Prop2="80" Prop3="3" Prop4="9,24" Prop5="91,4" Prop6="22,8" Prop7="31,4" Prop8="7,26" />
+  <Item Prop1="80x4" Prop2="80" Prop3="4" Prop4="12,16" Prop5="117,3" Prop6="29,3" Prop7="31" Prop8="9,54" />
+  <Item Prop1="80x5" Prop2="80" Prop3="5" Prop4="15" Prop5="141,2" Prop6="35,3" Prop7="30,7" Prop8="11,77" />
+  <Item Prop1="80x6" Prop2="80" Prop3="6" Prop4="17,76" Prop5="163,1" Prop6="40,7" Prop7="30,3" Prop8="13,94" />
+  <Item Prop1="100x3" Prop2="100" Prop3="3" Prop4="11,64" Prop5="182,7" Prop6="36,5" Prop7="39,6" Prop8="9,13" />
+  <Item Prop1="100x4" Prop2="100" Prop3="4" Prop4="15,36" Prop5="236,3" Prop6="47,2" Prop7="39,2" Prop8="12,05" />
+  <Item Prop1="100x5" Prop2="100" Prop3="5" Prop4="19" Prop5="286,5" Prop6="57,3" Prop7="38,9" Prop8="14,92" />
+  <Item Prop1="100x6" Prop2="100" Prop3="6" Prop4="22,56" Prop5="333,5" Prop6="66,7" Prop7="28,4" Prop8="17,71" />
+  <Item Prop1="120x3" Prop2="120" Prop3="3" Prop4="14,04" Prop5="320,5" Prop6="53,4" Prop7="47,7" Prop8="11,02" />
+  <Item Prop1="120x4" Prop2="120" Prop3="4" Prop4="18,56" Prop5="416,7" Prop6="69,4" Prop7="47,4" Prop8="14,57" />
+  <Item Prop1="120x5" Prop2="120" Prop3="5" Prop4="23" Prop5="507,9" Prop6="84,6" Prop7="46,9" Prop8="18,06" />
+  <Item Prop1="120x6" Prop2="120" Prop3="6" Prop4="27,36" Prop5="594,2" Prop6="99" Prop7="46,6" Prop8="21,48" />
+  <Item Prop1="140x4" Prop2="140" Prop3="4" Prop4="21,76" Prop5="671,3" Prop6="95,9" Prop7="55,5" Prop8="17,08" />
+  <Item Prop1="140x5" Prop2="140" Prop3="5" Prop4="27" Prop5="821,2" Prop6="117,3" Prop7="55,1" Prop8="21,19" />
+  <Item Prop1="140x6" Prop2="140" Prop3="6" Prop4="32,16" Prop5="964,3" Prop6="137,7" Prop7="54,8" Prop8="25,24" />
+  <Item Prop1="140x7" Prop2="140" Prop3="7" Prop4="37,24" Prop5="1100,9" Prop6="157,2" Prop7="54,4" Prop8="29,23" />
+  <Item Prop1="140x8" Prop2="140" Prop3="8" Prop4="42,24" Prop5="1231,1" Prop6="175,8" Prop7="53,9" Prop8="33,16" />
+  <Item Prop1="160x4" Prop2="160" Prop3="4" Prop4="24,96" Prop5="1013" Prop6="126,6" Prop7="63,7" Prop8="19,6" />
+  <Item Prop1="160x5" Prop2="160" Prop3="5" Prop4="31" Prop5="1242,5" Prop6="155,3" Prop7="63,3" Prop8="24,33" />
+  <Item Prop1="160x6" Prop2="160" Prop3="6" Prop4="36,96" Prop5="1463,1" Prop6="182,8" Prop7="62,9" Prop8="29,01" />
+  <Item Prop1="160x7" Prop2="160" Prop3="7" Prop4="42,84" Prop5="1674,9" Prop6="209,3" Prop7="62,5" Prop8="33,63" />
+  <Item Prop1="160x8" Prop2="160" Prop3="8" Prop4="48,64" Prop5="1878,1" Prop6="234,7" Prop7="62,1" Prop8="38,18" />
+  <Item Prop1="180x5" Prop2="180" Prop3="5" Prop4="35" Prop5="1787,9" Prop6="198,6" Prop7="71,5" Prop8="27,47" />
+  <Item Prop1="180x6" Prop2="180" Prop3="6" Prop4="41,76" Prop5="2109,7" Prop6="234,4" Prop7="71,1" Prop8="32,78" />
+  <Item Prop1="180x7" Prop2="180" Prop3="7" Prop4="48,44" Prop5="2420,2" Prop6="268,9" Prop7="70,7" Prop8="38,02" />
+  <Item Prop1="180x8" Prop2="180" Prop3="8" Prop4="55,04" Prop5="2719,7" Prop6="302,1" Prop7="70,3" Prop8="43,21" />
+</Document>

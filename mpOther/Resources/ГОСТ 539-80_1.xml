@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="55"
+	DocType="ГОСТ"
+	DocNum="539-80"
+	DocName="Трубы и муфты асбестоцементные напорные. Технические условия"
+	DocNameShort="Трубы асбестоцементные"
+  DocStatus="False"
+	ShortName="Труба"
+	Size="нет"
+	MainGroup="Прочее"
+	Group="Трубы/муфты"
+	Image="ГОСТ 539-80_1"
+	HasSteel="false"	
+	Rule="[Prop2] [Prop3]x[Prop7] [Prop1] [DocType] [DocNum]"
+	WMass="Prop8"
+	SymbolSum="8"
+	Symbol1="Тип трубы" Symbol2="Класс трубы" Symbol3="Условный проход" 
+	Symbol4="Внутр. диаметр, d" Symbol5="Наруж.диаметр, D" Symbol6="Толщ.стенки, s" 
+	Symbol7="Длина трубы, L" Symbol8="Масса, кг/п.м"
+>
+  <Item Prop1="Тип 1" Prop2="ВТ6" Prop3="100" Prop4="104" Prop5="122" Prop6="9,0" Prop7="2950" Prop8="7,8" />
+  <Item Prop1="Тип 1" Prop2="ВТ6" Prop3="100" Prop4="104" Prop5="122" Prop6="9,0" Prop7="3950" Prop8="7,8" />
+  <Item Prop1="Тип 1" Prop2="ВТ9" Prop3="100" Prop4="100" Prop5="122" Prop6="11,0" Prop7="2950" Prop8="9,2" />
+  <Item Prop1="Тип 1" Prop2="ВТ9" Prop3="100" Prop4="100" Prop5="122" Prop6="11,0" Prop7="3950" Prop8="9,2" />
+  <Item Prop1="Тип 1" Prop2="ВТ12" Prop3="100" Prop4="96" Prop5="122" Prop6="13,0" Prop7="2950" Prop8="10,4" />
+  <Item Prop1="Тип 1" Prop2="ВТ12" Prop3="100" Prop4="96" Prop5="122" Prop6="13,0" Prop7="3950" Prop8="10,4" />
+  <Item Prop1="Тип 1" Prop2="ВТ6" Prop3="150" Prop4="146" Prop5="168" Prop6="11,0" Prop7="2950" Prop8="12,9" />
+  <Item Prop1="Тип 1" Prop2="ВТ6" Prop3="150" Prop4="146" Prop5="168" Prop6="11,0" Prop7="3950" Prop8="12,9" />
+  <Item Prop1="Тип 1" Prop2="ВТ9" Prop3="150" Prop4="141" Prop5="168" Prop6="13,5" Prop7="2950" Prop8="15,2" />
+  <Item Prop1="Тип 1" Prop2="ВТ9" Prop3="150" Prop4="141" Prop5="168" Prop6="13,5" Prop7="3950" Prop8="15,2" />
+  <Item Prop1="Тип 1" Prop2="ВТ12" Prop3="150" Prop4="135" Prop5="168" Prop6="16,5" Prop7="2950" Prop8="17,9" />
+  <Item Prop1="Тип 1" Prop2="ВТ12" Prop3="150" Prop4="135" Prop5="168" Prop6="16,5" Prop7="3950" Prop8="17,9" />
+  <Item Prop1="Тип 1" Prop2="ВТ6" Prop3="200" Prop4="196" Prop5="224" Prop6="14,0" Prop7="3950" Prop8="22,1" />
+  <Item Prop1="Тип 1" Prop2="ВТ9" Prop3="200" Prop4="189" Prop5="224" Prop6="17,5" Prop7="3950" Prop8="26,4" />
+  <Item Prop1="Тип 1" Prop2="ВТ12" Prop3="200" Prop4="181" Prop5="224" Prop6="21,5" Prop7="3950" Prop8="31,2" />
+  <Item Prop1="Тип 1" Prop2="ВТ6" Prop3="250" Prop4="244" Prop5="274" Prop6="15,0" Prop7="3950" Prop8="28,4" />
+  <Item Prop1="Тип 1" Prop2="ВТ9" Prop3="250" Prop4="235" Prop5="274" Prop6="19,5" Prop7="3950" Prop8="35,9" />
+  <Item Prop1="Тип 1" Prop2="ВТ12" Prop3="250" Prop4="228" Prop5="274" Prop6="23,0" Prop7="3950" Prop8="41,1" />
+  <Item Prop1="Тип 1" Prop2="ВТ6" Prop3="300" Prop4="289" Prop5="324" Prop6="17,5" Prop7="3950" Prop8="40,2" />
+  <Item Prop1="Тип 1" Prop2="ВТ9" Prop3="300" Prop4="279" Prop5="324" Prop6="22,5" Prop7="3950" Prop8="49,4" />
+  <Item Prop1="Тип 1" Prop2="ВТ12" Prop3="300" Prop4="270" Prop5="324" Prop6="27,0" Prop7="3950" Prop8="57,4" />
+  <Item Prop1="Тип 1" Prop2="ВТ6" Prop3="350" Prop4="334" Prop5="373" Prop6="19,5" Prop7="3950" Prop8="50,9" />
+  <Item Prop1="Тип 1" Prop2="ВТ9" Prop3="350" Prop4="322" Prop5="373" Prop6="25,5" Prop7="3950" Prop8="63,7" />
+  <Item Prop1="Тип 1" Prop2="ВТ12" Prop3="350" Prop4="312" Prop5="373" Prop6="30,5" Prop7="3950" Prop8="74,0" />
+  <Item Prop1="Тип 1" Prop2="ВТ6" Prop3="400" Prop4="381" Prop5="427" Prop6="23,0" Prop7="3950" Prop8="68,8" />
+  <Item Prop1="Тип 1" Prop2="ВТ9" Prop3="400" Prop4="368" Prop5="427" Prop6="29,5" Prop7="3950" Prop8="84,7" />
+  <Item Prop1="Тип 1" Prop2="ВТ12" Prop3="400" Prop4="356" Prop5="427" Prop6="35,5" Prop7="3950" Prop8="98,7" />
+  <Item Prop1="Тип 1" Prop2="ВТ6" Prop3="500" Prop4="473" Prop5="528" Prop6="27,5" Prop7="3950" Prop8="101,6" />
+  <Item Prop1="Тип 1" Prop2="ВТ9" Prop3="500" Prop4="456" Prop5="528" Prop6="36,0" Prop7="3950" Prop8="127,3" />
+  <Item Prop1="Тип 1" Prop2="ВТ12" Prop3="500" Prop4="441" Prop5="528" Prop6="43,5" Prop7="3950" Prop8="149,2" />
+  <Item Prop1="Тип 2" Prop2="ВТ6" Prop3="200" Prop4="200" Prop5="224" Prop6="12" Prop7="5000" Prop8=" " />
+  <Item Prop1="Тип 2" Prop2="ВТ9" Prop3="200" Prop4="196" Prop5="224" Prop6="14" Prop7="5000" Prop8="24,5" />
+  <Item Prop1="Тип 2" Prop2="ВТ12" Prop3="200" Prop4="188" Prop5="224" Prop6="18" Prop7="5000" Prop8="30,0" />
+  <Item Prop1="Тип 2" Prop2="ВТ15" Prop3="200" Prop4="180" Prop5="224" Prop6="22" Prop7="5000" Prop8="35,3" />
+  <Item Prop1="Тип 2" Prop2="ВТ6" Prop3="250" Prop4="248" Prop5="274" Prop6="13" Prop7="5000" Prop8=" " />
+  <Item Prop1="Тип 2" Prop2="ВТ9" Prop3="250" Prop4="242" Prop5="274" Prop6="16" Prop7="5000" Prop8="33,8" />
+  <Item Prop1="Тип 2" Prop2="ВТ12" Prop3="250" Prop4="234" Prop5="274" Prop6="20" Prop7="5000" Prop8="40,7" />
+  <Item Prop1="Тип 2" Prop2="ВТ15" Prop3="250" Prop4="226" Prop5="274" Prop6="24" Prop7="5000" Prop8="47,3" />
+  <Item Prop1="Тип 2" Prop2="ВТ6" Prop3="300" Prop4="292" Prop5="324" Prop6="16" Prop7="5000" Prop8=" " />
+  <Item Prop1="Тип 2" Prop2="ВТ9" Prop3="300" Prop4="286" Prop5="324" Prop6="19" Prop7="5000" Prop8="47,7" />
+  <Item Prop1="Тип 2" Prop2="ВТ12" Prop3="300" Prop4="276" Prop5="324" Prop6="24" Prop7="5000" Prop8="57,9" />
+  <Item Prop1="Тип 2" Prop2="ВТ15" Prop3="300" Prop4="267" Prop5="324" Prop6="28,5" Prop7="5000" Prop8="66,7" />
+  <Item Prop1="Тип 2" Prop2="ВТ6" Prop3="350" Prop4="337" Prop5="373" Prop6="18" Prop7="5000" Prop8=" " />
+  <Item Prop1="Тип 2" Prop2="ВТ9" Prop3="350" Prop4="329" Prop5="373" Prop6="22" Prop7="5000" Prop8="62,5" />
+  <Item Prop1="Тип 2" Prop2="ВТ12" Prop3="350" Prop4="317" Prop5="373" Prop6="28" Prop7="5000" Prop8="76,5" />
+  <Item Prop1="Тип 2" Prop2="ВТ15" Prop3="350" Prop4="307" Prop5="373" Prop6="33" Prop7="5000" Prop8="87,5" />
+  <Item Prop1="Тип 2" Prop2="ВТ6" Prop3="400" Prop4="385" Prop5="427" Prop6="21" Prop7="5000" Prop8=" " />
+  <Item Prop1="Тип 2" Prop2="ВТ9" Prop3="400" Prop4="377" Prop5="427" Prop6="25" Prop7="5000" Prop8="81,8" />
+  <Item Prop1="Тип 2" Prop2="ВТ12" Prop3="400" Prop4="363" Prop5="427" Prop6="32" Prop7="5000" Prop8="100,6" />
+  <Item Prop1="Тип 2" Prop2="ВТ15" Prop3="400" Prop4="352" Prop5="427" Prop6="37,5" Prop7="5000" Prop8="114,8" />
+  <Item Prop1="Тип 2" Prop2="ВТ6" Prop3="500" Prop4="476" Prop5="528" Prop6="26" Prop7="5000" Prop8=" " />
+  <Item Prop1="Тип 2" Prop2="ВТ9" Prop3="500" Prop4="466" Prop5="528" Prop6="31" Prop7="5000" Prop8="124,7" />
+  <Item Prop1="Тип 2" Prop2="ВТ12" Prop3="500" Prop4="450" Prop5="528" Prop6="39" Prop7="5000" Prop8="151,2" />
+  <Item Prop1="Тип 2" Prop2="ВТ15" Prop3="500" Prop4="436" Prop5="528" Prop6="46" Prop7="5000" Prop8="173,6" />
+  <Item Prop1="Тип 3" Prop2="ВТ6" Prop3="200" Prop4="196" Prop5="224" Prop6="14,0" Prop7="5950" Prop8=" " />
+  <Item Prop1="Тип 3" Prop2="ВТ9" Prop3="200" Prop4="189" Prop5="224" Prop6="17,5" Prop7="5950" Prop8="21,7" />
+  <Item Prop1="Тип 3" Prop2="ВТ12" Prop3="200" Prop4="181" Prop5="224" Prop6="21,5" Prop7="5950" Prop8="25,3" />
+  <Item Prop1="Тип 3" Prop2="ВТ15" Prop3="200" Prop4="176" Prop5="224" Prop6="24,0" Prop7="5950" Prop8="36,2" />
+  <Item Prop1="Тип 3" Prop2="ВТ6" Prop3="300" Prop4="289" Prop5="324" Prop6="17,5" Prop7="5950" Prop8=" " />
+  <Item Prop1="Тип 3" Prop2="ВТ9" Prop3="300" Prop4="279" Prop5="324" Prop6="22,5" Prop7="5950" Prop8="49,4" />
+  <Item Prop1="Тип 3" Prop2="ВТ12" Prop3="300" Prop4="270" Prop5="324" Prop6="27,0" Prop7="5950" Prop8="57,4" />
+  <Item Prop1="Тип 3" Prop2="ВТ15" Prop3="300" Prop4="256" Prop5="324" Prop6="34,0" Prop7="5950" Prop8="69,4" />
+</Document>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="41"
+	DocType="ГОСТ"
+	DocNum="5781-82"
+	DocName="Сталь горячекатаная для армирования железобетонных конструкций. Технические условия"
+	DocNameShort="Арматура"
+  DocStatus="True"
+	ShortName="Арматура"
+	ItemType1="Класс арматурной стали$A-I$A-II$A-III$A-IV$A-V$A-VI"
+	Size="L"
+	MainGroup="Металл"
+	Group="Арматура/проволока"
+	Image="ГОСТ 5781-82"
+	HasSteel="false"
+	HasDimension="true"
+	DimType="Длина,п.м"
+	Rule="[Prop1]-[ItemType1] [DocType] [DocNum]"
+	WMass="Prop3"
+	SymbolSum="3"
+	MeType="3,Prop1,L"
+	Symbol1="Номинальный диаметр dн" Symbol2="Площадь поперечного сечения, см^2" Symbol3="Масса 1п.м, кг"
+>
+  <Item Prop1="6" Prop2="0,283" Prop3="0,222" />
+  <Item Prop1="8" Prop2="0,503" Prop3="0,395" />
+  <Item Prop1="10" Prop2="0,785" Prop3="0,617" />
+  <Item Prop1="12" Prop2="1,131" Prop3="0,888" />
+  <Item Prop1="14" Prop2="1,540" Prop3="1,210" />
+  <Item Prop1="16" Prop2="2,010" Prop3="1,580" />
+  <Item Prop1="18" Prop2="2,540" Prop3="2,000" />
+  <Item Prop1="20" Prop2="3,140" Prop3="2,470" />
+  <Item Prop1="22" Prop2="3,800" Prop3="2,980" />
+  <Item Prop1="25" Prop2="4,910" Prop3="3,850" />
+  <Item Prop1="28" Prop2="6,160" Prop3="4,830" />
+  <Item Prop1="32" Prop2="8,040" Prop3="6,310" />
+  <Item Prop1="36" Prop2="10,180" Prop3="7,990" />
+  <Item Prop1="40" Prop2="12,570" Prop3="9,870" />
+  <Item Prop1="45" Prop2="15,000" Prop3="12,480" />
+  <Item Prop1="50" Prop2="19,630" Prop3="15,410" />
+  <Item Prop1="55" Prop2="23,760" Prop3="18,650" />
+  <Item Prop1="60" Prop2="28,270" Prop3="22,190" />
+  <Item Prop1="70" Prop2="38,480" Prop3="30,210" />
+  <Item Prop1="80" Prop2="50,270" Prop3="39,460" />
+</Document>

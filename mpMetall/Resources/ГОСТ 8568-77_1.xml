@@ -14,7 +14,7 @@
 	Image="ГОСТ 8568-77_1"
 	HasSteel="false"
 	DimType="м.кв."
-	Rule="[ItemType1] [ShortName] [Prop1]x[BxL] [DocType] [DocNum]"
+	Rule="[ItemType1] [ShortName] [Prop1]x[B]x[L] [DocType] [DocNum]"
 	SMass="Prop4"
 	SymbolSum="4"
 	Symbol1="Толщина основания листа s, мм" Symbol2="Ширина основания рифлей b, мм"

@@ -208,6 +208,24 @@
   <data name="ГОСТ_Р_52544_2006" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ГОСТ Р 52544-2006.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="ГОСТ_Р_57837_2017_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ГОСТ Р 57837-2017_1.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ГОСТ_Р_57837_2017_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ГОСТ Р 57837-2017_2.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ГОСТ_Р_57837_2017_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ГОСТ Р 57837-2017_3.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ГОСТ_Р_57837_2017_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ГОСТ Р 57837-2017_4.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ГОСТ_Р_57837_2017_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ГОСТ Р 57837-2017_5.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ГОСТ_Р_57837_2017_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ГОСТ Р 57837-2017_6.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="ДСТУ_3760_2006" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ДСТУ 3760_2006.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>

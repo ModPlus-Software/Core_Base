@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Id="71"
+  DocType="ГОСТ Р"
+  DocNum="57837-2017"
+  DocName="Двутавры стальные горячекатаные с параллельными гранями полок. Технические условия"
+  DocNameShort="Балочные нормальные двутавры (Тип Б)"
+  DocStatus="True"
+  ShortName="Двутавр"
+  Size="L"
+  MainGroup="Металл"
+  Group="Прокат"
+  Image="ГОСТ Р 57837-2017"
+  HasSteel="true"
+  HasDimension="true"
+  DimType="Длина,п.м"
+  ItemType1="Состояние поставки$ГК$КП"
+  Rule="[Prop1]-[ItemType1] [DocType] [DocNum]"
+  WMass="Prop10"
+  MeType="12,Prop2,Prop3,Prop4,Prop5,Prop8,L"
+  SymbolSum="18"
+  Symbol1="Номер профиля" Symbol2="h, мм" Symbol3="b, мм" Symbol4="s, мм" Symbol5="t, мм"
+  Symbol6="hw, мм" Symbol7="bw, мм" Symbol8="r, мм"  Symbol9="Fн, см^2" Symbol10="P, кг/п.м" Symbol11="Ix, см^4"
+  Symbol12="Wx, см^3" Symbol13="Sx, см^3" Symbol14="ix, см" Symbol15="Iy, см^4" Symbol16="Wy, см^3"
+  Symbol17="Sy, см^3" Symbol18="iy, см"
+  >
+  <Item Prop1="10Б1" Prop2="100" Prop3="55" Prop4="4,1" Prop5="5,7" Prop6="88,6" Prop7="25,5" Prop8="7" Prop9="10,32" Prop10="8,1" Prop11="171,01" Prop12="34,20" Prop13="19,70" Prop14="40,70" Prop15="15,25" Prop16="5,54" Prop17="4,57" Prop18="12,15" ></Item>
+  <Item Prop1="12Б1" Prop2="117,6" Prop3="64" Prop4="3,8" Prop5="5,1" Prop6="107,4" Prop7="30,1" Prop8="7" Prop9="11,03" Prop10="8,7" Prop11="257,36" Prop12="43,80" Prop13="24,94" Prop14="48,30" Prop15="22,39" Prop16="7,00" Prop17="5,49" Prop18="14,25" ></Item>
+  <Item Prop1="12Б2" Prop2="120" Prop3="64" Prop4="4,4" Prop5="6,3" Prop6="107,4" Prop7="29,8" Prop8="7" Prop9="13,21" Prop10="10,4" Prop11="317,75" Prop12="53,00" Prop13="30,36" Prop14="49,04" Prop15="27,67" Prop16="8,65" Prop17="6,79" Prop18="14,47" ></Item>
+  <Item Prop1="14Б1" Prop2="137,4" Prop3="73" Prop4="3,8" Prop5="5,6" Prop6="126,2" Prop7="34,6" Prop8="7" Prop9="13,39" Prop10="10,5" Prop11="434,86" Prop12="63,30" Prop13="35,80" Prop14="56,98" Prop15="36,42" Prop16="9,98" Prop17="7,76" Prop18="16,49" ></Item>
+  <Item Prop1="14Б2" Prop2="140" Prop3="73" Prop4="4,7" Prop5="6,9" Prop6="126,2" Prop7="34,2" Prop8="7" Prop9="16,43" Prop10="12,9" Prop11="541,22" Prop12="77,30" Prop13="44,17" Prop14="57,40" Prop15="43,23" Prop16="11,84" Prop17="9,62" Prop18="16,22" ></Item>
+  <Item Prop1="16Б1" Prop2="157" Prop3="82" Prop4="4" Prop5="5,9" Prop6="145,2" Prop7="39" Prop8="9" Prop9="16,18" Prop10="12,7" Prop11="689,28" Prop12="87,80" Prop13="49,55" Prop14="65,27" Prop15="54,43" Prop16="13,27" Prop17="10,35" Prop18="18,34" ></Item>
+  <Item Prop1="16Б2" Prop2="160" Prop3="82" Prop4="5" Prop5="7,4" Prop6="145,2" Prop7="38,5" Prop8="9" Prop9="20,09" Prop10="15,8" Prop11="869,29" Prop12="108,70" Prop13="61,93" Prop14="65,78" Prop15="68,31" Prop16="16,66" Prop17="13,05" Prop18="18,44" ></Item>
+  <Item Prop1="16Б1" Prop2="177" Prop3="91" Prop4="4,3" Prop5="6,5" Prop6="164" Prop7="43,4" Prop8="9" Prop9="19,58" Prop10="15,4" Prop11="1062,74" Prop12="120,10" Prop13="67,66" Prop14="73,68" Prop15="78,49" Prop16="17,25" Prop17="13,98" Prop18="20,02" ></Item>
+  <Item Prop1="18Б2" Prop2="180" Prop3="91" Prop4="5,3" Prop5="8" Prop6="164" Prop7="42,9" Prop8="9" Prop9="23,95" Prop10="18,8" Prop11="1316,96" Prop12="146,30" Prop13="83,21" Prop14="74,16" Prop15="97,45" Prop16="21,42" Prop17="17,30" Prop18="20,17" ></Item>
+  <Item Prop1="20Б0" Prop2="198" Prop3="99" Prop4="4,5" Prop5="7" Prop6="184" Prop7="47,25" Prop8="11" Prop9="23,18" Prop10="18,2" Prop11="1581,66" Prop12="160,00" Prop13="89,88" Prop14="82,60" Prop15="113,61" Prop16="22,95" Prop17="17,86" Prop18="22,14" ></Item>
+  <Item Prop1="20Б1" Prop2="200" Prop3="100" Prop4="5,5" Prop5="8" Prop6="184" Prop7="47,25" Prop8="11" Prop9="27,16" Prop10="21,3" Prop11="1844,26" Prop12="184,00" Prop13="104,73" Prop14="82,41" Prop15="133,91" Prop16="26,78" Prop17="20,97" Prop18="22,21" ></Item>
+  <Item Prop1="20Б2" Prop2="203" Prop3="101" Prop4="6,5" Prop5="9,5" Prop6="184" Prop7="47,25" Prop8="11" Prop9="32,19" Prop10="25,3" Prop11="2218,49" Prop12="219,00" Prop13="124,99" Prop14="83,02" Prop15="163,93" Prop16="32,46" Prop17="25,50" Prop18="22,57" ></Item>
+  <Item Prop1="20Б3" Prop2="208" Prop3="102" Prop4="8" Prop5="12" Prop6="184" Prop7="47" Prop8="11" Prop9="40,24" Prop10="31,6" Prop11="2852,62" Prop12="274,00" Prop13="158,46" Prop14="84,20" Prop15="213,50" Prop16="41,86" Prop17="33,02" Prop18="23,03" ></Item>
+  <Item Prop1="25Б1" Prop2="248" Prop3="124" Prop4="5" Prop5="8" Prop6="232" Prop7="59,5" Prop8="12" Prop9="32,68" Prop10="25,7" Prop11="3537,11" Prop12="285,00" Prop13="159,68" Prop14="104,04" Prop15="254,85" Prop16="41,11" Prop17="31,80" Prop18="27,93" ></Item>
+  <Item Prop1="25Б2" Prop2="250" Prop3="125" Prop4="6" Prop5="9" Prop6="232" Prop7="59,5" Prop8="12" Prop9="37,66" Prop10="29,6" Prop11="4051,73" Prop12="324,00" Prop13="182,93" Prop14="103,73" Prop15="293,85" Prop16="47,02" Prop17="36,55" Prop18="27,93" ></Item>
+  <Item Prop1="25Б3" Prop2="255" Prop3="126" Prop4="7,5" Prop5="11,5" Prop6="232" Prop7="59,25" Prop8="12" Prop9="47,62" Prop10="37,4" Prop11="5238,16" Prop12="411,00" Prop13="233,88" Prop14="104,88" Prop15="384,79" Prop16="61,08" Prop17="47,67" Prop18="28,43" ></Item>
+  <Item Prop1="25Б4" Prop2="260" Prop3="127" Prop4="9" Prop5="14" Prop6="232" Prop7="59" Prop8="12" Prop9="57,68" Prop10="45,3" Prop11="6481,01" Prop12="499,00" Prop13="286,25" Prop14="106,00" Prop15="480,06" Prop16="75,60" Prop17="59,24" Prop18="28,85" ></Item>
+  <Item Prop1="30Б1" Prop2="298" Prop3="149" Prop4="5,5" Prop5="8" Prop6="282" Prop7="71,75" Prop8="13" Prop9="40,80" Prop10="32,0" Prop11="6318,22" Prop12="424,00" Prop13="237,53" Prop14="124,44" Prop15="442,00" Prop16="59,33" Prop17="45,88" Prop18="32,91" ></Item>
+  <Item Prop1="30Б2" Prop2="300" Prop3="150" Prop4="6,5" Prop5="9" Prop6="282" Prop7="71,75" Prop8="13" Prop9="46,78" Prop10="36,7" Prop11="7209,26" Prop12="481,00" Prop13="271,06" Prop14="124,14" Prop15="507,53" Prop16="67,67" Prop17="52,56" Prop18="32,94" ></Item>
+  <Item Prop1="30Б3" Prop2="305" Prop3="151" Prop4="8" Prop5="11,5" Prop6="282" Prop7="71,5" Prop8="13" Prop9="58,74" Prop10="46,1" Prop11="9254,93" Prop12="607,00" Prop13="344,37" Prop14="125,52" Prop15="661,88" Prop16="87,67" Prop17="68,31" Prop18="33,57" ></Item>
+  <Item Prop1="30Б4" Prop2="310" Prop3="152" Prop4="9,5" Prop5="14" Prop6="282" Prop7="71,25" Prop8="13" Prop9="70,80" Prop10="55,6" Prop11="11381,41" Prop12="734,00" Prop13="419,40" Prop14="126,79" Prop15="822,37" Prop16="108,21" Prop17="84,60" Prop18="34,08" ></Item>
+  <Item Prop1="35Б1" Prop2="346" Prop3="174" Prop4="6" Prop5="9" Prop6="328" Prop7="84" Prop8="14" Prop9="52,68" Prop10="41,4" Prop11="11094,49" Prop12="641,00" Prop13="358,09" Prop14="145,12" Prop15="791,54" Prop16="90,98" Prop17="70,11" Prop18="38,76" ></Item>
+  <Item Prop1="35Б2" Prop2="350" Prop3="175" Prop4="7" Prop5="11" Prop6="328" Prop7="84" Prop8="14" Prop9="63,14" Prop10="49,6" Prop11="13559,01" Prop12="775,00" Prop13="433,96" Prop14="146,54" Prop15="984,34" Prop16="112,50" Prop17="86,79" Prop18="39,48" ></Item>
+  <Item Prop1="35БЗ" Prop2="355" Prop3="176" Prop4="8,5" Prop5="13,5" Prop6="328" Prop7="83,75" Prop8="14" Prop9="77,08" Prop10="60,5" Prop11="16797,02" Prop12="946,00" Prop13="533,54" Prop14="147,62" Prop15="1229,36" Prop16="139,70" Prop17="108,13" Prop18="39,94" ></Item>
+  <Item Prop1="35Б4" Prop2="361" Prop3="177" Prop4="10" Prop5="16,5" Prop6="328" Prop7="83,5" Prop8="14" Prop9="92,89" Prop10="72,9" Prop11="20719,71" Prop12="1148,00" Prop13="651,07" Prop14="149,35" Prop15="1528,90" Prop16="172,76" Prop17="134,02" Prop18="40,57" ></Item>
+  <Item Prop1="40Б1" Prop2="396" Prop3="199" Prop4="7" Prop5="11" Prop6="374" Prop7="96" Prop8="16" Prop9="72,16" Prop10="56,6" Prop11="20018,83" Prop12="1011,00" Prop13="563,93" Prop14="166,56" Prop15="1447,14" Prop16="145,44" Prop17="111,97" Prop18="44,78" ></Item>
+  <Item Prop1="40Б2" Prop2="400" Prop3="200" Prop4="8" Prop5="13" Prop6="374" Prop7="96" Prop8="16" Prop9="84,12" Prop10="66,0" Prop11="23704,43" Prop12="1185,00" Prop13="663,13" Prop14="167,87" Prop15="1736,38" Prop16="173,64" Prop17="133,82" Prop18="45,43" ></Item>
+  <Item Prop1="40Б3" Prop2="406" Prop3="201" Prop4="9,5" Prop5="16" Prop6="374" Prop7="95,75" Prop8="16" Prop9="102,05" Prop10="80,1" Prop11="29352,46" Prop12="1446,00" Prop13="813,38" Prop14="169,60" Prop15="2169,88" Prop16="215,91" Prop17="166,74" Prop18="46,11" ></Item>
+  <Item Prop1="40Б4" Prop2="412" Prop3="202" Prop4="11" Prop5="19" Prop6="374" Prop7="95,5" Prop8="16" Prop9="120,1" Prop10="94,3" Prop11="35196,83" Prop12="1709,00" Prop13="966,65" Prop14="171,19" Prop15="2616,25" Prop16="259,03" Prop17="200,47" Prop18="46,67" ></Item>
+  <Item Prop1="45Б1" Prop2="446" Prop3="199" Prop4="8" Prop5="12" Prop6="422" Prop7="95,5" Prop8="18" Prop9="84,3" Prop10="66,2" Prop11="28697,35" Prop12="1287,00" Prop13="725,06" Prop14="184,50" Prop15="1580,02" Prop16="158,80" Prop17="123,29" Prop18="43,29" ></Item>
+  <Item Prop1="45Б2" Prop2="450" Prop3="200" Prop4="9" Prop5="14" Prop6="422" Prop7="95,5" Prop8="18" Prop9="96,76" Prop10="76,0" Prop11="33450,76" Prop12="1487,00" Prop13="839,53" Prop14="185,93" Prop15="1871,56" Prop16="187,16" Prop17="145,46" Prop18="43,98" ></Item>
+  <Item Prop1="45Б3" Prop2="456" Prop3="201" Prop4="10,5" Prop5="17" Prop6="422" Prop7="95,25" Prop8="18" Prop9="115,43" Prop10="90,6" Prop11="40710,41" Prop12="1786,00" Prop13="1012,55" Prop14="187,80" Prop15="2307,61" Prop16="229,61" Prop17="178,81" Prop18="44,71" ></Item>
+  <Item Prop1="45Б4" Prop2="462" Prop3="202" Prop4="12" Prop5="20" Prop6="422" Prop7="95" Prop8="18" Prop9="134,22" Prop10="105,4" Prop11="48197,42" Prop12="2087,00" Prop13="1188,75" Prop14="189,50" Prop15="2756,65" Prop16="272,94" Prop17="213,01" Prop18="45,32" ></Item>
+  <Item Prop1="50Б1" Prop2="492" Prop3="199" Prop4="8,8" Prop5="12" Prop6="468" Prop7="95,1" Prop8="20" Prop9="92,38" Prop10="72,5" Prop11="36841,90" Prop12="1498,00" Prop13="853,45" Prop14="199,70" Prop15="1581,95" Prop16="158,99" Prop17="124,86" Prop18="41,38" ></Item>
+  <Item Prop1="50Б2" Prop2="496" Prop3="199" Prop4="9" Prop5="14" Prop6="468" Prop7="95" Prop8="20" Prop9="101,27" Prop10="79,5" Prop11="41869,08" Prop12="1688,00" Prop13="957,23" Prop14="203,33" Prop15="1844,88" Prop16="185,42" Prop17="144,88" Prop18="42,68" ></Item>
+  <Item Prop1="50Б3" Prop2="500" Prop3="200" Prop4="10" Prop5="16" Prop6="468" Prop7="95" Prop8="20" Prop9="114,23" Prop10="89,7" Prop11="47846,06" Prop12="1914,00" Prop13="1087,59" Prop14="204,66" Prop15="2140,78" Prop16="214,08" Prop17="167,48" Prop18="43,29" ></Item>
+  <Item Prop1="50Б4" Prop2="508" Prop3="201" Prop4="12" Prop5="20" Prop6="468" Prop7="94,5" Prop8="20" Prop9="139,99" Prop10="1099,0" Prop11="59953,57" Prop12="2360,00" Prop13="1348,82" Prop14="206,94" Prop15="2717,84" Prop16="270,43" Prop17="212,23" Prop18="44,06" ></Item>
+  <Item Prop1="50Б5" Prop2="516" Prop3="202" Prop4="15" Prop5="24" Prop6="468" Prop7="93,5" Prop8="20" Prop9="170,59" Prop10="133,9" Prop11="73345,27" Prop12="2843,00" Prop13="1642,68" Prop14="207,35" Prop15="3315,52" Prop16="328,27" Prop17="260,04" Prop18="44,09" ></Item>
+  <Item Prop1="55Б1" Prop2="543" Prop3="220" Prop4="9,5" Prop5="13,5" Prop6="516" Prop7="105,25" Prop8="24" Prop9="113,36" Prop10="89,0" Prop11="55677,43" Prop12="2051,00" Prop13="1164,94" Prop14="221,62" Prop15="2405,52" Prop16="218,68" Prop17="171,67" Prop18="46,06" ></Item>
+  <Item Prop1="55Б2" Prop2="547" Prop3="220" Prop4="10" Prop5="15,5" Prop6="516" Prop7="105" Prop8="24" Prop9="124,74" Prop10="97,9" Prop11="62784,46" Prop12="2296,00" Prop13="1301,49" Prop14="224,34" Prop15="2761,32" Prop16="251,03" Prop17="196,56" Prop18="47,05" ></Item>
+  <Item Prop1="55Б3" Prop2="553" Prop3="221" Prop4="12" Prop5="18,5" Prop6="516" Prop7="104,5" Prop8="24" Prop9="148,63" Prop10="116,7" Prop11="75321,23" Prop12="2724,00" Prop13="1554,49" Prop14="225,11" Prop15="3342,90" Prop16="302,53" Prop17="237,99" Prop18="47,42" ></Item>
+  <Item Prop1="55Б4" Prop2="560" Prop3="222" Prop4="14" Prop5="22" Prop6="516" Prop7="104" Prop8="24" Prop9="174,86" Prop10="137,3" Prop11="89907,11" Prop12="3211,00" Prop13="18420,20" Prop14="226,75" Prop15="4032,05" Prop16="363,25" Prop17="286,76" Prop18="48,02" ></Item>
+  <Item Prop1="60Б1" Prop2="596" Prop3="199" Prop4="10" Prop5="15" Prop6="566" Prop7="64,5" Prop8="22" Prop9="120,45" Prop10="94,6" Prop11="68715,92" Prop12="2306,00" Prop13="1325,36" Prop14="238,85" Prop15="1979,64" Prop16="198,63" Prop17="157,64" Prop18="40,54" ></Item>
+  <Item Prop1="60Б2" Prop2="600" Prop3="200" Prop4="11" Prop5="17" Prop6="566" Prop7="94,5" Prop8="22" Prop9="134,41" Prop10="105,5" Prop11="77632,26" Prop12="2588,00" Prop13="1489,36" Prop14="240,32" Prop15="2278,14" Prop16="227,81" Prop17="180,72" Prop18="41,17" ></Item>
+  <Item Prop1="60Б3" Prop2="604" Prop3="201" Prop4="12,5" Prop5="19" Prop6="566" Prop7="94,25" Prop8="22" Prop9="151,28" Prop10="118,8" Prop11="87472,12" Prop12="2897,00" Prop13="165,38" Prop14="240,46" Prop15="2586,61" Prop16="257,37" Prop17="205,28" Prop18="41,35" ></Item>
+  <Item Prop1="60Б4" Prop2="612" Prop3="202" Prop4="15" Prop5="23" Prop6="566" Prop7="93,5" Prop8="22" Prop9="181,97" Prop10="142,8" Prop11="106509,52" Prop12="3481,00" Prop13="2026,68" Prop14="241,93" Prop15="3182,61" Prop16="315,11" Prop17="253,12" Prop18="41,82" ></Item>
+  <Item Prop1="70Б1" Prop2="691" Prop3="260" Prop4="12" Prop5="15,5" Prop6="660" Prop7="124" Prop8="24" Prop9="164,74" Prop10="129,3" Prop11="125922,22" Prop12="3645,00" Prop13="2094,79" Prop14="276,47" Prop15="4557,34" Prop16="350,56" Prop17="276,64" Prop18="52,60" ></Item>
+  <Item Prop1="70Б2" Prop2="697" Prop3="260" Prop4="13" Prop5="18,5" Prop6="660" Prop7="123,5" Prop8="24" Prop9="186,94" Prop10="146,7" Prop11="147101,94" Prop12="4221,00" Prop13="2419,90" Prop14="280,51" Prop15="5439,29" Prop16="418,41" Prop17="329,52" Prop18="53,94" ></Item>
+  <Item Prop1="70Б3" Prop2="702" Prop3="261" Prop4="14,5" Prop5="21" Prop6="660" Prop7="123,25" Prop8="24" Prop9="210,26" Prop10="165,1" Prop11="167085,07" Prop12="4761,00" Prop13="2736,06" Prop14="261,89" Prop15="6248,47" Prop16="478,81" Prop17="378,10" Prop18="54,51" ></Item>
+  <Item Prop1="70Б4" Prop2="710" Prop3="262" Prop4="17" Prop5="25" Prop6="660" Prop7="122,5" Prop8="24" Prop9="248,14" Prop10="194,8" Prop11="199680,00" Prop12="5625,00" Prop13="3249,28" Prop14="283,67" Prop15="7531,14" Prop16="574,90" Prop17="456,29" Prop18="55,09" ></Item>
+</Document>

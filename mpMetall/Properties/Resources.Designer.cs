@@ -19,7 +19,7 @@ namespace mpMetall.Properties {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -241,7 +241,7 @@ namespace mpMetall.Properties {
         ///	DocNum=&quot;26020-83&quot;
         ///	DocName=&quot;Двутавры стальные горячекатанные с параллельными гранями полок&quot;
         ///	DocNameShort=&quot;Двутавры нормальные&quot;
-        ///  DocStatus=&quot;True&quot;
+        ///  DocStatus=&quot;False&quot;
         ///	ShortName=&quot;Двутавр&quot;
         ///	Size=&quot;L&quot;
         ///	MainGroup=&quot;Металл&quot;
@@ -254,7 +254,7 @@ namespace mpMetall.Properties {
         ///	WMass=&quot;Prop8&quot;
         ///	MeType=&quot;12,Prop2,Prop3,Prop4,Prop5,Prop6,L&quot;
         ///	SymbolSum=&quot;15&quot;
-        ///	Symbo [остаток строки не уместился]&quot;;.
+        ///	Symb [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_26020_83_1 {
             get {
@@ -270,7 +270,7 @@ namespace mpMetall.Properties {
         ///	DocNum=&quot;26020-83&quot;
         ///	DocName=&quot;Двутавры стальные горячекатанные с параллельными гранями полок&quot;
         ///	DocNameShort=&quot;Двутавры широкополочные&quot;
-        ///  DocStatus=&quot;True&quot;
+        ///  DocStatus=&quot;False&quot;
         ///	ShortName=&quot;Двутавр&quot;
         ///	Size=&quot;L&quot;
         ///	MainGroup=&quot;Металл&quot;
@@ -283,7 +283,7 @@ namespace mpMetall.Properties {
         ///	WMass=&quot;Prop8&quot;
         ///	MeType=&quot;12,Prop2,Prop3,Prop4,Prop5,Prop6,L&quot;
         ///	SymbolSum=&quot;15&quot;
-        ///	S [остаток строки не уместился]&quot;;.
+        ///	 [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_26020_83_2 {
             get {
@@ -299,7 +299,7 @@ namespace mpMetall.Properties {
         ///	DocNum=&quot;26020-83&quot;
         ///	DocName=&quot;Двутавры стальные горячекатанные с параллельными гранями полок&quot;
         ///	DocNameShort=&quot;Двутавры колонные&quot;
-        ///  DocStatus=&quot;True&quot;
+        ///  DocStatus=&quot;False&quot;
         ///	ShortName=&quot;Двутавр&quot;
         ///	Size=&quot;L&quot;
         ///	MainGroup=&quot;Металл&quot;
@@ -312,7 +312,7 @@ namespace mpMetall.Properties {
         ///	WMass=&quot;Prop8&quot;
         ///	MeType=&quot;12,Prop2,Prop3,Prop4,Prop5,Prop6,L&quot;
         ///	SymbolSum=&quot;15&quot;
-        ///	Symbol1 [остаток строки не уместился]&quot;;.
+        ///	Symbol [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_26020_83_3 {
             get {
@@ -328,7 +328,7 @@ namespace mpMetall.Properties {
         ///	DocNum=&quot;26020-83&quot;
         ///	DocName=&quot;Двутавры стальные горячекатанные с параллельными гранями полок&quot;
         ///	DocNameShort=&quot;Двутавры дополнительной серии (Д)&quot;
-        ///  DocStatus=&quot;True&quot;
+        ///  DocStatus=&quot;False&quot;
         ///	ShortName=&quot;Двутавр&quot;
         ///	Size=&quot;L&quot;
         ///	MainGroup=&quot;Металл&quot;
@@ -340,7 +340,7 @@ namespace mpMetall.Properties {
         ///	Rule=&quot;[№][Prop1] [DocType] [DocNum]&quot;
         ///	WMass=&quot;Prop8&quot;
         ///	MeType=&quot;12,Prop2,Prop3,Prop4,Prop5,Prop6,L&quot;
-        ///	SymbolSu [остаток строки не уместился]&quot;;.
+        ///	SymbolS [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_26020_83_4 {
             get {
@@ -520,7 +520,7 @@ namespace mpMetall.Properties {
         ///	DocNum=&quot;8239-89&quot;
         ///	DocName=&quot;Двутавры стальные горячекатаные. Сортамент&quot;
         ///	DocNameShort=&quot;Двутавры&quot;
-        ///  DocStatus=&quot;True&quot;
+        ///  DocStatus=&quot;False&quot;
         ///	ShortName=&quot;Двутавр&quot;
         ///	Size=&quot;L&quot;
         ///	MainGroup=&quot;Металл&quot;
@@ -533,7 +533,7 @@ namespace mpMetall.Properties {
         ///	WMass=&quot;Prop9&quot;
         ///	MeType=&quot;11,Prop2,Prop3,Prop4,Prop5,Prop6,Prop7,L&quot;
         ///	SymbolSum=&quot;16&quot;
-        ///	Symbol1=&quot;Номер двутавра&quot; Symbol2 [остаток строки не уместился]&quot;;.
+        ///	Symbol1=&quot;Номер двутавра&quot; Symbol [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_8239_89 {
             get {
@@ -757,9 +757,9 @@ namespace mpMetall.Properties {
         ///	Image=&quot;ГОСТ 8568-77_1&quot;
         ///	HasSteel=&quot;false&quot;
         ///	DimType=&quot;м.кв.&quot;
-        ///	Rule=&quot;[ItemType1] [ShortName] [Prop1]x[BxL] [DocType] [DocNum]&quot;
+        ///	Rule=&quot;[ItemType1] [ShortName] [Prop1]x[B]x[L] [DocType] [DocNum]&quot;
         ///	SMass=&quot;Prop4&quot;
-        ///	S [остаток строки не уместился]&quot;;.
+        /// [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_8568_77_1 {
             get {
@@ -785,7 +785,7 @@ namespace mpMetall.Properties {
         ///	HasSteel=&quot;false&quot;
         ///	HasDimension=&quot;false&quot;
         ///	DimType=&quot;м.кв.&quot;
-        ///	Rule=&quot;[ItemType1] [ShortName] [Prop1]x[BxL]  [DocType] [D [остаток строки не уместился]&quot;;.
+        ///	Rule=&quot;[ItemType1] [ShortName] [Prop1]x[B]x[L]  [DocType]  [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_8568_77_2 {
             get {
@@ -916,6 +916,162 @@ namespace mpMetall.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;Document
+        ///  Id=&quot;71&quot;
+        ///  DocType=&quot;ГОСТ Р&quot;
+        ///  DocNum=&quot;57837-2017&quot;
+        ///  DocName=&quot;Двутавры стальные горячекатаные с параллельными гранями полок. Технические условия&quot;
+        ///  DocNameShort=&quot;Балочные нормальные двутавры (Тип Б)&quot;
+        ///  DocStatus=&quot;True&quot;
+        ///  ShortName=&quot;Двутавр&quot;
+        ///  Size=&quot;L&quot;
+        ///  MainGroup=&quot;Металл&quot;
+        ///  Group=&quot;Прокат&quot;
+        ///  Image=&quot;ГОСТ Р 57837-2017&quot;
+        ///  HasSteel=&quot;true&quot;
+        ///  HasDimension=&quot;true&quot;
+        ///  DimType=&quot;Длина,п.м&quot;
+        ///  ItemType1=&quot;Состояние поставки$ГК$КП&quot;
+        ///  Rule=&quot;[Prop1]-[ItemType1] [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string ГОСТ_Р_57837_2017_1 {
+            get {
+                return ResourceManager.GetString("ГОСТ_Р_57837_2017_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;Document
+        ///  Id=&quot;72&quot;
+        ///  DocType=&quot;ГОСТ Р&quot;
+        ///  DocNum=&quot;57837-2017&quot;
+        ///  DocName=&quot;Двутавры стальные горячекатаные с параллельными гранями полок. Технические условия&quot;
+        ///  DocNameShort=&quot;Балочные широкополочные двутавры (Тип Ш)&quot;
+        ///  DocStatus=&quot;True&quot;
+        ///  ShortName=&quot;Двутавр&quot;
+        ///  Size=&quot;L&quot;
+        ///  MainGroup=&quot;Металл&quot;
+        ///  Group=&quot;Прокат&quot;
+        ///  Image=&quot;ГОСТ Р 57837-2017&quot;
+        ///  HasSteel=&quot;true&quot;
+        ///  HasDimension=&quot;true&quot;
+        ///  DimType=&quot;Длина,п.м&quot;
+        ///  ItemType1=&quot;Состояние поставки$ГК$КП&quot;
+        ///  Rule=&quot;[Prop1]-[ItemTy [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string ГОСТ_Р_57837_2017_2 {
+            get {
+                return ResourceManager.GetString("ГОСТ_Р_57837_2017_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;Document
+        ///  Id=&quot;73&quot;
+        ///  DocType=&quot;ГОСТ Р&quot;
+        ///  DocNum=&quot;57837-2017&quot;
+        ///  DocName=&quot;Двутавры стальные горячекатаные с параллельными гранями полок. Технические условия&quot;
+        ///  DocNameShort=&quot;Колонные двутавры (Тип К)&quot;
+        ///  DocStatus=&quot;True&quot;
+        ///  ShortName=&quot;Двутавр&quot;
+        ///  Size=&quot;L&quot;
+        ///  MainGroup=&quot;Металл&quot;
+        ///  Group=&quot;Прокат&quot;
+        ///  Image=&quot;ГОСТ Р 57837-2017&quot;
+        ///  HasSteel=&quot;true&quot;
+        ///  HasDimension=&quot;true&quot;
+        ///  DimType=&quot;Длина,п.м&quot;
+        ///  ItemType1=&quot;Состояние поставки$ГК$КП&quot;
+        ///  Rule=&quot;[Prop1]-[ItemType1] [DocType]  [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string ГОСТ_Р_57837_2017_3 {
+            get {
+                return ResourceManager.GetString("ГОСТ_Р_57837_2017_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;Document
+        ///  Id=&quot;74&quot;
+        ///  DocType=&quot;ГОСТ Р&quot;
+        ///  DocNum=&quot;57837-2017&quot;
+        ///  DocName=&quot;Двутавры стальные горячекатаные с параллельными гранями полок. Технические условия&quot;
+        ///  DocNameShort=&quot;Свайные двутавры (Тип С)&quot;
+        ///  DocStatus=&quot;True&quot;
+        ///  ShortName=&quot;Двутавр&quot;
+        ///  Size=&quot;L&quot;
+        ///  MainGroup=&quot;Металл&quot;
+        ///  Group=&quot;Прокат&quot;
+        ///  Image=&quot;ГОСТ Р 57837-2017&quot;
+        ///  HasSteel=&quot;true&quot;
+        ///  HasDimension=&quot;true&quot;
+        ///  DimType=&quot;Длина,п.м&quot;
+        ///  ItemType1=&quot;Состояние поставки$ГК$КП&quot;
+        ///  Rule=&quot;[Prop1]-[ItemType1] [DocType] [ [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string ГОСТ_Р_57837_2017_4 {
+            get {
+                return ResourceManager.GetString("ГОСТ_Р_57837_2017_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;Document
+        ///  Id=&quot;75&quot;
+        ///  DocType=&quot;ГОСТ Р&quot;
+        ///  DocNum=&quot;57837-2017&quot;
+        ///  DocName=&quot;Двутавры стальные горячекатаные с параллельными гранями полок. Технические условия&quot;
+        ///  DocNameShort=&quot;Дополнительные балочные двутавры (Тип ДБ)&quot;
+        ///  DocStatus=&quot;True&quot;
+        ///  ShortName=&quot;Двутавр&quot;
+        ///  Size=&quot;L&quot;
+        ///  MainGroup=&quot;Металл&quot;
+        ///  Group=&quot;Прокат&quot;
+        ///  Image=&quot;ГОСТ Р 57837-2017&quot;
+        ///  HasSteel=&quot;true&quot;
+        ///  HasDimension=&quot;true&quot;
+        ///  DimType=&quot;Длина,п.м&quot;
+        ///  ItemType1=&quot;Состояние поставки$ГК$КП&quot;
+        ///  Rule=&quot;[Prop1]-[ItemT [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string ГОСТ_Р_57837_2017_5 {
+            get {
+                return ResourceManager.GetString("ГОСТ_Р_57837_2017_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;Document
+        ///  Id=&quot;76&quot;
+        ///  DocType=&quot;ГОСТ Р&quot;
+        ///  DocNum=&quot;57837-2017&quot;
+        ///  DocName=&quot;Двутавры стальные горячекатаные с параллельными гранями полок. Технические условия&quot;
+        ///  DocNameShort=&quot;Дополнительные колонные двутавры (Тип ДК)&quot;
+        ///  DocStatus=&quot;True&quot;
+        ///  ShortName=&quot;Двутавр&quot;
+        ///  Size=&quot;L&quot;
+        ///  MainGroup=&quot;Металл&quot;
+        ///  Group=&quot;Прокат&quot;
+        ///  Image=&quot;ГОСТ Р 57837-2017&quot;
+        ///  HasSteel=&quot;true&quot;
+        ///  HasDimension=&quot;true&quot;
+        ///  DimType=&quot;Длина,п.м&quot;
+        ///  ItemType1=&quot;Состояние поставки$ГК$КП&quot;
+        ///  Rule=&quot;[Prop1]-[ItemT [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string ГОСТ_Р_57837_2017_6 {
+            get {
+                return ResourceManager.GetString("ГОСТ_Р_57837_2017_6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;Document
         ///  Id=&quot;23&quot;
         ///	DocType=&quot;ДСТУ&quot;
         ///	DocNum=&quot;3760:2006&quot;
@@ -975,7 +1131,7 @@ namespace mpMetall.Properties {
         ///	DocNum=&quot;20-93&quot;
         ///	DocName=&quot;Двутавры горячекатаные с параллельными гранями полок. Технические условия.&quot;
         ///	DocNameShort=&quot;Двутавры&quot;
-        ///  DocStatus=&quot;True&quot;
+        ///  DocStatus=&quot;False&quot;
         ///	ShortName=&quot;Двутавр&quot;
         ///	Size=&quot;L&quot;
         ///	MainGroup=&quot;Металл&quot;
@@ -988,7 +1144,7 @@ namespace mpMetall.Properties {
         ///	WMass=&quot;Prop8&quot;
         ///	MeType=&quot;12,Prop2,Prop3,Prop4,Prop5,Prop6,L&quot;
         ///	SymbolSum=&quot;15&quot;
-        ///	Symbo [остаток строки не уместился]&quot;;.
+        ///	Symb [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string СТО_АСЧМ_20_93 {
             get {

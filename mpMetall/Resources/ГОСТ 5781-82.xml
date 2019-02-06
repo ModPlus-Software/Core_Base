@@ -5,7 +5,7 @@
 	DocNum="5781-82"
 	DocName="Сталь горячекатаная для армирования железобетонных конструкций. Технические условия"
 	DocNameShort="Арматура"
-  DocStatus="True"
+  DocStatus="False"
 	ShortName="Арматура"
 	ItemType1="Класс арматурной стали$A-I$A-II$A-III$A-IV$A-V$A-VI"
 	Size="L"

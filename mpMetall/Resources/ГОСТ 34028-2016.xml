@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Document
+  Id="77"
+  DocType="ГОСТ"
+  DocNum="34028-2016"
+  DocName="Прокат арматурный для железобетонных конструкций. Технические условия"
+  DocNameShort="Арматура"
+  DocStatus="True"
+  ShortName="Арматура"
+  ItemType1="Класс арматурной стали$А240$А400$А500$А600$Ап600$А800$А1000"
+  Size="L"
+  MainGroup="Металл"
+  Group="Арматура/проволока"
+  Image=""
+  HasSteel="false"
+  HasDimension="true"
+  DimType="Длина,п.м"
+  Rule="[Prop1]-[ItemType1] [DocType] [DocNum]"
+  WMass="Prop3"
+  SymbolSum="3"
+  MeType="3,Prop1,L"
+  Symbol1="Номинальный диаметр dн" Symbol2="Площадь поперечного сечения, см^2" Symbol3="Масса 1п.м, кг"
+>
+  <Item Prop1="4" Prop2="0,126" Prop3="0,099" />
+  <Item Prop1="4.5" Prop2="0,159" Prop3="0,125" />
+  <Item Prop1="5" Prop2="0,196" Prop3="0,154" />
+  <Item Prop1="5.5" Prop2="0,238" Prop3="0,187" />
+  <Item Prop1="6" Prop2="0,283" Prop3="0,222" />
+  <Item Prop1="7" Prop2="0,385" Prop3="0,302" />
+  <Item Prop1="7.5" Prop2="0,442" Prop3="0,347" />
+  <Item Prop1="8" Prop2="0,503" Prop3="0,395" />
+  <Item Prop1="8.5" Prop2="0,567" Prop3="0,445" />
+  <Item Prop1="9" Prop2="0,636" Prop3="0,499" />
+  <Item Prop1="9.5" Prop2="0,709" Prop3="0,556" />
+  <Item Prop1="10" Prop2="0,785" Prop3="0,617" />
+  <Item Prop1="11" Prop2="0,950" Prop3="0,746" />
+  <Item Prop1="12" Prop2="1,131" Prop3="0,888" />
+  <Item Prop1="13" Prop2="1,327" Prop3="1,042" />
+  <Item Prop1="14" Prop2="1,539" Prop3="1,208" />
+  <Item Prop1="15" Prop2="1,767" Prop3="1,387" />
+  <Item Prop1="16" Prop2="2,011" Prop3="1,578" />
+  <Item Prop1="17" Prop2="2,270" Prop3="1,782" />
+  <Item Prop1="18" Prop2="2,545" Prop3="1,998" />
+  <Item Prop1="19" Prop2="2,835" Prop3="2,226" />
+  <Item Prop1="20" Prop2="3,142" Prop3="2,466" />
+  <Item Prop1="22" Prop2="3,801" Prop3="2,984" />
+  <Item Prop1="25" Prop2="4,909" Prop3="3,853" />
+  <Item Prop1="28" Prop2="6,158" Prop3="4,834" />
+  <Item Prop1="32" Prop2="8,043" Prop3="6,313" />
+  <Item Prop1="36" Prop2="10,179" Prop3="7,990" />
+  <Item Prop1="40" Prop2="12,566" Prop3="9,865" />
+</Document>

@@ -127,7 +127,7 @@ namespace mpMetall.Properties {
         ///	DocNum=&quot;10884-94&quot;
         ///	DocName=&quot;Сталь арматурная термомеханически упрочненная для железобетонных конструкций. Технические условия&quot;
         ///	DocNameShort=&quot;Арматура&quot;
-        ///  DocStatus=&quot;True&quot;
+        ///  DocStatus=&quot;False&quot;
         ///	ShortName=&quot;Арматура&quot;
         ///	ItemType1=&quot;Класс арматурной стали$Ат400С$Ат500С$Ат600$Ат600С$Ат600К$Ат800$Ат800К$Ат1000$Ат1000К$Ат1200&quot;
         ///	Size=&quot;L&quot;
@@ -136,7 +136,7 @@ namespace mpMetall.Properties {
         ///	Image=&quot;ГОСТ 10884-94&quot;
         ///	HasSteel=&quot;false&quot;
         ///	HasDimension=&quot;true&quot;
-        ///	D [остаток строки не уместился]&quot;;.
+        ///	 [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_10884_94 {
             get {
@@ -403,6 +403,32 @@ namespace mpMetall.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;Document
+        ///  Id=&quot;77&quot;
+        ///  DocType=&quot;ГОСТ&quot;
+        ///  DocNum=&quot;34028-2016&quot;
+        ///  DocName=&quot;Прокат арматурный для железобетонных конструкций. Технические условия&quot;
+        ///  DocNameShort=&quot;Арматура&quot;
+        ///  DocStatus=&quot;True&quot;
+        ///  ShortName=&quot;Арматура&quot;
+        ///  ItemType1=&quot;Класс арматурной стали$А240$А400$А500$А600$Ап600$А800$А1000&quot;
+        ///  Size=&quot;L&quot;
+        ///  MainGroup=&quot;Металл&quot;
+        ///  Group=&quot;Арматура/проволока&quot;
+        ///  Image=&quot;ГОСТ 34028-2016&quot;
+        ///  HasSteel=&quot;false&quot;
+        ///  HasDimension=&quot;true&quot;
+        ///  DimType=&quot;Длина,п.м&quot;
+        ///  Rule=&quot;[Prop1]-[ItemT [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string ГОСТ_34028_2016 {
+            get {
+                return ResourceManager.GetString("ГОСТ_34028_2016", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;Document
         ///  Id=&quot;41&quot;
@@ -410,7 +436,7 @@ namespace mpMetall.Properties {
         ///	DocNum=&quot;5781-82&quot;
         ///	DocName=&quot;Сталь горячекатаная для армирования железобетонных конструкций. Технические условия&quot;
         ///	DocNameShort=&quot;Арматура&quot;
-        ///  DocStatus=&quot;True&quot;
+        ///  DocStatus=&quot;False&quot;
         ///	ShortName=&quot;Арматура&quot;
         ///	ItemType1=&quot;Класс арматурной стали$A-I$A-II$A-III$A-IV$A-V$A-VI&quot;
         ///	Size=&quot;L&quot;
@@ -420,7 +446,7 @@ namespace mpMetall.Properties {
         ///	HasSteel=&quot;false&quot;
         ///	HasDimension=&quot;true&quot;
         ///	DimType=&quot;Длина,п.м&quot;
-        ///	Rule=&quot;[Prop1]-[ItemType1] [DocType] [остаток строки не уместился]&quot;;.
+        ///	Rule=&quot;[Prop1]-[ItemType1] [DocType [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_5781_82 {
             get {

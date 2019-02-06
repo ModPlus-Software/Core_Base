@@ -154,6 +154,9 @@
   <data name="ГОСТ_30245_2003_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ГОСТ 30245-2003_2.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="ГОСТ_34028_2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ГОСТ 34028-2016.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="ГОСТ_5781_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ГОСТ 5781-82.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>

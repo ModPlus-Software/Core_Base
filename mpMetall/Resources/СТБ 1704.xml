@@ -2,7 +2,7 @@
 <Document
   Id="22"
 	DocType="СТБ"
-	DocNum="1704-2006"
+	DocNum="1704-2012"
 	DocName="Арматура ненапрягаемая для железобетонных конструкций. Технические условия"
 	DocNameShort="Арматура"
   DocStatus="True"
@@ -11,7 +11,7 @@
 	Size="L"
 	MainGroup="Металл"
 	Group="Арматура/проволока"
-	Image="СТБ 1704-2006"
+	Image="СТБ 1704"
 	HasSteel="false"
 	HasDimension="true"
 	DimType="Длина,п.м"
@@ -30,13 +30,11 @@
   <Item Prop1="8" Prop4="х" Prop5="х" Prop6="х" Prop2="50,3" Prop3="0,395" />
   <Item Prop1="10" Prop4="х" Prop5="х" Prop6="х" Prop2="78,5" Prop3="0,617" />
   <Item Prop1="12" Prop4="х" Prop5="х" Prop6="х" Prop2="113,0" Prop3="0,888" />
-  <Item Prop1="14" Prop4="х" Prop5="х" Prop6="х" Prop2="154,0" Prop3="1,208" />
-  <Item Prop1="16" Prop4="х" Prop5="х" Prop6="х" Prop2="201,0" Prop3="1,578" />
-  <Item Prop1="18" Prop4="х" Prop5="х" Prop6="х" Prop2="254,5" Prop3="2,000" />
-  <Item Prop1="20" Prop4="х" Prop5="х" Prop6="х" Prop2="314,0" Prop3="2,466" />
-  <Item Prop1="22" Prop4="х" Prop5="х" Prop6="х" Prop2="380,1" Prop3="2,984" />
-  <Item Prop1="25" Prop4="х" Prop5="х" Prop6="х" Prop2="491,0" Prop3="3,853" />
-  <Item Prop1="28" Prop4="х" Prop5="х" Prop6="х" Prop2="616,0" Prop3="4,833" />
-  <Item Prop1="32" Prop4="х" Prop5="х" Prop6="х" Prop2="804,0" Prop3="6,313" />
-  <Item Prop1="40" Prop4="х" Prop5="х" Prop6="х" Prop2="1256,0" Prop3="9,864" />
+  <Item Prop1="14" Prop4="х" Prop5="х" Prop6="х" Prop2="154,0" Prop3="1,210" />
+  <Item Prop1="16" Prop4="х" Prop5="х" Prop6="х" Prop2="201,0" Prop3="1,580" />
+  <Item Prop1="20" Prop4="х" Prop5="х" Prop6="х" Prop2="314,0" Prop3="2,470" />
+  <Item Prop1="25" Prop4="х" Prop5="х" Prop6="х" Prop2="491,0" Prop3="3,850" />
+  <Item Prop1="28" Prop4="х" Prop5="х" Prop6="х" Prop2="616,0" Prop3="4,830" />
+  <Item Prop1="32" Prop4="х" Prop5="х" Prop6="х" Prop2="804,0" Prop3="6,310" />
+  <Item Prop1="40" Prop4="х" Prop5="х" Prop6="х" Prop2="1257,0" Prop3="9,860" />
 </Document>

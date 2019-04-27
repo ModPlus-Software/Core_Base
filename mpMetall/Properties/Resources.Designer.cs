@@ -19,7 +19,7 @@ namespace mpMetall.Properties {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -416,11 +416,11 @@ namespace mpMetall.Properties {
         ///  Size=&quot;L&quot;
         ///  MainGroup=&quot;Металл&quot;
         ///  Group=&quot;Арматура/проволока&quot;
-        ///  Image=&quot;ГОСТ 34028-2016&quot;
+        ///  Image=&quot;&quot;
         ///  HasSteel=&quot;false&quot;
         ///  HasDimension=&quot;true&quot;
         ///  DimType=&quot;Длина,п.м&quot;
-        ///  Rule=&quot;[Prop1]-[ItemT [остаток строки не уместился]&quot;;.
+        ///  Rule=&quot;[Prop1]-[ItemType1] [DocType] [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_34028_2016 {
             get {
@@ -1143,9 +1143,9 @@ namespace mpMetall.Properties {
         ///	WMass=&quot;Prop6&quot;
         ///	 [остаток строки не уместился]&quot;;.
         /// </summary>
-        internal static string СТБ_1704_2006 {
+        internal static string СТБ_1704 {
             get {
-                return ResourceManager.GetString("СТБ_1704_2006", resourceCulture);
+                return ResourceManager.GetString("СТБ_1704", resourceCulture);
             }
         }
         

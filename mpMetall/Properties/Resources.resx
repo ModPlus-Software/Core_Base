@@ -232,8 +232,8 @@
   <data name="ДСТУ_3760_2006" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ДСТУ 3760_2006.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="СТБ_1704_2006" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\СТБ 1704-2006.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="СТБ_1704" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СТБ 1704.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="СТО_АСЧМ_20_93" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\СТО АСЧМ 20-93.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>

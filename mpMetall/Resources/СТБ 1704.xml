@@ -7,7 +7,7 @@
 	DocNameShort="Арматура"
   DocStatus="True"
 	ShortName="Арматура"
-	ItemType1="Класс арматуры$S240$S400$S500"
+	ItemType1="Класс арматуры$S240$S500"
 	Size="L"
 	MainGroup="Металл"
 	Group="Арматура/проволока"
@@ -17,24 +17,24 @@
 	DimType="Длина,п.м"
 	Rule="[Prop1] [ItemType1] [DocType] [DocNum]"
 	WMass="Prop6"
-	SymbolSum="6"
+	SymbolSum="5"
 	MeType="3,Prop1,L"
-	Symbol1="Номинальный диаметр dнсм, мм" Symbol4="Класс S240" Symbol5="Класс S400"
-	Symbol6="Класс S500" Symbol2="Номинальная площадь поперечного сечения, мм2"
+	Symbol1="Номинальный диаметр dнсм, мм" Symbol4="Класс S240" 
+	Symbol5="Класс S500" Symbol2="Номинальная площадь поперечного сечения, мм2"
 	Symbol3="Номинальная масса 1 пог.м, кг"
 >
-  <Item Prop1="4" Prop4=" " Prop5=" " Prop6="х" Prop2="12,6" Prop3="0,099" />
-  <Item Prop1="5" Prop4=" " Prop5=" " Prop6="х" Prop2="19,6" Prop3="0,154" />
-  <Item Prop1="5,5" Prop4=" " Prop5=" " Prop6="х" Prop2="23,8" Prop3="0,187" />
-  <Item Prop1="6" Prop4="х" Prop5="х" Prop6="х" Prop2="28,3" Prop3="0,222" />
-  <Item Prop1="8" Prop4="х" Prop5="х" Prop6="х" Prop2="50,3" Prop3="0,395" />
-  <Item Prop1="10" Prop4="х" Prop5="х" Prop6="х" Prop2="78,5" Prop3="0,617" />
-  <Item Prop1="12" Prop4="х" Prop5="х" Prop6="х" Prop2="113,0" Prop3="0,888" />
-  <Item Prop1="14" Prop4="х" Prop5="х" Prop6="х" Prop2="154,0" Prop3="1,210" />
-  <Item Prop1="16" Prop4="х" Prop5="х" Prop6="х" Prop2="201,0" Prop3="1,580" />
-  <Item Prop1="20" Prop4="х" Prop5="х" Prop6="х" Prop2="314,0" Prop3="2,470" />
-  <Item Prop1="25" Prop4="х" Prop5="х" Prop6="х" Prop2="491,0" Prop3="3,850" />
-  <Item Prop1="28" Prop4="х" Prop5="х" Prop6="х" Prop2="616,0" Prop3="4,830" />
-  <Item Prop1="32" Prop4="х" Prop5="х" Prop6="х" Prop2="804,0" Prop3="6,310" />
-  <Item Prop1="40" Prop4="х" Prop5="х" Prop6="х" Prop2="1257,0" Prop3="9,860" />
+  <Item Prop1="4" Prop4=" " Prop5="х" Prop2="12,6" Prop3="0,099" />
+  <Item Prop1="5" Prop4=" " Prop5="х" Prop2="19,6" Prop3="0,154" />
+  <Item Prop1="5,5" Prop4=" " Prop5="х" Prop2="23,8" Prop3="0,187" />
+  <Item Prop1="6" Prop4="х" Prop5="х" Prop2="28,3" Prop3="0,222" />
+  <Item Prop1="8" Prop4="х" Prop5="х" Prop2="50,3" Prop3="0,395" />
+  <Item Prop1="10" Prop4="х" Prop5="х" Prop2="78,5" Prop3="0,617" />
+  <Item Prop1="12" Prop4="х" Prop5="х" Prop2="113,0" Prop3="0,888" />
+  <Item Prop1="14" Prop4="х" Prop5="х" Prop2="154,0" Prop3="1,210" />
+  <Item Prop1="16" Prop4="х" Prop5="х" Prop2="201,0" Prop3="1,580" />
+  <Item Prop1="20" Prop4="х" Prop5="х" Prop2="314,0" Prop3="2,470" />
+  <Item Prop1="25" Prop4="х" Prop5="х" Prop2="491,0" Prop3="3,850" />
+  <Item Prop1="28" Prop4="х" Prop5="х" Prop2="616,0" Prop3="4,830" />
+  <Item Prop1="32" Prop4="х" Prop5="х" Prop2="804,0" Prop3="6,310" />
+  <Item Prop1="40" Prop4="х" Prop5="х" Prop2="1257,0" Prop3="9,860" />
 </Document>

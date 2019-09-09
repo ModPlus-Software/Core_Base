@@ -13,117 +13,144 @@ namespace mpBaseInt
         /// нужно для работы из других функций
         /// </summary>
         public string DataBaseName { get; set; }
+
         /// <summary>
         /// ID документа
         /// </summary>
         public int Id { get; set; }
+        
         /// <summary>
         /// Текущий документ в виде Xml-элемента
         /// </summary>
         public XElement XmlDocument { get; set; }
+        
         /// <summary>
         /// Тип документа (ГОСТ, Серия и т.п.)
         /// </summary>
         public string DocumentType { get; set; }
+        
         /// <summary>
         /// Номер документа
         /// </summary>
         public string DocumentNumber { get; set; }
+        
         /// <summary>
         /// Название документа
         /// </summary>
         public string DocumentName { get; set; }
+        
         /// <summary>
         /// Статус документа
         /// </summary>
         public bool? DocStatus { get; set; }
+        
         /// <summary>
         /// Краткое название документа для обобщения (Двутавры, Прокат листовой, Сваи железобетонные и т.д.)
         /// </summary>
         public string DocumentShortName { get; set; }
+        
         /// <summary>
         /// Короткое название изделия (Уголок, двутавр, швеллер и т.п.)
         /// </summary>
         public string ShortName { get; set; }
+        
         /// <summary>
         /// Группа (балки, колонны, профили, прокат и т.д.)
         /// </summary>
         public string Group { get; set; }
+        
         /// <summary>
         /// Кол-во описывающих символов = кол-во столбцов в таблице
         /// </summary>
         public int SymbolCount { get; set; }
+        
         /// <summary>
         /// Описывающие символы (заголовки таблицы)
         /// </summary>
         public IEnumerable<string> Symbols { get; set; }
+        
         /// <summary>
         /// Значения в файле в виде xml (для биндинга)
         /// </summary>
         public XElement Items { get; set; }
+        
         /// <summary>
         /// Название файла изображения (без расширения). Может быть пустым
         /// </summary>
         public string Image { get; set; }
+        
         /// <summary>
         /// Выбран-ли этот документ. Нужно для работы с контролами окна и биндингом
         /// </summary>
         public bool IsSelected { get; set; }
+        
         /// <summary>
         /// Коллекция дополнительных свойств, которые не входят в таблицу, но могут быть выбраны
         /// </summary>
         public ObservableCollection<ItemType> ItemTypes { get; set; }
+        
         /// <summary>
         /// Имеет ли элемент свойство "Сталь"
         /// </summary>
         public bool HasSteel { get; set; }
+        
         /// <summary>
         /// Правило написания наименования
         /// представляет собой строку с именами атрибутов, взятых в []
         /// </summary>
         public string Rule { get; set; }
+        
         /// <summary>
         /// Является-ли элемент Железобетонным (для отрисовки)
         /// Если свойства нет, значит не является или нет варианта отрисовки
         /// </summary>
         public string CoType { get; set; }
+        
         /// <summary>
         /// Является-ли элемент Металлическим (для отрисовки)
         /// Если свойства нет, значит не является или нет варианта отрисовки
         /// </summary>
         public string MeType { get; set; }
+        
         /// <summary>
         /// Является-ли элемент Деревянным (для отрисовки)
         /// Если свойства нет, значит не является или нет варианта отрисовки
         /// </summary>
         public string WdType { get; set; }
+        
         /// <summary>
         /// Является-ли элемент Материалом (для отрисовки)
         /// Если свойства нет, значит не является или нет варианта отрисовки
         /// </summary>
         public string MaType { get; set; }
+        
         /// <summary>
         /// Является-ли элемент Прочим (для отрисовки)
         /// Если свойства нет, значит не является или нет варианта отрисовки
         /// </summary>
         public string OtType { get; set; }
+        
         /// <summary>
         /// Масса элемента, кг
         /// </summary>
         public string Mass { get; set; }
+        
         /// <summary>
         /// Масса погонного метра, кг/п.м
         /// </summary>
         public string WMass { get; set; }
+        
         /// <summary>
         /// Масса кубического метра, кг/куб.м (плотность)
         /// Может иметь несколько значений, через запятую
         /// </summary>
         public string CMass { get; set; }
+        
         /// <summary>
         /// Масса квадратного метра, кг/кв.м
         /// </summary>
         public string SMass { get; set; }
+        
         /// <summary>
         /// Значение, указывающее на нужность ввода размеров для элемента
         /// Может не быть!
@@ -131,7 +158,7 @@ namespace mpBaseInt
         public string Size { get; set; }
 
         /// <summary>
-        /// Прсинг документа из Xml в класс BaseDocument
+        /// Парсинг документа из Xml в класс BaseDocument
         /// </summary>
         /// <param name="dbName">Имя базы данных</param>
         /// <returns>Документ вида BaseDocument</returns>
@@ -207,6 +234,7 @@ namespace mpBaseInt
                 return false;
             }
         }
+        
         /// <summary>
         /// Получение количества описывающих символов
         /// </summary>
@@ -239,6 +267,7 @@ namespace mpBaseInt
             }
             return !coll.Any() ? null : coll;
         }
+        
         /// <summary>
         /// Класс, описывающий дополнительные типы в документе
         /// например класс арматуры, класс бетона и т.п.
@@ -283,6 +312,7 @@ namespace mpBaseInt
             public string TypeToolTip { get; set; }
             public bool TypeToolTipVisibility { get; set; }
         }
+        
         /// <summary>
         /// Получение типов для документа
         /// </summary>

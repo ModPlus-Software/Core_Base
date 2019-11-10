@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mpBaseInt", "mpBaseInt\mpBaseInt.csproj", "{8AA9A7DE-D3A6-470F-9120-583769EBDC9D}"
 EndProject
@@ -19,6 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mpMetall", "mpMetall\mpMeta
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{516F3185-D7E7-49C4-966C-517580C201C2}"
 	ProjectSection(SolutionItems) = preProject
+		AddingToDb.xlsx = AddingToDb.xlsx
 		Readme.txt = Readme.txt
 	EndProjectSection
 EndProject

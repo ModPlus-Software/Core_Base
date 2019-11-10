@@ -7,25 +7,25 @@
     using System.Windows.Forms;
     using OfficeOpenXml;
 
-    class Program
+    public class Program
     {
         [STAThreadAttribute]
         static void Main(string[] args)
         {
-            OpenFileDialog ofd = new OpenFileDialog();
+            var ofd = new OpenFileDialog();
             ofd.ShowDialog();
-            OfficeOpenXml.ExcelPackage package = new ExcelPackage(new FileInfo(ofd.FileName));
+            var package = new ExcelPackage(new FileInfo(ofd.FileName));
 
-            ExcelWorksheet worksheet = package.Workbook.Worksheets[1];
+            var worksheet = package.Workbook.Worksheets[1];
             var colCount = worksheet.Dimension.End.Column;
             var rowCount = worksheet.Dimension.End.Row;
 
             var result = string.Empty;
 
-            for (int i = 1; i <= rowCount; i++)
+            for (var i = 1; i <= rowCount; i++)
             {
-                string rowStr = "<Item ";
-                for (int j = 1; j <= colCount; j++)
+                var rowStr = "<Item ";
+                for (var j = 1; j <= colCount; j++)
                 {
                     rowStr += $"Prop{j}=\"{worksheet.Cells[i,j].Text.Replace('.', ',')}\" ";
                 }
@@ -49,7 +49,7 @@
 
         public static void ShowTextWithNotepad(string message, string title = null)
         {
-            Process notepad = Process.Start(new ProcessStartInfo("notepad.exe"));
+            var notepad = Process.Start(new ProcessStartInfo("notepad.exe"));
             if (notepad != null)
             {
                 notepad.WaitForInputIdle();
@@ -59,7 +59,7 @@
 
                 if (!string.IsNullOrEmpty(message))
                 {
-                    IntPtr child = FindWindowEx(notepad.MainWindowHandle, new IntPtr(0), "Edit", null);
+                    var child = FindWindowEx(notepad.MainWindowHandle, new IntPtr(0), "Edit", null);
                     SendMessage(child, 0x000C, 0, message);
                 }
             }

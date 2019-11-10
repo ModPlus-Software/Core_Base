@@ -1,18 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.Linq;
-using System.Xml.Linq;
-using mpBaseInt;
-
-namespace mpMetall
+﻿namespace mpMetall
 {
+    using System.Collections;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.Globalization;
+    using System.Linq;
+    using System.Xml.Linq;
+    using mpBaseInt;
+
     public static class Metall
     {
         public static readonly string Name = "DbMetall";
 
         public static ICollection<BaseDocument> DocumentCollection;
+        
         /// <summary>
         /// Загрузка всех файлов из ресурсов в коллекцию DocumentCollection
         /// Обязательно при использовании сборки
@@ -25,12 +26,14 @@ namespace mpMetall
             {
                 var resource = entry.Value; // Значение ресурса
                 var xml = XElement.Parse(resource.ToString());
+                
                 // Создаем и заполняем новый элемент базы
                 var newElement = new BaseDocument { XmlDocument = xml };
                 if (newElement.InitCurrentElement(Name))
                     DocumentCollection.Add(newElement);
             }
         }
+
         /// <summary>
         /// Получить список документов
         /// </summary>

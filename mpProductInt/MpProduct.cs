@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Xml.Linq;
-using mpBaseInt;
-
-namespace mpProductInt
+﻿namespace mpProductInt
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.Linq;
+    using System.Text;
+    using System.Xml.Linq;
+    using mpBaseInt;
+
     /// <summary>
     /// Класс для изделия
     /// </summary>
@@ -17,59 +17,73 @@ namespace mpProductInt
         /// Документ в базе данных для этого изделия
         /// </summary>
         public BaseDocument BaseDocument { get; set; }
+
         /// <summary>
         /// Длина изделия. Возможно Null
         /// </summary>
         public double? Length { get; set; }
+
         /// <summary>
         /// Диаметр изделия. Возможно Null
         /// </summary>
         public double? Diameter { get; set; }
+
         /// <summary>
         /// Высота изделия. Возможно Null
         /// </summary>
         public double? Height { get; set; }
+
         /// <summary>
         /// Ширина изделия. Возможно Null
         /// </summary>
         public double? Width { get; set; }
+
         /// <summary>
         /// Позиция изделия. Может не быть
         /// </summary>
         public string Position { get; set; }
+
         /// <summary>
         /// Документ на сталь. Может не быть
         /// </summary>
         public string SteelDoc { get; set; }
+
         /// <summary>
         /// Марка стали. Может не быть
         /// </summary>
         public string SteelType { get; set; }
+
         /// <summary>
         /// Масса элемента в кг
         /// </summary>
         public double? Mass { get; set; }
+
         /// <summary>
         /// Масса погонного метра, кг/п.м
         /// </summary>
         public double? WMass { get; set; }
+
         /// <summary>
         /// Масса кубического метра, кг/куб.м (плотность)
         /// </summary>
         public double? CMass { get; set; }
+
         /// <summary>
         /// Масса квадратного метра, кг/кв.м
         /// </summary>
         public double? SMass { get; set; }
+
         /// <summary>
         /// Выбранный элемент в таблице. Может не быть (например, если размеры задаются)
         /// </summary>
         public XElement Item { get; set; }
+
         /// <summary>
         /// Коллекция дополнительных свойств, которые не входят в таблицу, но могут быть выбраны
         /// Могут не быть
         /// </summary>
         public ObservableCollection<BaseDocument.ItemType> ItemTypes { get; set; }
+
         /// <summary>
         /// Получение данных для отрисовки
         /// Данные будем сразу конвертировать в нужные значения
@@ -91,27 +105,40 @@ namespace mpProductInt
                 case "DbOther":
                     typeFromAtt = BaseDocument.OtType.Split(',').ToList(); break;
             }
+
             var drawData = new List<object>();
+
             // Получили список значений в файле изделия
             // Этот список может содержать число, ссылку на атрибут или значение указанного введенного размера
             for (var k = 0; k < typeFromAtt.Count; k++)
             {
                 // Первое значение в списке - это ВСЕГДА вариант отрисовки!
                 if (k == 0)
+                {
                     drawData.Insert(k, typeFromAtt[k]);
+                }
                 else
                 {
-                    double d;
-                    if (double.TryParse(typeFromAtt[k], out d)) // Если это число
+                    if (double.TryParse(typeFromAtt[k], out var d)) // Если это число
+                    {
                         drawData.Insert(k, d);
+                    }
                     else if (typeFromAtt[k].Equals("D")) // Если это диаметр
+                    {
                         drawData.Insert(k, Diameter);
+                    }
                     else if (typeFromAtt[k].Equals("L")) // Если это длина
+                    {
                         drawData.Insert(k, Length);
+                    }
                     else if (typeFromAtt[k].Equals("B")) // Если это ширина
+                    {
                         drawData.Insert(k, Width);
+                    }
                     else if (typeFromAtt[k].Equals("H")) // Если это высота (толщина)
+                    {
                         drawData.Insert(k, Height);
+                    }
                     else if (typeFromAtt[k].Contains("ItemType"))// Если размер берется по доп. свойству
                     {
                         foreach (BaseDocument.ItemType itemType in ItemTypes)
@@ -128,13 +155,15 @@ namespace mpProductInt
                         // Иначе это имя атрибута
                         // Значение атрибута может содержать число со звездочкой
                         // или ничего не содержать (или знак "-")
-                        var propValue = Item.Attribute(typeFromAtt[k]).Value.Replace(',', '.').Replace("*", "");
+                        var propValue = Item.Attribute(typeFromAtt[k]).Value.Replace(',', '.').Replace("*", string.Empty);
                         drawData.Insert(k, double.TryParse(propValue, out d) ? d : 0.0);
                     }
                 }
             }
+
             return drawData;
         }
+
         /// <summary>
         /// Получение марки изделия согласно правила
         /// </summary>
@@ -143,38 +172,43 @@ namespace mpProductInt
         {
             var brkResult = BreakString(BaseDocument.Rule, '[', ']');
             var sb = new StringBuilder();
+
             // Проходим по списку знаков сверяя его с атрибутами (и не только)
-            foreach (var _char in brkResult)
+            foreach (var c in brkResult)
             {
-                // Добавляем вспомогательгую переменную
+                // Добавляем вспомогательную переменную
                 var appended = false;
+
                 // Проходим по атрибутам в документе
                 foreach (var docAttr in BaseDocument.XmlDocument.Attributes())
                 {
-                    if (docAttr.Name.ToString().Equals(_char) && !docAttr.Name.ToString().Contains("ItemType"))
+                    if (docAttr.Name.ToString().Equals(c) && !docAttr.Name.ToString().Contains("ItemType"))
                     {
                         sb.Append(docAttr.Value);
                         appended = true;
                         break;
                     }
                 }
+
                 // проходим по ItemTypes
                 if (BaseDocument.ItemTypes.Count > 0)
+                {
                     foreach (var itemType in ItemTypes)
                     {
-                        if (itemType.TypeName.Equals(_char))
+                        if (itemType.TypeName.Equals(c))
                         {
                             sb.Append(itemType.SelectedItem);
                             appended = true;
                             break;
                         }
                     }
+                }
 
                 if (Item != null) // Если выбран табличный элемент
                 {
                     foreach (var attribute in Item.Attributes())
                     {
-                        if (attribute.Name.ToString().Equals(_char))
+                        if (attribute.Name.ToString().Equals(c))
                         {
                             sb.Append(attribute.Value);
                             appended = true;
@@ -182,32 +216,42 @@ namespace mpProductInt
                         }
                     }
                 }
+
                 // Если это указанный размер
-                if (_char.Equals("B"))
+                if (c.Equals("B"))
                 {
                     sb.Append(Width);
                     appended = true;
                 }
-                if (_char.Equals("H"))
+
+                if (c.Equals("H"))
                 {
                     sb.Append(Height);
                     appended = true;
                 }
-                if (_char.Equals("L"))
+
+                if (c.Equals("L"))
                 {
                     sb.Append(Length);
                     appended = true;
                 }
-                if (_char.Equals("D"))
+
+                if (c.Equals("D"))
                 {
                     sb.Append(Diameter);
                     appended = true;
                 }
+
                 // Если предыдущие проверки не дали результат, значит это просто текст
-                if (!appended) sb.Append(_char);
+                if (!appended)
+                {
+                    sb.Append(c);
+                }
             }
+
             return sb.ToString();
         }
+
         /// <summary>
         /// Вспомогательная функция разбивки строки на список
         /// </summary>
@@ -225,11 +269,18 @@ namespace mpProductInt
                 if (str[i].Equals(symbol1))
                 {
                     if (sb.Length > 0)
+                    {
                         result.Insert(k, sb.ToString());
+                    }
+
                     sb = new StringBuilder();
                     if (i > 1)
+                    {
                         if (!str[i - 1].Equals(symbol2))
+                        {
                             k++;
+                        }
+                    }
                 }
                 else if (str[i].Equals(symbol2))
                 {
@@ -240,10 +291,14 @@ namespace mpProductInt
                 else
                 {
                     if (k == -1)
+                    {
                         k++;
+                    }
+
                     sb.Append(str[i]);
                 }
             }
+
             return result;
         }
 
@@ -266,15 +321,25 @@ namespace mpProductInt
                 SMass = SMass
             };
             if (BaseDocument.Items != null && BaseDocument.Items.Elements("Item").Any())
+            {
                 prToSave.IndexOfItem = BaseDocument.Items.Elements("Item").ToList().IndexOf(Item);
-            else prToSave.IndexOfItem = -1;
+            }
+            else
+            {
+                prToSave.IndexOfItem = -1;
+            }
+
             if (ItemTypes != null)
             {
-                var values = ItemTypes.Aggregate(string.Empty,
+                var values = ItemTypes.Aggregate(
+                    string.Empty,
                     (current, itemType) => current + (itemType.SelectedItem + "$"));
                 prToSave.ItemTypesValues = values.TrimEnd('$');
             }
-            else prToSave.ItemTypesValues = string.Empty;
+            else
+            {
+                prToSave.ItemTypesValues = string.Empty;
+            }
 
             return prToSave;
         }
@@ -296,14 +361,18 @@ namespace mpProductInt
                 CMass = savedProduct.CMass,
                 SMass = savedProduct.SMass
             };
+
             // Может быть вариант, что продукт "сделан" из атрибутов, тогда ссылки на базу не будет! И дальнейшие действия не нужны
             if (product.BaseDocument != null)
             {
                 product.ItemTypes = product.BaseDocument.ItemTypes;
                 if (savedProduct.IndexOfItem != null)
+                {
                     product.Item = savedProduct.IndexOfItem != -1
-                        ? product.BaseDocument.Items.Elements("Item").ElementAt(savedProduct.IndexOfItem.Value)
-                        : null;
+                          ? product.BaseDocument.Items.Elements("Item").ElementAt(savedProduct.IndexOfItem.Value)
+                          : null;
+                }
+
                 if (!string.IsNullOrEmpty(savedProduct.ItemTypesValues))
                 {
                     var itv = savedProduct.ItemTypesValues.Split('$').ToList();
@@ -313,6 +382,7 @@ namespace mpProductInt
                     }
                 }
             }
+
             return product;
         }
 
@@ -328,6 +398,7 @@ namespace mpProductInt
                             return baseDocument;
                         }
                     }
+
                     break;
                 case "DbMetall":
                     {
@@ -337,6 +408,7 @@ namespace mpProductInt
                             return baseDocument;
                         }
                     }
+
                     break;
                 case "DbWood":
                     {
@@ -346,6 +418,7 @@ namespace mpProductInt
                             return baseDocument;
                         }
                     }
+
                     break;
                 case "DbMaterial":
                     {
@@ -355,6 +428,7 @@ namespace mpProductInt
                             return baseDocument;
                         }
                     }
+
                     break;
                 case "DbOther":
                     {
@@ -364,10 +438,13 @@ namespace mpProductInt
                             return baseDocument;
                         }
                     }
+
                     break;
             }
+
             return null;
         }
+
         /// <summary>
         /// Получение массы изделия
         /// </summary>
@@ -375,29 +452,46 @@ namespace mpProductInt
         public double? GetProductMass()
         {
             double? mass = null;
+
             // Первый случай: масса элемента есть
-            if (Mass != null) mass = Mass;
+            if (Mass != null)
+            {
+                mass = Mass;
+            }
             else
             {
                 // Второй случай: массы нет, есть масса в кг/п.м    
                 if (WMass != null & Length != null)
+                {
                     mass = WMass * Length / 1000;
+                }
+
                 // Если есть масса в кг/кв.м
                 else if (SMass != null & Width != null & Length != null)
+                {
                     mass = Width / 1000 * Length / 1000 * SMass;
+                }
+
                 // Если есть масса в кг/куб.м
                 else if (CMass != null)
                 {
                     // Если цилиндр
                     if (Diameter != null & Length != null)
+                    {
                         mass = Math.PI * Math.Pow(Diameter.Value / 2 / 1000, 2) * Length / 1000 * CMass;
+                    }
+
                     // Если прямоугольник
                     if (Width != null & Height != null & Length != null)
+                    {
                         mass = Width / 1000 * Height / 1000 * Length / 1000 * CMass;
+                    }
                 }
             }
+
             return mass;
         }
+
         /// <summary>
         /// Конвертирование продукта в класс SpecificationItem для заполнения спецификации
         /// </summary>
@@ -407,7 +501,7 @@ namespace mpProductInt
             SpecificationItem str;
             SpecificationItem specificationItem;
             int num = 0;
-            string dataBaseName = this.BaseDocument.DataBaseName;
+            string dataBaseName = BaseDocument.DataBaseName;
             if (dataBaseName == "DbMetall")
             {
                 num = 0;
@@ -428,19 +522,25 @@ namespace mpProductInt
             {
                 num = 4;
             }
+
             var dimension = string.Empty;
-            
+
             if (Length.HasValue)
             {
                 var dimensionAttribute = BaseDocument.XmlDocument.Attribute("DimType");
                 if (dimensionAttribute != null)
-                    if(dimensionAttribute.Value.Contains("Длина"))
+                {
+                    if (dimensionAttribute.Value.Contains("Длина"))
+                    {
                         dimension = "Длина";
+                    }
+                }
             }
-            if (!this.BaseDocument.HasSteel)
+
+            if (!BaseDocument.HasSteel)
             {
                 specificationItem = new SpecificationItem(
-                    this, string.Empty, string.Empty, dimension, string.Empty, 
+                    this, string.Empty, string.Empty, dimension, string.Empty,
                     SpecificationItemInputType.DataBase, string.Empty, string.Empty, string.Empty, GetProductMass())
                 {
                     DbIndex = num
@@ -450,20 +550,23 @@ namespace mpProductInt
             else
             {
                 specificationItem = new SpecificationItem(
-                    this, this.SteelDoc, this.SteelType, dimension, string.Empty, 
+                    this, SteelDoc, SteelType, dimension, string.Empty,
                     SpecificationItemInputType.DataBase, string.Empty, string.Empty, string.Empty, GetProductMass())
                 {
                     DbIndex = num
                 };
                 str = specificationItem;
             }
+
             if (count.HasValue)
             {
                 str.Count = count.ToString();
             }
-            str.Position = this.Position;
+
+            str.Position = Position;
             return str;
         }
+
         /// <summary>
         /// Сравнение двух экземпляров класса
         /// </summary>
@@ -479,22 +582,34 @@ namespace mpProductInt
                 SteelDoc.Equals(other.SteelDoc) &&
                 SteelType.Equals(other.SteelType) &&
                 ItemTypesEqual(ItemTypes, other.ItemTypes) &&
-                //ItemTypes.Equals(other.ItemTypes) &&
+
+                // ItemTypes.Equals(other.ItemTypes) &&
                 Mass.Equals(other.Mass) &&
                 CMass.Equals(other.CMass) &&
                 WMass.Equals(other.WMass) &&
                 SMass.Equals(other.SMass))
+            {
                 return true;
+            }
+
             return false;
         }
 
         private static bool ItemTypesEqual(IList<BaseDocument.ItemType> itemTypes1, IList<BaseDocument.ItemType> itemTypes2)
         {
-            if (itemTypes1.Count != itemTypes2.Count) return false;
+            if (itemTypes1.Count != itemTypes2.Count)
+            {
+                return false;
+            }
+
             for (var i = 0; i < itemTypes1.Count; i++)
             {
-                if (!itemTypes1[i].Equals(itemTypes2[i])) return false;
+                if (!itemTypes1[i].Equals(itemTypes2[i]))
+                {
+                    return false;
+                }
             }
+
             return true;
         }
     }

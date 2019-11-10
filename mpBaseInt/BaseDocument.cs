@@ -1,11 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Xml.Linq;
-
-namespace mpBaseInt
+﻿namespace mpBaseInt
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.Linq;
+    using System.Xml.Linq;
+
+    /// <summary>
+    /// Представление документа базы
+    /// </summary>
     public class BaseDocument
     {
         /// <summary>
@@ -171,25 +174,28 @@ namespace mpBaseInt
                     IsSelected = false;
                     DataBaseName = dbName;
                     Id = int.Parse(XmlDocument.Attribute("Id").Value);
-                    DocumentType = XmlDocument.Attribute("DocType").Value;
-                    DocumentNumber = XmlDocument.Attribute("DocNum").Value;
-                    DocumentName = XmlDocument.Attribute("DocName").Value;
-                    DocumentShortName = XmlDocument.Attribute("DocNameShort").Value;
+                    DocumentType = XmlDocument.Attribute("DocType")?.Value;
+                    DocumentNumber = XmlDocument.Attribute("DocNum")?.Value;
+                    DocumentName = XmlDocument.Attribute("DocName")?.Value;
+                    DocumentShortName = XmlDocument.Attribute("DocNameShort")?.Value;
+                    
                     // Статус документа: 3 варианта - действует, не действует, нет данных
                     bool? docStatus = null;
                     if (XmlDocument.Attribute("DocStatus") != null)
                     {
-                        if (bool.TryParse(XmlDocument.Attribute("DocStatus").Value, out bool b))
+                        if (bool.TryParse(XmlDocument.Attribute("DocStatus")?.Value, out var b))
                             docStatus = b;
                     }
+
                     DocStatus = docStatus;
-                    ShortName = XmlDocument.Attribute("ShortName").Value;
-                    Group = XmlDocument.Attribute("Group").Value;
-                    Image = XmlDocument.Attribute("Image").Value;
-                    Rule = XmlDocument.Attribute("Rule").Value;
+                    ShortName = XmlDocument.Attribute("ShortName")?.Value;
+                    Group = XmlDocument.Attribute("Group")?.Value;
+                    Image = XmlDocument.Attribute("Image")?.Value;
+                    Rule = XmlDocument.Attribute("Rule")?.Value;
                     var size = XmlDocument.Attribute("Size");
                     Size = size?.Value ?? "нет";
                     ItemTypes = GeTypes(XmlDocument);
+
                     // Типы (для отрисовки)
                     var coType = XmlDocument.Attribute("CoType");
                     CoType = coType?.Value ?? string.Empty;
@@ -201,15 +207,16 @@ namespace mpBaseInt
                     WdType = wdType?.Value ?? string.Empty;
                     var otType = XmlDocument.Attribute("OtType");
                     OtType = otType?.Value ?? string.Empty;
+
                     // Массы
                     var mass = XmlDocument.Attribute("Mass");
                     Mass = mass?.Value ?? string.Empty;
-                    var wmass = XmlDocument.Attribute("WMass");
-                    WMass = wmass?.Value ?? string.Empty;
-                    var cmass = XmlDocument.Attribute("CMass");
-                    CMass = cmass?.Value ?? string.Empty;
-                    var smass = XmlDocument.Attribute("SMass");
-                    SMass = smass?.Value ?? string.Empty;
+                    var wMass = XmlDocument.Attribute("WMass");
+                    WMass = wMass?.Value ?? string.Empty;
+                    var cMass = XmlDocument.Attribute("CMass");
+                    CMass = cMass?.Value ?? string.Empty;
+                    var sMass = XmlDocument.Attribute("SMass");
+                    SMass = sMass?.Value ?? string.Empty;
 
                     // Steel
                     var hasSteelAtt = XmlDocument.Attribute("HasSteel");
@@ -225,8 +232,10 @@ namespace mpBaseInt
                             Items.Add(xElement);
                         }
                     }
+
                     return true;
                 }
+
                 return false;
             }
             catch (Exception)
@@ -248,6 +257,7 @@ namespace mpBaseInt
                 int cnt;
                 return int.TryParse(symbAttr.Value, out cnt) ? cnt : 0;
             }
+
             return 0;
         }
 
@@ -263,8 +273,10 @@ namespace mpBaseInt
             for (var i = 1; i <= symbolCount; i++)
             {
                 var att = doc.Attribute("Symbol" + i);
-                if (att != null) coll.Add(att.Value);
+                if (att != null) 
+                    coll.Add(att.Value);
             }
+
             return !coll.Any() ? null : coll;
         }
         
@@ -280,36 +292,42 @@ namespace mpBaseInt
             {
                 TypeValues = new ObservableCollection<string>();
             }
+
             /// <summary>
             /// Имя типа (имя атрибута)
             /// </summary>
             public string TypeName { get; set; }
+
             /// <summary>
             /// Заголовок (то, что отображается пользователю)
             /// </summary>
             public string TypeHeader { get; set; }
+
             /// <summary>
             /// Коллекция значений типа
             /// </summary>
             public ObservableCollection<string> TypeValues { get; set; }
+
             public string SelectedItem { get; set; }
 
             public bool Equals(ItemType other)
             {
-                return TypeValuesEqual(TypeValues, other.TypeValues) &&
-                       TypeHeader.Equals(other.TypeHeader) &&
-                       TypeName.Equals(other.TypeName) &&
-                       SelectedItem.Equals(other.SelectedItem);
+                return TypeValuesEqual(TypeValues, other?.TypeValues) &&
+                       TypeHeader.Equals(other?.TypeHeader) &&
+                       TypeName.Equals(other?.TypeName) &&
+                       SelectedItem.Equals(other?.SelectedItem);
             }
 
             private static bool TypeValuesEqual(IEnumerable<string> typeValues1, IList<string> typeValues2)
             {
                 return !typeValues1.Where((t, i) => !t.Equals(typeValues2[i])).Any();
             }
+
             /// <summary>
             /// Дополнительное примечание для типов и видимость
             /// </summary>
             public string TypeToolTip { get; set; }
+
             public bool TypeToolTipVisibility { get; set; }
         }
         
@@ -321,6 +339,7 @@ namespace mpBaseInt
         private static ObservableCollection<ItemType> GeTypes(XElement doc)
         {
             var coll = new ObservableCollection<ItemType>();
+
             // Проходим по атрибутам в документе
             foreach (var attribute in doc.Attributes())
             {
@@ -329,19 +348,23 @@ namespace mpBaseInt
                 {
                     // Значение атрибута - это список, разделенный знаком $, в котором первое значение - имя типа
                     var values = attribute.Value.Split('$');
+
                     // Создаем новое значение ItemType, заполняем его и добавляем в коллекцию
                     var newItemType = new ItemType { TypeHeader = values[0], TypeName = attribute.Name.ToString() };
                     for (var i = 1; i < values.Count(); i++)
                     {
                         newItemType.TypeValues.Add(values[i]);
                     }
+
                     // Ищем для этого типа примечания
                     newItemType.TypeToolTipVisibility = GetTypeToolTip(doc, attribute.Name.ToString(), out string itemTypeToolTip);
                     newItemType.TypeToolTip = itemTypeToolTip;
+
                     // adding
                     coll.Add(newItemType);
                 }
             }
+
             return coll;
         }
 
@@ -364,13 +387,16 @@ namespace mpBaseInt
                             {
                                 itemTypeToolTip += s + Environment.NewLine;
                             }
+
                             itemTypeToolTip = itemTypeToolTip.TrimEnd(Environment.NewLine.ToCharArray());
                             return true;
                         }
+
                         itemTypeToolTip = attribute.Value;
                         return true;
                     }
                 }
+
                 return false;
             }
             catch

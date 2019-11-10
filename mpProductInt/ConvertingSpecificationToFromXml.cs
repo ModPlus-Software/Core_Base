@@ -18,6 +18,7 @@
         {
             MpProduct mpProduct = null;
             var productXel = specificationItemXel.Element("Product");
+
             // Если есть элемент, описывающий Изделие из БД
             if (productXel != null)
             {
@@ -39,11 +40,11 @@
                 mpProduct.CMass = double.TryParse(productXel.Attribute("CMass")?.Value, out dnum) ? dnum : 0;
                 mpProduct.SMass = double.TryParse(productXel.Attribute("SMass")?.Value, out dnum) ? dnum : 0;
                 mpProduct.ItemTypes = mpProduct.BaseDocument.ItemTypes;
-                // 
+
                 var indexOfItem = int.TryParse(productXel.Attribute("IndexOfItem")?.Value, out inum) ? inum : -1;
                 var productItemXel = indexOfItem != -1 ? mpProduct.BaseDocument.Items.Elements("Item").ElementAt(indexOfItem) : null;
                 mpProduct.Item = productItemXel;
-                //
+
                 if (!string.IsNullOrEmpty(productXel.Attribute("ItemTypesValues")?.Value))
                 {
                     var list = productXel.Attribute("ItemTypesValues")?.Value.Split('$').ToList();
@@ -53,6 +54,7 @@
                     }
                 }
             }
+
             // Остальные значения
             var steelDoc = specificationItemXel.Attribute("SteelDoc")?.Value;
             var steelType = specificationItemXel.Attribute("SteelType")?.Value;
@@ -72,27 +74,29 @@
                 specificationItemXel.Attribute("BeforeName")?.Value,
                 specificationItemXel.Attribute("TopName")?.Value,
                 specificationItemXel.Attribute("AfterName")?.Value,
-                handMass
-            );
+                handMass);
 
             specificationItem.Position = specificationItemXel.Attribute("Position")?.Value;
             specificationItem.AfterName = specificationItemXel.Attribute("AfterName")?.Value;
             specificationItem.BeforeName = specificationItemXel.Attribute("BeforeName")?.Value;
             specificationItem.Count = specificationItemXel.Attribute("Count")?.Value;
-            specificationItem.DbIndex = (int.TryParse(specificationItemXel.Attribute("DbIndex")?.Value, out int integer) ? integer : -1);
+            specificationItem.DbIndex = int.TryParse(specificationItemXel.Attribute("DbIndex")?.Value, out int integer) ? integer : -1;
             specificationItem.Designation = specificationItemXel.Attribute("Designation")?.Value;
             specificationItem.HasSteel = bool.TryParse(specificationItemXel.Attribute("HasSteel")?.Value, out bool flag) & flag;
 
             if (double.TryParse(specificationItemXel.Attribute("Mass")?.Value, out double dnumber))
                 specificationItem.Mass = dnumber;
-            else specificationItem.Mass = null;
+            else
+                specificationItem.Mass = null;
 
             specificationItem.Note = specificationItemXel.Attribute("Note")?.Value;
             specificationItem.TopName = specificationItemXel.Attribute("TopName")?.Value;
             specificationItem.SteelDoc = steelDoc;
             specificationItem.SteelType = steelType;
             specificationItem.AfterName = specificationItemXel.Attribute("AfterName")?.Value;
-            specificationItem.SteelVisibility = Enum.TryParse(specificationItemXel.Attribute("SteelVisibility")?.Value, out Visibility visibility) ? visibility : Visibility.Collapsed;
+            specificationItem.SteelVisibility =
+                Enum.TryParse(specificationItemXel.Attribute("SteelVisibility")?.Value, out Visibility visibility) 
+                    ? visibility : Visibility.Collapsed;
 
             return specificationItem;
         }
@@ -116,6 +120,7 @@
                 mass = item.Mass;
                 xElement.SetAttributeValue(xName, mass.Value);
             }
+
             xElement.SetAttributeValue("Note", item.Note);
             xElement.SetAttributeValue("TopName", item.TopName);
             xElement.SetAttributeValue("SteelDoc", item.SteelDoc);
@@ -132,24 +137,28 @@
                     mass = item.Product.Length;
                     xElement1.SetAttributeValue(xName1, mass.Value);
                 }
+
                 if (item.Product.Diameter.HasValue)
                 {
                     XName xName2 = "Diameter";
                     mass = item.Product.Diameter;
                     xElement1.SetAttributeValue(xName2, mass.Value);
                 }
+
                 if (item.Product.Width.HasValue)
                 {
                     XName xName3 = "Width";
                     mass = item.Product.Width;
                     xElement1.SetAttributeValue(xName3, mass.Value);
                 }
+
                 if (item.Product.Height.HasValue)
                 {
                     XName xName4 = "Height";
                     mass = item.Product.Height;
                     xElement1.SetAttributeValue(xName4, mass.Value);
                 }
+
                 xElement1.SetAttributeValue("SteelDoc", item.Product.SteelDoc);
                 xElement1.SetAttributeValue("SteelType", item.Product.SteelType);
                 xElement1.SetAttributeValue("Position", item.Product.Position);
@@ -157,25 +166,28 @@
                 xElement1.SetAttributeValue("WMass", item.Product.WMass);
                 xElement1.SetAttributeValue("CMass", item.Product.CMass);
                 xElement1.SetAttributeValue("SMass", item.Product.SMass);
-                if ((item.Product.BaseDocument.Items == null ? true : !item.Product.BaseDocument.Items.Elements("Item").Any<XElement>()))
+                if (!item.Product.BaseDocument.Items?.Elements("Item").Any() ?? true)
                 {
                     xElement1.SetAttributeValue("IndexOfItem", -1);
                 }
                 else
                 {
-                    xElement1.SetAttributeValue("IndexOfItem", item.Product.BaseDocument.Items.Elements("Item").ToList<XElement>().IndexOf(item.Product.Item));
+                    xElement1.SetAttributeValue("IndexOfItem", item.Product.BaseDocument.Items.Elements("Item").ToList().IndexOf(item.Product.Item));
                 }
+
                 if (item.Product.ItemTypes == null)
                 {
                     xElement1.SetAttributeValue("ItemTypesValues", string.Empty);
                 }
                 else
                 {
-                    string str = item.Product.ItemTypes.Aggregate<BaseDocument.ItemType, string>(string.Empty, (string current, BaseDocument.ItemType itemType) => string.Concat(current, itemType.SelectedItem, "$"));
-                    xElement1.SetAttributeValue("ItemTypesValues", str.TrimEnd(new char[] { '$' }));
+                    string str = item.Product.ItemTypes.Aggregate(string.Empty, (current, itemType) => string.Concat(current, itemType.SelectedItem, "$"));
+                    xElement1.SetAttributeValue("ItemTypesValues", str.TrimEnd('$'));
                 }
+
                 xElement.Add(xElement1);
             }
+
             return xElement;
         }
 
@@ -196,12 +208,13 @@
                 Func<BaseDocument, bool> func6 = func1;
                 if (func6 == null)
                 {
-                    Func<BaseDocument, bool> func7 = (BaseDocument baseDocument) => baseDocument.Id.Equals(id);
+                    Func<BaseDocument, bool> func7 = baseDocument => baseDocument.Id.Equals(id);
                     func = func7;
                     func1 = func7;
                     func6 = func;
                 }
-                using (IEnumerator<BaseDocument> enumerator = documentCollection.Where<BaseDocument>(func6).GetEnumerator())
+
+                using (IEnumerator<BaseDocument> enumerator = documentCollection.Where(func6).GetEnumerator())
                 {
                     if (enumerator.MoveNext())
                     {
@@ -217,12 +230,13 @@
                 Func<BaseDocument, bool> func8 = func2;
                 if (func8 == null)
                 {
-                    Func<BaseDocument, bool> func9 = (BaseDocument baseDocument) => baseDocument.Id.Equals(id);
+                    Func<BaseDocument, bool> func9 = baseDocument => baseDocument.Id.Equals(id);
                     func = func9;
                     func2 = func9;
                     func8 = func;
                 }
-                using (IEnumerator<BaseDocument> enumerator1 = baseDocuments.Where<BaseDocument>(func8).GetEnumerator())
+
+                using (IEnumerator<BaseDocument> enumerator1 = baseDocuments.Where(func8).GetEnumerator())
                 {
                     if (enumerator1.MoveNext())
                     {
@@ -238,12 +252,13 @@
                 Func<BaseDocument, bool> func10 = func3;
                 if (func10 == null)
                 {
-                    Func<BaseDocument, bool> func11 = (BaseDocument baseDocument) => baseDocument.Id.Equals(id);
+                    Func<BaseDocument, bool> func11 = baseDocument => baseDocument.Id.Equals(id);
                     func = func11;
                     func3 = func11;
                     func10 = func;
                 }
-                using (IEnumerator<BaseDocument> enumerator2 = documentCollection1.Where<BaseDocument>(func10).GetEnumerator())
+
+                using (IEnumerator<BaseDocument> enumerator2 = documentCollection1.Where(func10).GetEnumerator())
                 {
                     if (enumerator2.MoveNext())
                     {
@@ -259,12 +274,13 @@
                 Func<BaseDocument, bool> func12 = func4;
                 if (func12 == null)
                 {
-                    Func<BaseDocument, bool> func13 = (BaseDocument baseDocument) => baseDocument.Id.Equals(id);
+                    Func<BaseDocument, bool> func13 = baseDocument => baseDocument.Id.Equals(id);
                     func = func13;
                     func4 = func13;
                     func12 = func;
                 }
-                using (IEnumerator<BaseDocument> enumerator3 = baseDocuments1.Where<BaseDocument>(func12).GetEnumerator())
+
+                using (IEnumerator<BaseDocument> enumerator3 = baseDocuments1.Where(func12).GetEnumerator())
                 {
                     if (enumerator3.MoveNext())
                     {
@@ -280,12 +296,13 @@
                 Func<BaseDocument, bool> func14 = func5;
                 if (func14 == null)
                 {
-                    Func<BaseDocument, bool> func15 = (BaseDocument baseDocument) => baseDocument.Id.Equals(id);
+                    Func<BaseDocument, bool> func15 = baseDocument => baseDocument.Id.Equals(id);
                     func = func15;
                     func5 = func15;
                     func14 = func;
                 }
-                using (IEnumerator<BaseDocument> enumerator4 = documentCollection2.Where<BaseDocument>(func14).GetEnumerator())
+
+                using (IEnumerator<BaseDocument> enumerator4 = documentCollection2.Where(func14).GetEnumerator())
                 {
                     if (enumerator4.MoveNext())
                     {
@@ -294,6 +311,7 @@
                     }
                 }
             }
+
             current = null;
             return current;
         }
@@ -303,12 +321,13 @@
             SpecificationItemInputType specificationItemInputType;
             if (!type.Equals("DataBase"))
             {
-                specificationItemInputType = (!type.Equals("SubSection") ? SpecificationItemInputType.HandInput : SpecificationItemInputType.SubSection);
+                specificationItemInputType = !type.Equals("SubSection") ? SpecificationItemInputType.HandInput : SpecificationItemInputType.SubSection;
             }
             else
             {
                 specificationItemInputType = SpecificationItemInputType.DataBase;
             }
+
             return specificationItemInputType;
         }
     }

@@ -8,6 +8,10 @@
     /// </summary>
     public class SpecificationItem : INotifyPropertyChanged
     {
+        private string _position;
+        private string _count;
+        private string _note;
+
         /// <summary>
         /// 
         /// </summary>
@@ -76,16 +80,16 @@
                 }
             }
         }
+
         /// <summary>
         /// Продукт, связанный с текущим элементом
         /// </summary>
         public MpProduct Product { get; set; }
+
         /// <summary>
         /// Инициализация элемента спецификации
         /// </summary>
-        private void InitSpecificationItem(
-            string steelDoc, string steelType
-        )
+        private void InitSpecificationItem(string steelDoc, string steelType)
         {
             if (Product != null)
             {
@@ -93,6 +97,7 @@
                 {
                     // Designation
                     Designation = Product.BaseDocument.DocumentType + " " + Product.BaseDocument.DocumentNumber;
+
                     // has steel
                     HasSteel = Product.BaseDocument.HasSteel;
                     SteelVisibility = HasSteel ? Visibility.Visible : Visibility.Collapsed;
@@ -103,6 +108,7 @@
                     HasSteel = false;
                     SteelVisibility = Visibility.Collapsed;
                 }
+
                 Mass = Product.GetProductMass();
 
                 if (HasSteel)
@@ -130,37 +136,51 @@
                 case "п.м":
                     return ", п.м";
                 case "":
-                    return "";
+                    return string.Empty;
                 default: return string.Empty;
             }
         }
 
         public SpecificationItemInputType InputType { get; set; }
+
         /// <summary>
         /// Позиция
         /// </summary>
-        private string _position;
-        public string Position { get { return _position; } set { _position = value; OnPropertyChanged("Position"); } }
+        public string Position
+        {
+            get => _position;
+            set
+            {
+                _position = value;
+                OnPropertyChanged("Position");
+            }
+        }
+
         /// <summary>
         /// Обозначение
         /// </summary>
         public string Designation { get; set; }
+
         /// <summary>
         /// Первая строка наименования
         /// </summary>
         public string BeforeName { get; set; }
+
         /// <summary>
         /// Наименование (то, что записано в числителе, если есть сталь. Иначе - все в BeforeName)
         /// </summary>
         public string TopName { get; set; }
+
         /// <summary>
         /// Вторая строка наименования
         /// </summary>
         public string AfterName { get; set; }
+
         /// <summary>
         /// Документ на сталь
         /// </summary>
         public string SteelDoc { get; set; }
+
         /// <summary>
         /// Марка стали
         /// </summary>
@@ -172,6 +192,7 @@
         public bool HasSteel { get; set; }
 
         public Visibility SteelVisibility { get; set; }
+
         /// <summary>
         /// Вариант измерения
         /// </summary>
@@ -180,17 +201,34 @@
         /// <summary>
         /// Количество
         /// </summary>
-        private string _count;
-        public string Count { get { return _count; } set { _count = value; OnPropertyChanged("Count"); } }
+        public string Count
+        {
+            get => _count;
+            set
+            {
+                _count = value;
+                OnPropertyChanged("Count");
+            }
+        }
+
         /// <summary>
         /// Масса
         /// </summary>
         public double? Mass { get; set; }
+
         /// <summary>
         /// Примечание
         /// </summary>
-        private string _note;
-        public string Note { get { return _note; } set { _note = value; OnPropertyChanged("Note"); } }
+        public string Note
+        {
+            get => _note;
+            set
+            {
+                _note = value;
+                OnPropertyChanged("Note");
+            }
+        }
+
         /// <summary>
         /// Индекс базы данных для редактирования элемента
         /// 0 - Металл

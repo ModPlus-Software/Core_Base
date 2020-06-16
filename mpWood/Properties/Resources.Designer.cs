@@ -19,7 +19,7 @@ namespace mpWood.Properties {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -57,6 +57,32 @@ namespace mpWood.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;Document
+        ///  Id=&quot;78&quot;
+        ///  DocType=&quot;ГОСТ&quot;
+        ///  DocNum=&quot;18599-2001&quot;
+        ///  DocName=&quot;Трубы напорные из полиэтилена. Технические условия&quot;
+        ///  DocNameShort=&quot;Труба напорная&quot;
+        ///  ShortName=&quot;Труба&quot;
+        ///  DocStatus=&quot;True&quot;
+        ///  Size=&quot;L&quot;
+        ///  MainGroup=&quot;Дерево/Пластмасс&quot;
+        ///  Group=&quot;Трубы&quot;
+        ///  Image=&quot;Tube&quot;
+        ///  HasSteel=&quot;false&quot;
+        ///  DimType=&quot;Длина,п.м&quot;
+        ///  ItemType1=&quot;Назначение трубы$питьевая$хозяйственная&quot;
+        ///  Rule=&quot;[ShortName] ПЭ [Prop1] SDR [Prop2] - [Prop4]x[Prop5] [ItemType1] [DocType] [DocNum]&quot;
+        ///   [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string ГОСТ_18599_2001 {
+            get {
+                return ResourceManager.GetString("ГОСТ_18599_2001", resourceCulture);
             }
         }
         

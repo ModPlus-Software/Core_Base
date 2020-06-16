@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Globalization;
     using System.Linq;
     using System.Windows;
     using System.Xml.Linq;
@@ -31,14 +32,14 @@
                 mpProduct.SteelType = productXel.Attribute("SteelType")?.Value;
                 mpProduct.Position = productXel.Attribute("Position")?.Value;
                 mpProduct.Position = productXel.Attribute("Position")?.Value;
-                mpProduct.Length = double.TryParse(productXel.Attribute("Length")?.Value, out double dnum) ? dnum : 0;
-                mpProduct.Diameter = double.TryParse(productXel.Attribute("Diameter")?.Value, out dnum) ? dnum : 0;
-                mpProduct.Width = double.TryParse(productXel.Attribute("Width")?.Value, out dnum) ? dnum : 0;
-                mpProduct.Height = double.TryParse(productXel.Attribute("Height")?.Value, out dnum) ? dnum : 0;
-                mpProduct.Mass = double.TryParse(productXel.Attribute("Mass")?.Value, out dnum) ? dnum : 0;
-                mpProduct.WMass = double.TryParse(productXel.Attribute("WMass")?.Value, out dnum) ? dnum : 0;
-                mpProduct.CMass = double.TryParse(productXel.Attribute("CMass")?.Value, out dnum) ? dnum : 0;
-                mpProduct.SMass = double.TryParse(productXel.Attribute("SMass")?.Value, out dnum) ? dnum : 0;
+                mpProduct.Length = TryParseInvariant(productXel.Attribute("Length")?.Value, out double dnum) ? dnum : 0;
+                mpProduct.Diameter = TryParseInvariant(productXel.Attribute("Diameter")?.Value, out dnum) ? dnum : 0;
+                mpProduct.Width = TryParseInvariant(productXel.Attribute("Width")?.Value, out dnum) ? dnum : 0;
+                mpProduct.Height = TryParseInvariant(productXel.Attribute("Height")?.Value, out dnum) ? dnum : 0;
+                mpProduct.Mass = TryParseInvariant(productXel.Attribute("Mass")?.Value, out dnum) ? dnum : 0;
+                mpProduct.WMass = TryParseInvariant(productXel.Attribute("WMass")?.Value, out dnum) ? dnum : 0;
+                mpProduct.CMass = TryParseInvariant(productXel.Attribute("CMass")?.Value, out dnum) ? dnum : 0;
+                mpProduct.SMass = TryParseInvariant(productXel.Attribute("SMass")?.Value, out dnum) ? dnum : 0;
                 mpProduct.ItemTypes = mpProduct.BaseDocument.ItemTypes;
 
                 var indexOfItem = int.TryParse(productXel.Attribute("IndexOfItem")?.Value, out inum) ? inum : -1;
@@ -61,7 +62,7 @@
             var dimension = specificationItemXel.Attribute("Dimension")?.Value;
 
             double? handMass = null;
-            if (double.TryParse(specificationItemXel.Attribute("Mass")?.Value, out double d))
+            if (TryParseInvariant(specificationItemXel.Attribute("Mass")?.Value, out double d))
                 handMass = d;
 
             var specificationItem = new SpecificationItem(
@@ -84,7 +85,7 @@
             specificationItem.Designation = specificationItemXel.Attribute("Designation")?.Value;
             specificationItem.HasSteel = bool.TryParse(specificationItemXel.Attribute("HasSteel")?.Value, out bool flag) & flag;
 
-            if (double.TryParse(specificationItemXel.Attribute("Mass")?.Value, out double dnumber))
+            if (TryParseInvariant(specificationItemXel.Attribute("Mass")?.Value, out double dnumber))
                 specificationItem.Mass = dnumber;
             else
                 specificationItem.Mass = null;
@@ -95,7 +96,7 @@
             specificationItem.SteelType = steelType;
             specificationItem.AfterName = specificationItemXel.Attribute("AfterName")?.Value;
             specificationItem.SteelVisibility =
-                Enum.TryParse(specificationItemXel.Attribute("SteelVisibility")?.Value, out Visibility visibility) 
+                Enum.TryParse(specificationItemXel.Attribute("SteelVisibility")?.Value, out Visibility visibility)
                     ? visibility : Visibility.Collapsed;
 
             return specificationItem;
@@ -329,6 +330,14 @@
             }
 
             return specificationItemInputType;
+        }
+
+        private static bool TryParseInvariant(string v, out double d)
+        {
+            if (double.TryParse(v?.Replace(",", "."), NumberStyles.Number, CultureInfo.InvariantCulture, out d))
+                return true;
+            d = double.NaN;
+            return false;
         }
     }
 }

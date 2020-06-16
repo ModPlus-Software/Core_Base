@@ -13,12 +13,12 @@
   Image="Tube"
   HasSteel="false"
   DimType="Длина,п.м"
-  ItemType1="Назначение трубы$питьевая$хозяйственная"
+  ItemType1="Назначение трубы$питьевая$техническая"
   Rule="[ShortName] ПЭ [Prop1] SDR [Prop2] - [Prop4]x[Prop5] [ItemType1] [DocType] [DocNum]"
   WdType="5,Prop4,Prop5,L"
   WMass="Prop6"
   SymbolSum="7"
-  Symbol1="ПЭ" Symbol2="SDR" Symbol3="PN, бар" Symbol4="Наружный диаметр (D), мм" Symbol5="Толщина стенки (t), мм" 
+  Symbol1="ПЭ" Symbol2="SDR" Symbol3="PN, МПа" Symbol4="Наружный диаметр (D), мм" Symbol5="Толщина стенки (t), мм" 
   Symbol6="Масса 1 м труб, кг" Symbol7="по ГОСТ"
 >
   <Item Prop1="100" Prop2="17" Prop3="1" Prop4="50" Prop5="3" Prop6="0,456" Prop7="+"/>

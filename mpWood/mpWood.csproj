@@ -95,6 +95,9 @@
   <ItemGroup>
     <Resource Include="Resources\Images\Tube.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ГОСТ Р 51613-2000.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if $(ConfigurationName) == Debug (

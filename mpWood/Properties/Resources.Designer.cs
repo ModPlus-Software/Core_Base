@@ -76,9 +76,9 @@ namespace mpWood.Properties {
         ///  Image=&quot;Tube&quot;
         ///  HasSteel=&quot;false&quot;
         ///  DimType=&quot;Длина,п.м&quot;
-        ///  ItemType1=&quot;Назначение трубы$питьевая$хозяйственная&quot;
+        ///  ItemType1=&quot;Назначение трубы$питьевая$техническая&quot;
         ///  Rule=&quot;[ShortName] ПЭ [Prop1] SDR [Prop2] - [Prop4]x[Prop5] [ItemType1] [DocType] [DocNum]&quot;
-        ///   [остаток строки не уместился]&quot;;.
+        ///  Wd [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string ГОСТ_18599_2001 {
             get {
@@ -191,6 +191,23 @@ namespace mpWood.Properties {
         internal static string ГОСТ_8486_86_3 {
             get {
                 return ResourceManager.GetString("ГОСТ_8486_86_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot;&gt; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;Document
+        ///SymbolSum=&quot;7&quot;
+        ///Symbol1=&quot;НПВХ&quot; Symbol2=&quot;SDR&quot; Symbol3=&quot;MOP, МПа&quot; Symbol4=&quot;Наружный диаметр (D), мм&quot; Symbol5=&quot;Толщина стенки (t), мм&quot; Symbol6=&quot;Масса 1 м труб, кг&quot; Symbol7=&quot;по ГОСТ&quot;
+        ///&gt;
+        /// &lt;Item Prop1=&quot;100&quot; Prop2=&quot;41&quot; Prop3=&quot;0,5&quot; Prop4=&quot;63&quot; Prop5=&quot;1,6&quot; Prop6=&quot;0,486&quot; Prop7=&quot;+&quot;/&gt;
+        /// &lt;Item Prop1=&quot;100&quot; Prop2=&quot;41&quot; Prop3=&quot;0,5&quot; Prop4=&quot;75&quot; Prop5=&quot;1,9&quot; Prop6=&quot;0,675&quot; Prop7=&quot;+&quot;/&gt;
+        /// &lt;Item Prop1=&quot;100&quot; Prop2=&quot;41&quot; Prop3=&quot;0,5&quot; Prop4=&quot;90&quot; Prop5=&quot;2,2&quot; Prop6=&quot;0,945&quot; Prop7=&quot;+&quot;/&gt;
+        /// &lt; [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string ГОСТ_Р_51613_2000 {
+            get {
+                return ResourceManager.GetString("ГОСТ_Р_51613_2000", resourceCulture);
             }
         }
     }

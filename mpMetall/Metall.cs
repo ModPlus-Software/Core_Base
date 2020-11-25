@@ -1,5 +1,6 @@
 ﻿namespace mpMetall
 {
+    using System;
     using System.Collections;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
@@ -8,6 +9,7 @@
     using System.Xml.Linq;
     using mpBaseInt;
 
+    [Obsolete]
     public static class Metall
     {
         public static readonly string Name = "DbMetall";

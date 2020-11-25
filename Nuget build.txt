@@ -1,0 +1,1 @@
+"E:\DevProjects\ModPlus\nuget.exe" pack "E:\DevProjects\ModPlus\Solutions\Base\ModPlus.ProductDatabase.nuspec"

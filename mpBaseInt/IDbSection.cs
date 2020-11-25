@@ -2,8 +2,6 @@
 {
     using System.Collections.Generic;
 
-    //// todo применить наследование данного интерфейса к разделам базы. Из разделов убрать статику. ВАЖНО! Это сломает плагины!
-    
     /// <summary>
     /// Раздел базы данных
     /// </summary>
@@ -15,21 +13,25 @@
         string Name { get; }
 
         /// <summary>
-        /// Коллекция документов
+        /// Уникальный код раздела
         /// </summary>
-        ICollection<BaseDocument> DocumentCollection { get; }
+        string Code { get; }
 
         /// <summary>
-        /// Получить список документов
+        /// Коллекция документов раздела
+        /// </summary>
+        IEnumerable<BaseDocument> Documents { get; }
+
+        /// <summary>
+        /// Получить список имен документов
         /// </summary>
         /// <returns>Список документов вида "тип документа"_"номер документа"</returns>
-        List<string> GetDocuments();
+        List<string> GetDocumentNames();
 
         /// <summary>
         /// Получение пути вида uri pack к изображению документа в базе
         /// </summary>
         /// <param name="element">Документ базы</param>
-        /// <returns></returns>
         string GetImagePath(BaseDocument element);
     }
 }

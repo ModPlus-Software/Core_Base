@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>ModPlus.ProductDatabase</id>
+    <version>2.3.0.0</version>
+    <title>ModPlus Product Regulatory Database</title>
+    <authors>ModPlus Software</authors>
+    <owners>ModPlus Software</owners>
+    <icon>ModPlus.png</icon>
+    <projectUrl>https://github.com/ModPlus-Software/Core_Base</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ModPlus Regulatory Database for AutoCAD plugins</description>
+    <copyright>Copyright © ModPlus</copyright>
+    <tags>ModPlus CAD AutoCAD API Autodesk</tags>
+  </metadata>
+  <files>
+    <file src="E:\ModPlus\Data\mpBaseInt.dll" target="lib\mpBaseInt.dll" />
+    <file src="E:\ModPlus\Data\mpConcrete.dll" target="lib\mpConcrete.dll" />
+    <file src="E:\ModPlus\Data\mpMaterial.dll" target="lib\mpMaterial.dll" />
+    <file src="E:\ModPlus\Data\mpMetall.dll" target="lib\mpMetall.dll" />
+    <file src="E:\ModPlus\Data\mpOther.dll" target="lib\mpOther.dll" />
+    <file src="E:\ModPlus\Data\mpProductInt.dll" target="lib\mpProductInt.dll" />
+    <file src="E:\ModPlus\Data\mpWood.dll" target="lib\mpWood.dll" />
+    <file src="ModPlus.png" target="" />
+  </files>
+</package>

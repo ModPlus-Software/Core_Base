@@ -41,7 +41,7 @@
         public static List<string> GetDocuments()
         {
             return DocumentCollection != null ?
-                DocumentCollection.Select(baseDocument => baseDocument.DocumentType + " " + baseDocument.DocumentNumber).ToList() :
+                DocumentCollection.Select(baseDocument => $"{baseDocument.DocumentType} {baseDocument.DocumentNumber}").ToList() :
                 new List<string>();
         }
 
@@ -49,7 +49,7 @@
         {
             var str = string.Empty;
             if (!string.IsNullOrEmpty(element.Image))
-                str = @"pack://application:,,,/mpMaterial;component/Resources/Images/" + element.Image + ".png";
+                str = $@"pack://application:,,,/mpMaterial;component/Resources/Images/{element.Image}.png";
             return str;
         }
     }

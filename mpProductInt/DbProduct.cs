@@ -2,22 +2,20 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Collections.ObjectModel;
     using System.Linq;
     using System.Text;
     using System.Xml.Linq;
     using mpBaseInt;
 
     /// <summary>
-    /// Класс для изделия
+    /// Экземпляр продукта базы
     /// </summary>
-    [Obsolete]
-    public class MpProduct : IEquatable<MpProduct>
+    public class DbProduct : IEquatable<DbProduct>
     {
         /// <summary>
         /// Документ в базе данных для этого изделия
         /// </summary>
-        public BaseDocument BaseDocument { get; set; }
+        public DbDocument BaseDocument { get; set; }
 
         /// <summary>
         /// Длина изделия. Возможно Null
@@ -83,7 +81,7 @@
         /// Коллекция дополнительных свойств, которые не входят в таблицу, но могут быть выбраны
         /// Могут не быть
         /// </summary>
-        public ObservableCollection<BaseDocument.ItemType> ItemTypes { get; set; }
+        public List<ItemType> ItemTypes { get; set; }
 
         /// <summary>
         /// Получение данных для отрисовки
@@ -120,33 +118,33 @@
                 }
                 else
                 {
-                    if (double.TryParse(typeFromAtt[k], out var d)) // Если это число
+                    if (double.TryParse(typeFromAtt[k], out var d)) //// Если это число
                     {
                         drawData.Insert(k, d);
                     }
-                    else if (typeFromAtt[k].Equals("D")) // Если это диаметр
+                    else if (typeFromAtt[k].Equals("D")) //// Если это диаметр
                     {
                         drawData.Insert(k, Diameter);
                     }
-                    else if (typeFromAtt[k].Equals("L")) // Если это длина
+                    else if (typeFromAtt[k].Equals("L")) //// Если это длина
                     {
                         drawData.Insert(k, Length);
                     }
-                    else if (typeFromAtt[k].Equals("B")) // Если это ширина
+                    else if (typeFromAtt[k].Equals("B")) //// Если это ширина
                     {
                         drawData.Insert(k, Width);
                     }
-                    else if (typeFromAtt[k].Equals("H")) // Если это высота (толщина)
+                    else if (typeFromAtt[k].Equals("H")) //// Если это высота (толщина)
                     {
                         drawData.Insert(k, Height);
                     }
-                    else if (typeFromAtt[k].Contains("ItemType"))// Если размер берется по доп. свойству
+                    else if (typeFromAtt[k].Contains("ItemType")) //// Если размер берется по доп. свойству
                     {
-                        foreach (BaseDocument.ItemType itemType in ItemTypes)
+                        foreach (ItemType itemType in ItemTypes)
                         {
                             if (itemType.TypeName.Equals(typeFromAtt[k]))
                             {
-                                drawData.Insert(k, double.TryParse(itemType.SelectedItem, out d) ? d : 0.0);
+                                drawData.Insert(k, double.TryParse(itemType.SelectedValue, out d) ? d : 0.0);
                             }
                         }
                     }
@@ -154,9 +152,8 @@
                     {
                         // ЗАМЕНА ЗАПЯТОЙ НА ТОЧКУ!!!
                         // Иначе это имя атрибута
-                        // Значение атрибута может содержать число со звездочкой
-                        // или ничего не содержать (или знак "-")
-                        var propValue = Item.Attribute(typeFromAtt[k]).Value.Replace(',', '.').Replace("*", string.Empty);
+                        // Значение атрибута может содержать число со звездочкой или ничего не содержать (или знак "-")
+                        var propValue = Item.Attribute(typeFromAtt[k])?.Value.Replace(',', '.').Replace("*", string.Empty);
                         drawData.Insert(k, double.TryParse(propValue, out d) ? d : 0.0);
                     }
                 }
@@ -198,14 +195,14 @@
                     {
                         if (itemType.TypeName.Equals(c))
                         {
-                            sb.Append(itemType.SelectedItem);
+                            sb.Append(itemType.SelectedValue);
                             appended = true;
                             break;
                         }
                     }
                 }
 
-                if (Item != null) // Если выбран табличный элемент
+                if (Item != null) //// Если выбран табличный элемент
                 {
                     foreach (var attribute in Item.Attributes())
                     {
@@ -303,6 +300,9 @@
             return result;
         }
 
+        /// <summary>
+        /// Возвращает экземпляр класса <see cref="MpProductToSave"/>
+        /// </summary>
         public MpProductToSave SetProductToSave()
         {
             var prToSave = new MpProductToSave
@@ -334,7 +334,7 @@
             {
                 var values = ItemTypes.Aggregate(
                     string.Empty,
-                    (current, itemType) => current + (itemType.SelectedItem + "$"));
+                    (current, itemType) => current + (itemType.SelectedValue + "$"));
                 prToSave.ItemTypesValues = values.TrimEnd('$');
             }
             else
@@ -345,11 +345,15 @@
             return prToSave;
         }
 
-        public static MpProduct GetProductFromSaved(MpProductToSave savedProduct)
+        /// <summary>
+        /// Создание экземпляра <see cref="DbProduct"/> по данным экземпляра класса хранения данных <see cref="MpProductToSave"/>
+        /// </summary>
+        /// <param name="savedProduct">Экземпляр <see cref="MpProductToSave"/></param>
+        public static DbProduct GetProductFromSaved(MpProductToSave savedProduct)
         {
-            var product = new MpProduct
+            var product = new DbProduct
             {
-                BaseDocument = GetBaseDocumentById(savedProduct.DbName, savedProduct.DocumentId),
+                BaseDocument = Utils.GetBaseDocumentById(savedProduct.DbName, savedProduct.DocumentId),
                 Length = savedProduct.Length,
                 Diameter = savedProduct.Diameter,
                 Width = savedProduct.Width,
@@ -379,7 +383,7 @@
                     var itv = savedProduct.ItemTypesValues.Split('$').ToList();
                     for (var i = 0; i < itv.Count; i++)
                     {
-                        product.ItemTypes[i].SelectedItem = itv[i];
+                        product.ItemTypes[i].SelectedValue = itv[i];
                     }
                 }
             }
@@ -387,69 +391,9 @@
             return product;
         }
 
-        private static BaseDocument GetBaseDocumentById(string dbName, int id)
-        {
-            switch (dbName)
-            {
-                case "DbConcrete":
-                    {
-                        mpConcrete.Concrete.LoadAllDocument();
-                        foreach (var baseDocument in mpConcrete.Concrete.DocumentCollection.Where(baseDocument => baseDocument.Id.Equals(id)))
-                        {
-                            return baseDocument;
-                        }
-                    }
-
-                    break;
-                case "DbMetall":
-                    {
-                        mpMetall.Metall.LoadAllDocument();
-                        foreach (var baseDocument in mpMetall.Metall.DocumentCollection.Where(baseDocument => baseDocument.Id.Equals(id)))
-                        {
-                            return baseDocument;
-                        }
-                    }
-
-                    break;
-                case "DbWood":
-                    {
-                        mpWood.Wood.LoadAllDocument();
-                        foreach (var baseDocument in mpWood.Wood.DocumentCollection.Where(baseDocument => baseDocument.Id.Equals(id)))
-                        {
-                            return baseDocument;
-                        }
-                    }
-
-                    break;
-                case "DbMaterial":
-                    {
-                        mpMaterial.Material.LoadAllDocument();
-                        foreach (var baseDocument in mpMaterial.Material.DocumentCollection.Where(baseDocument => baseDocument.Id.Equals(id)))
-                        {
-                            return baseDocument;
-                        }
-                    }
-
-                    break;
-                case "DbOther":
-                    {
-                        mpOther.Other.LoadAllDocument();
-                        foreach (var baseDocument in mpOther.Other.DocumentCollection.Where(baseDocument => baseDocument.Id.Equals(id)))
-                        {
-                            return baseDocument;
-                        }
-                    }
-
-                    break;
-            }
-
-            return null;
-        }
-
         /// <summary>
         /// Получение массы изделия
         /// </summary>
-        /// <returns></returns>
         public double? GetProductMass()
         {
             double? mass = null;
@@ -494,34 +438,31 @@
         }
 
         /// <summary>
-        /// Конвертирование продукта в класс SpecificationItem для заполнения спецификации
+        /// Конвертирование продукта в класс <see cref="SpecificationItem"/> для заполнения спецификации
         /// </summary>
-        /// <returns></returns>
-        public SpecificationItem GetSpecificationItem(double? count)
+        /// <param name="count">Свойство "Количество"</param>
+        public Specification.SpecificationItem GetSpecificationItem(double? count)
         {
-            SpecificationItem str;
-            SpecificationItem specificationItem;
-            int num = 0;
-            string dataBaseName = BaseDocument.DataBaseName;
-            if (dataBaseName == "DbMetall")
+            Specification.SpecificationItem specificationItem;
+            var dbIndex = 0;
+            var dataBaseName = BaseDocument.DataBaseName;
+            switch (dataBaseName)
             {
-                num = 0;
-            }
-            else if (dataBaseName == "DbConcrete")
-            {
-                num = 1;
-            }
-            else if (dataBaseName == "DbWood")
-            {
-                num = 2;
-            }
-            else if (dataBaseName == "DbMaterial")
-            {
-                num = 3;
-            }
-            else if (dataBaseName == "DbOther")
-            {
-                num = 4;
+                case "DbMetall":
+                    dbIndex = 0;
+                    break;
+                case "DbConcrete":
+                    dbIndex = 1;
+                    break;
+                case "DbWood":
+                    dbIndex = 2;
+                    break;
+                case "DbMaterial":
+                    dbIndex = 3;
+                    break;
+                case "DbOther":
+                    dbIndex = 4;
+                    break;
             }
 
             var dimension = string.Empty;
@@ -540,42 +481,39 @@
 
             if (!BaseDocument.HasSteel)
             {
-                specificationItem = new SpecificationItem(
-                    this, string.Empty, string.Empty, dimension, string.Empty,
-                    SpecificationItemInputType.DataBase, string.Empty, string.Empty, string.Empty, GetProductMass())
+                specificationItem = new Specification.SpecificationItem(this, string.Empty, string.Empty, dimension)
                 {
-                    DbIndex = num
+                    DbIndex = dbIndex
                 };
-                str = specificationItem;
             }
             else
             {
-                specificationItem = new SpecificationItem(
-                    this, SteelDoc, SteelType, dimension, string.Empty,
-                    SpecificationItemInputType.DataBase, string.Empty, string.Empty, string.Empty, GetProductMass())
+                specificationItem = new Specification.SpecificationItem(this, SteelDoc, SteelType, dimension)
                 {
-                    DbIndex = num
+                    DbIndex = dbIndex
                 };
-                str = specificationItem;
             }
+
+            specificationItem.Mass = GetProductMass();
 
             if (count.HasValue)
             {
-                str.Count = count.ToString();
+                specificationItem.Count = count.ToString();
             }
 
-            str.Position = Position;
-            return str;
+            specificationItem.Position = Position;
+            
+            return specificationItem;
         }
 
         /// <summary>
         /// Сравнение двух экземпляров класса
         /// </summary>
-        /// <param name="other"></param>
-        /// <returns></returns>
-        public bool Equals(MpProduct other)
+        /// <param name="other">Сравниваемый экземпляр <see cref="DbProduct"/></param>
+        public bool Equals(DbProduct other)
         {
-            if (Length.Equals(other.Length) &&
+            if (other != null && 
+                Length.Equals(other.Length) &&
                 Width.Equals(other.Width) &&
                 Height.Equals(other.Height) &&
                 Diameter.Equals(other.Diameter) &&
@@ -583,8 +521,6 @@
                 SteelDoc.Equals(other.SteelDoc) &&
                 SteelType.Equals(other.SteelType) &&
                 ItemTypesEqual(ItemTypes, other.ItemTypes) &&
-
-                // ItemTypes.Equals(other.ItemTypes) &&
                 Mass.Equals(other.Mass) &&
                 CMass.Equals(other.CMass) &&
                 WMass.Equals(other.WMass) &&
@@ -596,7 +532,7 @@
             return false;
         }
 
-        private static bool ItemTypesEqual(IList<BaseDocument.ItemType> itemTypes1, IList<BaseDocument.ItemType> itemTypes2)
+        private static bool ItemTypesEqual(IList<ItemType> itemTypes1, IList<ItemType> itemTypes2)
         {
             if (itemTypes1.Count != itemTypes2.Count)
             {

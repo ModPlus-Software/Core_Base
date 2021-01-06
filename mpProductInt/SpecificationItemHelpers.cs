@@ -3,11 +3,13 @@
     using System;
     using System.Collections.Generic;
 
+    [Obsolete]
     public static class SpecificationItemHelpers
     {
         /// <summary>
         /// Компаратор для сортировка по значению Позиция
         /// </summary>
+        [Obsolete]
         public class AlphanumComparatorFastToSortByPosition : IComparer<SpecificationItem>
         {
             public int Compare(SpecificationItem x, SpecificationItem y)
@@ -105,6 +107,7 @@
         /// <summary>
         /// Компаратор для сравнения двух элементов спецификации
         /// </summary>
+        [Obsolete]
         public class EqualSpecificationItem : IEqualityComparer<SpecificationItem>
         {
             public bool Equals(SpecificationItem x, SpecificationItem y)

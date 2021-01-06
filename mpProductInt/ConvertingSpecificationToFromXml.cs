@@ -13,6 +13,7 @@
     using mpOther;
     using mpWood;
 
+    [Obsolete]
     public static class ConvertingSpecificationToFromXml
     {
         public static SpecificationItem ConvertFromXml(XElement specificationItemXel)

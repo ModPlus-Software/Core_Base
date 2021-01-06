@@ -1126,22 +1126,22 @@ namespace mpMetall.Properties {
         ///&lt;Document
         ///  Id=&quot;22&quot;
         ///	DocType=&quot;СТБ&quot;
-        ///	DocNum=&quot;1704-2006&quot;
+        ///	DocNum=&quot;1704-2012&quot;
         ///	DocName=&quot;Арматура ненапрягаемая для железобетонных конструкций. Технические условия&quot;
         ///	DocNameShort=&quot;Арматура&quot;
         ///  DocStatus=&quot;True&quot;
         ///	ShortName=&quot;Арматура&quot;
-        ///	ItemType1=&quot;Класс арматуры$S240$S400$S500&quot;
+        ///	ItemType1=&quot;Класс арматуры$S240$S500&quot;
         ///	Size=&quot;L&quot;
         ///	MainGroup=&quot;Металл&quot;
         ///	Group=&quot;Арматура/проволока&quot;
-        ///	Image=&quot;СТБ 1704-2006&quot;
+        ///	Image=&quot;СТБ 1704&quot;
         ///	HasSteel=&quot;false&quot;
         ///	HasDimension=&quot;true&quot;
         ///	DimType=&quot;Длина,п.м&quot;
         ///	Rule=&quot;[Prop1] [ItemType1] [DocType] [DocNum]&quot;
         ///	WMass=&quot;Prop6&quot;
-        ///	 [остаток строки не уместился]&quot;;.
+        ///	SymbolSum= [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string СТБ_1704 {
             get {

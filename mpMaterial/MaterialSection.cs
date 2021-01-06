@@ -10,7 +10,7 @@
     /// </summary>
     public class MaterialSection : IDbSection
     {
-        private IEnumerable<BaseDocument> _documents;
+        private IEnumerable<DbDocument> _documents;
 
         /// <inheritdoc/>
         public string Name => "DbMaterial";
@@ -19,8 +19,8 @@
         public string Code => "Ma";
 
         /// <inheritdoc/>
-        public IEnumerable<BaseDocument> Documents => _documents ?? (_documents = DbSectionUtils.GetDocuments(
-            Properties.Resources.ResourceManager.GetResourceSet(CultureInfo.CurrentUICulture, true, true), Name));
+        public IEnumerable<DbDocument> Documents => _documents ?? (_documents = DbSectionUtils.GetDocuments(
+            Properties.Resources.ResourceManager.GetResourceSet(CultureInfo.CurrentUICulture, true, true), this));
 
         /// <inheritdoc />
         public List<string> GetDocumentNames()
@@ -29,12 +29,18 @@
         }
 
         /// <inheritdoc/>
-        public string GetImagePath(BaseDocument element)
+        public string GetImagePath(DbDocument document)
         {
             var str = string.Empty;
-            if (!string.IsNullOrEmpty(element.Image))
-                str = $@"pack://application:,,,/mpMaterial;component/Resources/Images/{element.Image}.png";
+            if (!string.IsNullOrEmpty(document.Image))
+                str = $@"pack://application:,,,/mpMaterial;component/Resources/Images/{document.Image}.png";
             return str;
+        }
+
+        /// <inheritdoc />
+        public IEnumerable<DbDocument> FindDocuments(string searchValue)
+        {
+            return DbSectionUtils.FindDocuments(this, searchValue);
         }
     }
 }

@@ -1,11 +1,13 @@
 ﻿namespace mpProductInt
 {
+    using System;
     using System.ComponentModel;
     using System.Windows;
 
     /// <summary>
     /// Класс для позиции в строительной спецификации
     /// </summary>
+    [Obsolete]
     public class SpecificationItem : INotifyPropertyChanged
     {
         private string _position;
@@ -81,6 +83,8 @@
             }
         }
 
+        public event PropertyChangedEventHandler PropertyChanged;
+        
         /// <summary>
         /// Продукт, связанный с текущим элементом
         /// </summary>
@@ -238,8 +242,6 @@
         /// 4 - Прочее
         /// </summary>
         public int DbIndex { get; set; }
-
-        public event PropertyChangedEventHandler PropertyChanged;
 
         protected virtual void OnPropertyChanged(string propertyName)
         {

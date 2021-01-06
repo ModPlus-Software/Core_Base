@@ -2,190 +2,213 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Collections.ObjectModel;
     using System.Linq;
     using System.Xml.Linq;
 
     /// <summary>
-    /// Представление документа базы
+    /// Документ базы
     /// </summary>
-    [Obsolete]
-    public class BaseDocument
+    public class DbDocument
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="DbDocument"/> class.
+        /// </summary>
+        /// <param name="xmlDocument">Текущий документ в виде Xml-элемента</param>
+        public DbDocument(XElement xmlDocument)
+        {
+            XmlDocument = xmlDocument;
+        }
+
+        /// <summary>
+        /// Текущий документ в виде Xml-элемента
+        /// </summary>
+        public XElement XmlDocument { get; }
+
         /// <summary>
         /// Имя базы данных к которому относится элемент
         /// нужно для работы из других функций
         /// </summary>
-        public string DataBaseName { get; set; }
+        public string DataBaseName { get; private set; }
 
         /// <summary>
         /// ID документа
         /// </summary>
-        public int Id { get; set; }
-        
-        /// <summary>
-        /// Текущий документ в виде Xml-элемента
-        /// </summary>
-        public XElement XmlDocument { get; set; }
+        public int Id { get; private set; }
         
         /// <summary>
         /// Тип документа (ГОСТ, Серия и т.п.)
         /// </summary>
-        public string DocumentType { get; set; }
+        public string DocumentType { get; private set; }
         
         /// <summary>
         /// Номер документа
         /// </summary>
-        public string DocumentNumber { get; set; }
+        public string DocumentNumber { get; private set; }
         
         /// <summary>
         /// Название документа
         /// </summary>
-        public string DocumentName { get; set; }
+        public string DocumentName { get; private set; }
         
         /// <summary>
         /// Статус документа
         /// </summary>
-        public bool? DocStatus { get; set; }
+        public DbDocumentStatus DocStatus { get; private set; }
         
         /// <summary>
         /// Краткое название документа для обобщения (Двутавры, Прокат листовой, Сваи железобетонные и т.д.)
         /// </summary>
-        public string DocumentShortName { get; set; }
+        public string DocumentShortName { get; private set; }
         
         /// <summary>
         /// Короткое название изделия (Уголок, двутавр, швеллер и т.п.)
         /// </summary>
-        public string ShortName { get; set; }
+        public string ShortName { get; private set; }
         
         /// <summary>
         /// Группа (балки, колонны, профили, прокат и т.д.)
         /// </summary>
-        public string Group { get; set; }
+        public string Group { get; private set; }
         
         /// <summary>
         /// Кол-во описывающих символов = кол-во столбцов в таблице
         /// </summary>
-        public int SymbolCount { get; set; }
+        public int SymbolCount { get; private set; }
         
         /// <summary>
         /// Описывающие символы (заголовки таблицы)
         /// </summary>
-        public IEnumerable<string> Symbols { get; set; }
+        public IEnumerable<string> Symbols { get; private set; }
         
         /// <summary>
-        /// Значения в файле в виде xml (для биндинга)
+        /// Значения в файле в виде xml
         /// </summary>
-        public XElement Items { get; set; }
+        public XElement Items { get; private set; }
         
         /// <summary>
         /// Название файла изображения (без расширения). Может быть пустым
         /// </summary>
-        public string Image { get; set; }
-        
-        /// <summary>
-        /// Выбран-ли этот документ. Нужно для работы с контролами окна и биндингом
-        /// </summary>
-        public bool IsSelected { get; set; }
+        public string Image { get; private set; }
         
         /// <summary>
         /// Коллекция дополнительных свойств, которые не входят в таблицу, но могут быть выбраны
         /// </summary>
-        public ObservableCollection<ItemType> ItemTypes { get; set; }
+        public List<ItemType> ItemTypes { get; private set; }
         
         /// <summary>
         /// Имеет ли элемент свойство "Сталь"
         /// </summary>
-        public bool HasSteel { get; set; }
+        public bool HasSteel { get; private set; }
         
         /// <summary>
         /// Правило написания наименования
         /// представляет собой строку с именами атрибутов, взятых в []
         /// </summary>
-        public string Rule { get; set; }
+        public string Rule { get; private set; }
         
         /// <summary>
         /// Является-ли элемент Железобетонным (для отрисовки)
         /// Если свойства нет, значит не является или нет варианта отрисовки
         /// </summary>
-        public string CoType { get; set; }
+        public string CoType { get; private set; }
         
         /// <summary>
         /// Является-ли элемент Металлическим (для отрисовки)
         /// Если свойства нет, значит не является или нет варианта отрисовки
         /// </summary>
-        public string MeType { get; set; }
+        public string MeType { get; private set; }
         
         /// <summary>
         /// Является-ли элемент Деревянным (для отрисовки)
         /// Если свойства нет, значит не является или нет варианта отрисовки
         /// </summary>
-        public string WdType { get; set; }
+        public string WdType { get; private set; }
         
         /// <summary>
         /// Является-ли элемент Материалом (для отрисовки)
         /// Если свойства нет, значит не является или нет варианта отрисовки
         /// </summary>
-        public string MaType { get; set; }
+        public string MaType { get; private set; }
         
         /// <summary>
         /// Является-ли элемент Прочим (для отрисовки)
         /// Если свойства нет, значит не является или нет варианта отрисовки
         /// </summary>
-        public string OtType { get; set; }
+        public string OtType { get; private set; }
         
         /// <summary>
         /// Масса элемента, кг
         /// </summary>
-        public string Mass { get; set; }
+        public string Mass { get; private set; }
         
         /// <summary>
         /// Масса погонного метра, кг/п.м
         /// </summary>
-        public string WMass { get; set; }
+        public string WMass { get; private set; }
         
         /// <summary>
         /// Масса кубического метра, кг/куб.м (плотность)
         /// Может иметь несколько значений, через запятую
         /// </summary>
-        public string CMass { get; set; }
+        public string CMass { get; private set; }
         
         /// <summary>
         /// Масса квадратного метра, кг/кв.м
         /// </summary>
-        public string SMass { get; set; }
+        public string SMass { get; private set; }
         
         /// <summary>
         /// Значение, указывающее на нужность ввода размеров для элемента
         /// Может не быть!
         /// </summary>
-        public string Size { get; set; }
+        public string Size { get; private set; }
 
         /// <summary>
-        /// Парсинг документа из Xml в класс BaseDocument
+        /// Имеются ли данные для отрисовки. Метод проверяет значение свойств <see cref="CoType"/>, <see cref="MeType"/>,
+        /// <see cref="MaType"/>, <see cref="WdType"/>, <see cref="OtType"/> в зависимости от значения свойства <see cref="DataBaseName"/>
         /// </summary>
-        /// <param name="dbName">Имя базы данных</param>
-        /// <returns>Документ вида BaseDocument</returns>
-        public bool InitCurrentElement(string dbName)
+        public bool HasDrawType()
+        {
+            switch (DataBaseName)
+            {
+                case "DbConcrete":
+                    return !string.IsNullOrEmpty(CoType);
+                case "DbMetall":
+                    return !string.IsNullOrEmpty(MeType);
+                case "DbMaterial":
+                    return !string.IsNullOrEmpty(MaType);
+                case "DbWood":
+                    return !string.IsNullOrEmpty(WdType);
+                case "DbOther":
+                    return !string.IsNullOrEmpty(OtType);
+                default:
+                    throw new ArgumentException($"Unknown value of {DataBaseName}");
+            }
+        }
+
+        /// <summary>
+        /// Инициализация документа из Xml
+        /// </summary>
+        /// <param name="dbSection">Раздел базы</param>
+        internal bool InitCurrentElement(IDbSection dbSection)
         {
             try
             {
                 if (XmlDocument != null)
                 {
-                    IsSelected = false;
-                    DataBaseName = dbName;
-                    Id = int.Parse(XmlDocument.Attribute("Id").Value);
+                    DataBaseName = dbSection.Name;
+                    Id = int.Parse(XmlDocument.Attribute("Id")?.Value ?? string.Empty);
                     DocumentType = XmlDocument.Attribute("DocType")?.Value;
                     DocumentNumber = XmlDocument.Attribute("DocNum")?.Value;
                     DocumentName = XmlDocument.Attribute("DocName")?.Value;
                     DocumentShortName = XmlDocument.Attribute("DocNameShort")?.Value;
                     
                     // Статус документа: 3 варианта - действует, не действует, нет данных
-                    bool? docStatus = null;
+                    var docStatus = DbDocumentStatus.NoData;
                     if (XmlDocument.Attribute("DocStatus") != null)
                     {
                         if (bool.TryParse(XmlDocument.Attribute("DocStatus")?.Value, out var b))
-                            docStatus = b;
+                            docStatus = b ? DbDocumentStatus.Valid : DbDocumentStatus.NotValid;
                     }
 
                     DocStatus = docStatus;
@@ -195,7 +218,7 @@
                     Rule = XmlDocument.Attribute("Rule")?.Value;
                     var size = XmlDocument.Attribute("Size");
                     Size = size?.Value ?? "нет";
-                    ItemTypes = GeTypes(XmlDocument);
+                    ItemTypes = GeItemTypes();
 
                     // Типы (для отрисовки)
                     var coType = XmlDocument.Attribute("CoType");
@@ -223,10 +246,10 @@
                     var hasSteelAtt = XmlDocument.Attribute("HasSteel");
                     HasSteel = hasSteelAtt != null && bool.Parse(hasSteelAtt.Value);
 
-                    SymbolCount = GetSymbolCount(XmlDocument);
+                    SymbolCount = GetSymbolCount();
                     if (SymbolCount != 0)
                     {
-                        Symbols = GetSymbols(XmlDocument, SymbolCount);
+                        Symbols = GetSymbols(SymbolCount);
                         Items = new XElement("Items");
                         foreach (var xElement in XmlDocument.Elements("Item"))
                         {
@@ -244,19 +267,17 @@
                 return false;
             }
         }
-        
+
         /// <summary>
         /// Получение количества описывающих символов
         /// </summary>
-        /// <param name="doc">Xml-документ</param>
         /// <returns>Кол-во символов. 0, если нет атрибута</returns>
-        private static int GetSymbolCount(XElement doc)
+        private int GetSymbolCount()
         {
-            var symbAttr = doc.Attribute("SymbolSum");
-            if (symbAttr != null)
+            var symbolsAttr = XmlDocument.Attribute("SymbolSum");
+            if (symbolsAttr != null)
             {
-                int cnt;
-                return int.TryParse(symbAttr.Value, out cnt) ? cnt : 0;
+                return int.TryParse(symbolsAttr.Value, out var cnt) ? cnt : 0;
             }
 
             return 0;
@@ -265,84 +286,31 @@
         /// <summary>
         /// Получение описывающих символов (заголовки таблицы)
         /// </summary>
-        /// <param name="doc">Xml-документ</param>
         /// <param name="symbolCount">Кол-во описывающих элементов</param>
-        /// <returns>Коллекция строковых значений. Null - если колв-во в коллекции 0</returns>
-        private static IEnumerable<string> GetSymbols(XElement doc, int symbolCount)
+        /// <returns>Коллекция строковых значений. Null - если количество в коллекции 0</returns>
+        private IEnumerable<string> GetSymbols(int symbolCount)
         {
             var coll = new List<string>();
             for (var i = 1; i <= symbolCount; i++)
             {
-                var att = doc.Attribute("Symbol" + i);
+                var att = XmlDocument.Attribute("Symbol" + i);
                 if (att != null) 
                     coll.Add(att.Value);
             }
 
             return !coll.Any() ? null : coll;
         }
-        
-        /// <summary>
-        /// Класс, описывающий дополнительные типы в документе
-        /// например класс арматуры, класс бетона и т.п.
-        /// т.е. типы - это свойства, которые не являются табличными
-        /// но их можно задавать
-        /// </summary>
-        public class ItemType : IEquatable<ItemType>
-        {
-            public ItemType()
-            {
-                TypeValues = new ObservableCollection<string>();
-            }
 
-            /// <summary>
-            /// Имя типа (имя атрибута)
-            /// </summary>
-            public string TypeName { get; set; }
-
-            /// <summary>
-            /// Заголовок (то, что отображается пользователю)
-            /// </summary>
-            public string TypeHeader { get; set; }
-
-            /// <summary>
-            /// Коллекция значений типа
-            /// </summary>
-            public ObservableCollection<string> TypeValues { get; set; }
-
-            public string SelectedItem { get; set; }
-
-            public bool Equals(ItemType other)
-            {
-                return TypeValuesEqual(TypeValues, other?.TypeValues) &&
-                       TypeHeader.Equals(other?.TypeHeader) &&
-                       TypeName.Equals(other?.TypeName) &&
-                       SelectedItem.Equals(other?.SelectedItem);
-            }
-
-            private static bool TypeValuesEqual(IEnumerable<string> typeValues1, IList<string> typeValues2)
-            {
-                return !typeValues1.Where((t, i) => !t.Equals(typeValues2[i])).Any();
-            }
-
-            /// <summary>
-            /// Дополнительное примечание для типов и видимость
-            /// </summary>
-            public string TypeToolTip { get; set; }
-
-            public bool TypeToolTipVisibility { get; set; }
-        }
-        
         /// <summary>
         /// Получение типов для документа
         /// </summary>
-        /// <param name="doc">Xml-документ</param>
         /// <returns>Коллекция типов. Может быть пустой</returns>
-        private static ObservableCollection<ItemType> GeTypes(XElement doc)
+        private List<ItemType> GeItemTypes()
         {
-            var coll = new ObservableCollection<ItemType>();
+            var coll = new List<ItemType>();
 
             // Проходим по атрибутам в документе
-            foreach (var attribute in doc.Attributes())
+            foreach (var attribute in XmlDocument.Attributes())
             {
                 // Если имя атрибута содержит ItemType
                 if (attribute.Name.ToString().Contains("ItemType") & !attribute.Name.ToString().Contains("ToolTip"))
@@ -351,15 +319,16 @@
                     var values = attribute.Value.Split('$');
 
                     // Создаем новое значение ItemType, заполняем его и добавляем в коллекцию
-                    var newItemType = new ItemType { TypeHeader = values[0], TypeName = attribute.Name.ToString() };
-                    for (var i = 1; i < values.Count(); i++)
+                    var newItemType = new ItemType(attribute.Name.ToString(), values[0]);
+
+                    for (var i = 1; i < values.Length; i++)
                     {
                         newItemType.TypeValues.Add(values[i]);
                     }
 
                     // Ищем для этого типа примечания
-                    newItemType.TypeToolTipVisibility = GetTypeToolTip(doc, attribute.Name.ToString(), out string itemTypeToolTip);
-                    newItemType.TypeToolTip = itemTypeToolTip;
+                    var isVisibleTypeTooltip = GetTypeToolTip(attribute.Name.ToString(), out var itemTypeToolTip);
+                    newItemType.SetToolTip(itemTypeToolTip, isVisibleTypeTooltip);
 
                     // adding
                     coll.Add(newItemType);
@@ -369,13 +338,13 @@
             return coll;
         }
 
-        private static bool GetTypeToolTip(XElement doc, string itemType, out string itemTypeToolTip)
+        private bool GetTypeToolTip(string itemType, out string itemTypeToolTip)
         {
             itemTypeToolTip = string.Empty;
             try
             {
                 // Проходим по атрибутам в документе
-                foreach (var attribute in doc.Attributes())
+                foreach (var attribute in XmlDocument.Attributes())
                 {
                     // Если имя атрибута содержит имя атрибута типа ItemType
                     if (attribute.Name.ToString().Contains(itemType) & attribute.Name.ToString().Contains("ToolTip"))

@@ -19,7 +19,7 @@ namespace mpBaseInt.Properties {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,11 +63,16 @@ namespace mpBaseInt.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1251&quot;?&gt;
         ///&lt;Steels&gt;
-        ///&lt;steel doc=&quot;ГОСТ 27772-2015&quot; name=&quot;Прокат для строительных стальных конструкций&quot;
-        ///	marks=&quot;С235,С245,С255,С345,С345К,С355,С355-1,С355К,С355П,С390,С390-1,С440,С550,С590&quot; /&gt;
-        ///&lt;steel doc=&quot;ГОСТ 380-2005&quot; name=&quot;Сталь углеродистая обыкновенного качества. Марки&quot;
-        ///	marks=&quot;Ст0,Ст1кп,Ст1пс,Ст1сп,Ст2кп,Ст2пс,Ст2сп,Ст3кп,Ст3пс,Ст3сп,Ст3Гпс,Ст3Гсп,Ст4кп,Ст4пс,Ст4сп,Ст5пс,Ст5сп,Ст5Гпс,Ст6пс,Ст6сп&quot; /&gt;
-        ///&lt;steel doc=&quot;ГОСТ 1050-2013&quot; name=&quot;Металлопродукция из нелегирован [остаток строки не уместился]&quot;;.
+        ///  &lt;steel
+        ///    doc=&quot;ГОСТ 27772-2015&quot;
+        ///    name=&quot;Прокат для строительных стальных конструкций&quot;
+        ///    marks=&quot;С235,С245,С255,С345,С345К,С355,С355-1,С355К,С355П,С390,С390-1,С440,С550,С590&quot; /&gt;
+        ///  &lt;steel
+        ///    doc=&quot;ГОСТ 380-2005&quot;
+        ///    name=&quot;Сталь углеродистая обыкновенного качества. Марки&quot;
+        ///    marks=&quot;Ст0,Ст1кп,Ст1пс,Ст1сп,Ст2кп,Ст2пс,Ст2сп,Ст3кп,Ст3пс,Ст3сп,Ст3Гпс,Ст3Гсп,Ст4кп,Ст4пс,Ст4сп,Ст5пс,Ст5сп,Ст5Гпс,Ст6пс,Ст6сп&quot; /&gt;
+        ///  &lt;steel
+        ///    doc=&quot;ГОСТ 1050-2013&quot;        /// [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string Steel {
             get {

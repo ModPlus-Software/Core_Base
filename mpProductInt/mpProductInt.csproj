@@ -47,12 +47,18 @@
       <Link>Properties\AssemblyVersion.cs</Link>
     </Compile>
     <Compile Include="ConvertingSpecificationToFromXml.cs" />
+    <Compile Include="DbProduct.cs" />
     <Compile Include="MpProduct.cs" />
     <Compile Include="MpProductToSave.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpecificationItem.cs" />
     <Compile Include="SpecificationItemHelpers.cs" />
     <Compile Include="SpecificationItemInputType.cs" />
+    <Compile Include="Specification\AlphanumComparatorFastToSortByPosition.cs" />
+    <Compile Include="Specification\ConvertingSpecificationToFromXml.cs" />
+    <Compile Include="Specification\SpecificationItem.cs" />
+    <Compile Include="Specification\SpecificationItemInputType.cs" />
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\mpBaseInt\mpBaseInt.csproj">
@@ -93,6 +99,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if $(ConfigurationName) == Debug (

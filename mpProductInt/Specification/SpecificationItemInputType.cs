@@ -1,8 +1,8 @@
-﻿namespace mpProductInt
+﻿namespace mpProductInt.Specification
 {
-    using System;
-
-    [Obsolete]
+    /// <summary>
+    /// Тип позиции спецификации
+    /// </summary>
     public enum SpecificationItemInputType
     {
         /// <summary>

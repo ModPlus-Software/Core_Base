@@ -517,14 +517,15 @@
                 Width.Equals(other.Width) &&
                 Height.Equals(other.Height) &&
                 Diameter.Equals(other.Diameter) &&
-                Position.Equals(other.Position) &&
+                Position == other.Position &&
                 SteelDoc.Equals(other.SteelDoc) &&
                 SteelType.Equals(other.SteelType) &&
                 ItemTypesEqual(ItemTypes, other.ItemTypes) &&
                 Mass.Equals(other.Mass) &&
                 CMass.Equals(other.CMass) &&
                 WMass.Equals(other.WMass) &&
-                SMass.Equals(other.SMass))
+                SMass.Equals(other.SMass) &&
+                XmlDataEqual(Item, other.Item))
             {
                 return true;
             }
@@ -534,10 +535,14 @@
 
         private static bool ItemTypesEqual(IList<ItemType> itemTypes1, IList<ItemType> itemTypes2)
         {
-            if (itemTypes1.Count != itemTypes2.Count)
-            {
+            if (itemTypes1 == null && itemTypes2 == null)
+                return true;
+
+            if (itemTypes1 == null || itemTypes2 == null)
                 return false;
-            }
+            
+            if (itemTypes1.Count != itemTypes2.Count)
+                return false;
 
             for (var i = 0; i < itemTypes1.Count; i++)
             {
@@ -548,6 +553,17 @@
             }
 
             return true;
+        }
+
+        private static bool XmlDataEqual(XElement data1, XElement data2)
+        {
+            if (data1 == null && data2 == null)
+                return true;
+
+            if (data1 == null || data2 == null)
+                return false;
+
+            return XNode.DeepEquals(data1, data2);
         }
     }
 }
